@@ -1,0 +1,7 @@
+CPLEX = 001, OPT = 75855.0 [ *4A *6A 2D7 ] 
+Solutions:
+CPLEX = 001, OPT =   898.0 [ *4J *6C 2D7 ] 
+CPLEX = 001, OPT =   898.0 [ *4A *6B 2D7 ] 
+WARNING: Multiple optimal arrangements found
+Done!
+

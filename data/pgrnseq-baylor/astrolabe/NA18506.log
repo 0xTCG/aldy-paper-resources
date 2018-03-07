@@ -1,0 +1,8 @@
+##Called on: 2017/07/18 13:06:21
+##Astrolabe version: v0.7.5
+##Astrolabe release data: 2_2_2017
+##Astrolabe author: Greyson Twist (gtwist@cmh.edu)
+#ROI_label	diplotype labels	diplotype activity	diplotype calling notes	jaccard	part	pValue	ROI notes	special case	nomenclature version
+CYP2D6	CYP2D6*2/CYP2D6*2 or CYP2D6*2/CYP2D6*65 or CYP2D6*65/CYP2D6*65	?/? or ?/? or ?/?	, , 	0.4	0.5714285714285714	p: 0.0		possible gene duplication detected in BAM	v1.9-2017_02_09
+CYP2C19	CYP2C19*1/CYP2C19*2	?/?		0.7	0.8235294117647058	p: 0.0			v0.2-2017_02_09
+CYP2C9	CYP2C9*1/CYP2C9*26	?/?		0.18181818181818182	0.3076923076923077	p: 0.0			v0.2-2017_02_09

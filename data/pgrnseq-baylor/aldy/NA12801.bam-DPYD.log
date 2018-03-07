@@ -1,0 +1,192 @@
+SAM file: bams/NA12801.bam
+File bams/NA12801.bam has index
+Coverage is 189.841425354
+== Allele Filter ==
+ 6.23i  97544770: SNP.TC                  215 (100%) ~     0 (  0)
+ 6.23i  97547830: SNP.GA                  288 (100%) ~     0 (  0)
+ 6.22i  97548438: SNP.AT                    5 (100%) ~     0 (  0)
+ 6.21i  97564728: SNP.GA                    4 (100%) ~     0 (  0)
+ 6.21i  97650997: SNP.TC                    2 (100%) ~     0 (  0)
+ 6.21i  97658394: SNP.CT                   40 (100%) ~     0 (  0)
+ 6.20i  97659350: DEL.A                     2 (100%) ~     0 (  0)
+ 6.20i  97664755: SNP.GC                    2 (100%) ~     0 (  0)
+ 6.20i  97700329: INS.t                    15 (  6%) ~     0 (  0)
+ 6.19i  97700938: SNP.CT                    7 (100%) ~     0 (  0)
+ 6.19i  97701033: SNP.AG                    2 (100%) ~     0 (  0)
+ 6.19i  97770404: SNP.AG                    2 ( 33%) ~     0 (  0)
+ 6.19i  97770410: SNP.TG                    2 ( 33%) ~     0 (  0)
+ 6.18i  97771221: SNP.TG                    2 (  6%) ~     0 (  0)
+ 6.17i  97780786: SNP.CT                    2 ( 50%) ~     0 (  0)
+ 6.17i  97828583: SNP.AG                    2 (100%) ~     0 (  0)
+ 6.17i  97828587: SNP.GT                    2 (100%) ~     0 (  0)
+ 6.15i  97915212: SNP.TC                   15 ( 79%) ~     0 (  0)
+ 6.14i  97946040: SNP.TG                    2 (100%) ~     0 (  0)
+ 6.14e  97981420: SNP.CT     1601:C>T     408 ( 51%) ~     0 (  0)
+ 6.13i  98014785: SNP.CT                   11 ( 79%) ~     0 (  0)
+ 6.12i  98015405: SNP.AT                   96 ( 51%) ~     0 (  0)
+ 6.10i  98060204: SNP.AC                    4 (100%) ~     0 (  0)
+ 6.10i  98060469: DEL.T                    16 ( 15%) ~     0 (  0)
+ 6.10i  98060469: INS.t                    10 ( 10%) ~     0 (  0)
+ 6.10i  98060512: SNP.TG                   13 (  8%) ~     0 (  0)
+ 6.9i   98122554: SNP.AC                    2 (100%) ~     0 (  0)
+ 6.8e   98157331: SNP.CG                  686 (100%) ~     1 (  0)
+ 6.7i   98157590: SNP.CT                   34 (100%) ~     0 (  0)
+ 6.6e   98185526: SNP.AG                  722 (100%) ~     0 (  0)
+ 6.6e   98185704: SNP.TC                   28 (  6%) ~     0 (  0)
+ 6.6e   98185719: SNP.TA                   41 (  8%) ~     0 (  0)
+ 6.6e   98185720: DEL.CA                   25 (  5%) ~     0 (  0)
+ 6.6e   98185721: SNP.AT                   35 (  7%) ~     0 (  0)
+ 6.6e   98186076: SNP.TC                  977 (100%) ~     0 (  0)
+ 6.4i   98187754: SNP.CT                    9 (100%) ~     0 (  0)
+ 6.2i   98320407: SNP.CT                   55 (100%) ~     0 (  0)
+ 6.2i   98320491: SNP.CA                  177 (100%) ~     0 (  0)
+ 6.1i   98384121: SNP.CT                    8 ( 57%) ~     0 (  0)
+ 6.1i   98385250: SNP.CA                  807 (100%) ~     0 (  0)
+ 6.1i   98386401: SNP.AC                   43 ( 15%) ~     0 (  0)
+Removing 10    6.24e 97544626:SNP.CA
+Removing 11    6.11e 98058898:SNP.CA
+Removing 12    6.2e 98348907:SNP.CT,  6.12e 98039498:SNP.CA
+Removing 13    6.14e 97981342:SNP.AC
+Removing 2B    6.15i 97915613:SNP.CT,  6.14e 97981394:SNP.TC
+Removing 2A    6.15i 97915613:SNP.CT
+Removing 3     6.15e 97915621:DEL.G
+Removing 5     6.14e 97981394:SNP.TC
+Removing 6     6.19e 97770919:SNP.CT
+Removing 7     6.4e 98205970:DEL.ATGA
+Removing 8     6.8e 98157331:SNP.CT
+Removing 9B    6.2e 98348884:SNP.AG
+Removing 9     6.2e 98348884:SNP.AG
+Initial status
+  CYP2D6.1
+  CYP2D6.4
+    6.14e          97981420:SNP.CT  408 ( 51) F 1601:C>T
+== Copy Number Estimator ==
+CNV factor: 1.92912203255 (0.518370524585)
+Coverage per region
+  region:  2D6  2D7
+  1e   :  0.00
+  1i   :  0.00
+  2e   :  0.00
+  2i   :  0.00
+  3e   :  0.00
+  3i   :  0.00
+  4e   :  0.00
+  4i   :  0.00
+  5e   :  0.00
+  5i   :  0.00
+  6e   :  0.00
+  6i   :  0.00
+  7e   :  0.00
+  7i   :  0.00
+  8e   :  0.00
+  8i   :  0.00
+  9e   :  0.00
+  9i   :  0.00
+  10e  :  0.00
+  10i  :  0.00
+  11e  :  0.00
+  11i  :  0.00
+  12e  :  0.00
+  12i  :  0.00
+  13e  :  0.00
+  13i  :  0.00
+  14e  :  0.00
+  14i  :  0.00
+  15e  :  0.00
+  15i  :  0.00
+  16e  :  0.00
+  16i  :  0.00
+  17e  :  0.00
+  17i  :  0.00
+  18e  :  0.00
+  18i  :  0.00
+  19e  :  0.00
+  19i  :  0.00
+  20e  :  0.00
+  20i  :  0.00
+  21e  :  0.00
+  21i  :  0.00
+  22e  :  0.00
+  22i  :  0.00
+  23e  :  0.00
+  23i  :  0.00
+  24e  :  0.00
+Max. CN = 0
+M  Sentinel contraint for 1: A_1^ <= A_1
+M  Contraint for 24e: 0.0 == E_24e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 7e: 0.0 == E_7e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 12e: 0.0 == E_12e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 16e: 0.0 == E_16e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 22e: 0.0 == E_22e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 9e: 0.0 == E_9e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 10e: 0.0 == E_10e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 14e: 0.0 == E_14e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 20e: 0.0 == E_20e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 1e: 0.0 == E_1e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 5e: 0.0 == E_5e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 3e: 0.0 == E_3e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 11e: 0.0 == E_11e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 6e: 0.0 == E_6e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 13e: 0.0 == E_13e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 23e: 0.0 == E_23e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 17e: 0.0 == E_17e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 8e: 0.0 == E_8e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 21e: 0.0 == E_21e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 15e: 0.0 == E_15e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 19e: 0.0 == E_19e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 18e: 0.0 == E_18e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 2e: 0.0 == E_2e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 4e: 0.0 == E_4e + <gurobi.LinExpr: A1 + A1^>
+M  Objective: <gurobi.LinExpr: C26 + C27 + C28 + C29 + C30 + C31 + C32 + C33 + C34 + C35 + C36 + C37 + C38 + C39 + C40 + C41 + C42 + C43 + C44 + C45 + C46 + C47 + C48 + C49 + 0.5 A1 + 0.5 A1^>
+CN Solver status: optimal, opt: 49.0
+  Solutions:
+    ('1', '1^')
+== Initial Solver ==
+Solving Counter({'1': 2})
+Possible candidates:
+  CYP2D6.1
+  CYP2D6.4
+    6.14e 97981420:SNP.CT  408 ( 51) F 1601:C>T
+M  Max. CN for 1 = 2
+M  Max. CN for 4 = 2
+M  Contraint for 97981420:SNP.CT 6.14e: 408 == <gurobi.QuadExpr: 0.0 + [ 399.0 REG_4_2_97981420:SNP.CT * 4_2 + 399.0 REG_4_97981420:SNP.CT * 4 ]> + err
+M  Contraint for 97981420:REF 6.14e: 390 == <gurobi.QuadExpr: 399.0 1 + 399.0 4_2 + 399.0 4 + 399.0 1_2 + [ -399.0 REG_4_2_97981420:SNP.CT * 4_2 + -399.0 REG_4_97981420:SNP.CT * 4 ]> + err
+M  Contraint for 4_2 97981420:SNP.CT: <gurobi.Var 4_2> >= <gurobi.Var REG_4_2_97981420:SNP.CT>
+M  Contraint for 4 97981420:SNP.CT: <gurobi.Var 4> >= <gurobi.Var REG_4_97981420:SNP.CT>
+M  CN contraint for 1: 2 == <gurobi.LinExpr: 1 + 4_2 + 4 + 1_2>
+M  Sentinel contraint for 1: A_1_2 <= A_1
+M  Sentinel contraint for 4: A_4_2 <= A_4
+M  Objective: <gurobi.LinExpr: C9 + C10>
+M  Contraint for 4_2: A_4_2 * (<gurobi.LinExpr: REG_4_2_97981420:SNP.CT> - 1) == 0
+M  Contraint for 4: A_4 * (<gurobi.LinExpr: REG_4_97981420:SNP.CT> - 1) == 0
+M  Contraint for 97981420:SNP.CT: 1 <= <gurobi.QuadExpr: 0.0 + [ 4_2 * REG_4_2_97981420:SNP.CT + 4 * REG_4_97981420:SNP.CT ]>
+M  Contraint for 97981420:SNP.CT: 1 <= <gurobi.QuadExpr: 0.0 + [ 4_2 * REG_4_2_97981420:SNP.CT + 4 * REG_4_97981420:SNP.CT ]>
+CN Solver status: optimal, opt: 18.0
+  solution:
+    ('1', '4')
+[32;01mCopy number best structures:[39;49;00m
+[32;01m  (1) 2x*1-like[39;49;00m
+== Refiner ==
+Refining ('1', '4')
+M  CN constraint for 1: 1 == <gurobi.LinExpr: 1>
+M  CN constraint for 4: 1 == <gurobi.LinExpr: 4>
+M  Contraint for 97981420:SNP.CT 6.14e: 408 == <gurobi.QuadExpr: 0.0 + [ 399.0 EXT_1_97981420:SNP.CT * 1 + 399.0 REG_4_97981420:SNP.CT * 4 ]> + err
+M  Contraint for 97981420:REF 6.14e: 390 == <gurobi.QuadExpr: 399.0 1 + 399.0 4 + [ -399.0 EXT_1_97981420:SNP.CT * 1 + -399.0 REG_4_97981420:SNP.CT * 4 ]> + err
+M  Contraint for MM[missing] 4 97981420:SNP.CT: <gurobi.Var 4> >= <gurobi.Var REG_4_97981420:SNP.CT>
+M  Contraint for MA[extra] 1 97981420:SNP.CT: <gurobi.Var 1> >= <gurobi.Var EXT_1_97981420:SNP.CT>
+M  Objective: <gurobi.LinExpr: C6 + C7 + EXT_1_97981420:SNP.CT + W>
+M  Contraint for 4: <gurobi.LinExpr: REG_4_97981420:SNP.CT> = 1 * A_<gurobi.Var 4>
+M  Contraint for 97981420:SNP.CT: 1 <= <gurobi.QuadExpr: 0.0 + [ REG_4_97981420:SNP.CT * 4 ]> <= 2
+M  Contraint for 97981420:SNP.CT: <gurobi.QuadExpr: 0.0 + [ REG_4_97981420:SNP.CT * 4 ]> <= 2
+CN Solver status: optimal, opt: 18.0
+  1: 1
+  4: 1
+    6.14e 97981420:SNP.CT  408 ( 51 cp. 1) F
+Missing:
+  1: 1
+  4: 1
+Extra:
+  1: 1
+  4: 1
+Time needed: (17.4)
+Result is: [('1', '4')]

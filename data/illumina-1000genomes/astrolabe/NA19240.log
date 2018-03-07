@@ -1,0 +1,8 @@
+##Called on: 2017/07/17 19:04:16
+##Astrolabe version: v0.7.5
+##Astrolabe release data: 2_2_2017
+##Astrolabe author: Greyson Twist (gtwist@cmh.edu)
+#ROI_label	diplotype labels	diplotype activity	diplotype calling notes	jaccard	part	pValue	ROI notes	special case	nomenclature version
+CYP2D6	CYP2D6*1/CYP2D6*2	?/?		0.7	0.8235294117647058	p: 0.0			v1.9-2017_02_09
+CYP2C19	CYP2C19*1/CYP2C19*17 or CYP2C19*17/CYP2C19*27	?/? or ?/?	, 	0.6666666666666666	0.8	p: 0.0			v0.2-2017_02_09
+CYP2C9	CYP2C9*1/CYP2C9*1	?/?		0.0	0.0	p: 0.0			v0.2-2017_02_09

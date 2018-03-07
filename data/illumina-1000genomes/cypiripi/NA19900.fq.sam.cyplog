@@ -1,0 +1,2556 @@
+The CYP2D Solver (alpha), powered by The Meho Engine v1.0
+Params: -T(normalization) 2, -C(coverage) 7, -E(error) 500
+SAM reader: total 275222 reads, 57834 excluded
+NA19900.fq.sam.paired loaded as PE file
+	Loaded 84800 pairs
+	Reading 28 seconds
+- A. TENT@4134	Remove tentative indel INSAGTGGGCAC because 1 > 0
+- A. TENT@3546	Add tentative indel INST because 1 <= 6
+- A. TENT@3260	Remove tentative indel INSAC because 1 > 0
+- A. TENT@3104	Add tentative indel DEL11 because 2 <= 19
+- A. TENT@2784	Add tentative indel INSAG because 1 <= 24
+- A. TENT@2574	Remove tentative indel INSG because 1 > 0
+- A. TENT@2291	Add tentative indel INSCT because 2 <= 29
+- A. TENT@2235	Add tentative indel DEL1 because 4 <= 12
+- A. TENT@1864	Remove tentative indel INSGGGGCGAAAGGGGCGAAA because 2 > 0
+- A. TENT@1864	Remove tentative indel INSGGGGCGAAA because 4 > 0
+- A. TENT@1533	Add tentative indel INSG because 1 <= 4
+- A. TENT@1365	Remove tentative indel DEL5 because 1 > 0
+- A. TENT@1232	Add tentative indel DEL9 because 1 <= 2
+- A. TENT@1220	Remove tentative indel DEL6 because 2 > 2
+- A. TENT@1173	Add tentative indel INSCTCAG because 1 <= 12
+- A. TENT@1072	Add tentative indel INSC because 1 <= 5
+- A. TENT@600	Add tentative indel DEL1 because 2 <= 21
+- A. TENT@393	Remove tentative indel DEL1 because 2 > 0
+- A. TENT@138	Add tentative indel INSA because 3 <= 12
+D. MULT:3533	 Removed CYP2D7 from SNPGG (from SNPGI), because -1 < 1
+D. MULT:3484	 Removed CYP2D7 from SNPCC (from SNPCH), because -1 < 12
+D. MULT:3392	 Removed CYP2D7 from SNPTT (from SNPTH), because 14 < 15
+D. MULT:3379	 Removed CYP2D7 from SNPGG (from SNPGD), because 9 < 13
+D. MULT:3310	 Removed CYP2D7 from SNPCT (from SNPCH), because 10 < 17
+D. MULT:3288	 Removed CYP2D7 from SNPCC (from SNPCH), because -1 < 16
+D. MULT:3279	 Removed CYP2D7 from SNPCC (from SNPCH), because -1 < 19
+D. MULT:3265	 Removed CYP2D7 from SNPCT (from SNPCH), because -1 < 24
+D. MULT:3235	 Removed CYP2D7 from SNPTT (from SNPTH), because -1 < 14
+D. MULT:3089	 Removed CYP2D7 from SNPCG (from SNPCF), because 1 < 19
+D. MULT:2896	 Removed CYP2D7 from SNPGA (from SNPGD), because -1 < 26
+D. MULT:2865	 Removed CYP2D7 from SNPCC (from SNPCH), because -1 < 29
+D. MULT:2863	 Removed CYP2D7 from SNPGG (from SNPGF), because -1 < 30
+D. MULT:2610	 Removed CYP2D7 from SNPAA (from SNPAE), because 7 < 18
+D. MULT:2606	 Removed CYP2D7 from SNPCC (from SNPCH), because 8 < 16
+D. MULT:2575	 Removed CYP2D7 from SNPGT (from SNPGI), because 7 < 13
+D. MULT:2466	 Removed CYP2D7 from SNPAG (from SNPAD), because 19 < 25
+D. MULT:2424	 Removed CYP2D7 from SNPGC (from SNPGF), because 1 < 42
+D. MULT:2392	 Removed CYP2D7 from SNPCT (from SNPCH), because 11 < 25
+D. MULT:2268	 Removed CYP2D7 from SNPAG (from SNPAD), because -1 < 27
+D. MULT:2097	 Removed CYP2D7 from SNPTT (from SNPTH), because -1 < 12
+D. MULT:2050	 Removed CYP2D7 from SNPGG (from SNPGD), because -1 < 18
+D. MULT:2034	 Removed CYP2D7 from SNPGG (from SNPGD), because -1 < 7
+D. MULT:2029	 Removed CYP2D7 from SNPTT (from SNPTH), because -1 < 9
+D. MULT:2027	 Removed CYP2D7 from SNPCC (from SNPCH), because -1 < 9
+D. MULT:1979	 Removed CYP2D7 from SNPAG (from SNPAD), because -1 < 23
+D. MULT:1978	 Removed CYP2D7 from SNPGA (from SNPGD), because 2 < 22
+D. MULT:1974	 Removed CYP2D7 from SNPCT (from SNPCH), because -1 < 24
+D. MULT:1973	 Removed CYP2D7 from SNPTC (from SNPTH), because 1 < 23
+D. MULT:1869	 Removed CYP2D7 from SNPAG (from SNPAD), because 6 < 28
+D. MULT:1851	 Removed CYP2D7 from SNPGG (from SNPGF), because -1 < 19
+D. MULT:1850	 Removed CYP2D7 from SNPCC (from SNPCF), because -1 < 18
+D. MULT:1661	 Removed CYP2D7 from SNPCG (from SNPCF), because -1 < 16
+D. MULT:1617	 Removed CYP2D7 from SNPCC (from SNPCB), because -1 < 6
+D. MULT:1611	 Removed CYP2D7 from SNPAA (from SNPAE), because -1 < 4
+D. MULT:1602	 Removed CYP2D7 from SNPGT (from SNPGI), because -1 < 8
+D. MULT:1590	 Removed CYP2D7 from SNPGA (from SNPGD), because 1 < 7
+D. MULT:843	 Removed CYP2D7 from SNPAC (from SNPAB), because 19 < 22
+D. MULT:746	 Removed CYP2D7 from SNPGC (from SNPGF), because 13 < 15
+D. MULT:739	 Removed CYP2D7 from SNPGA (from SNPGD), because -1 < 29
+E. CYP2D6*105 removed due to 0 (0) at 4481:SNPCT, thr 2, cc = 20
+E. CYP2D6*103 removed due to 0 (0) at 4481:SNPCT, thr 2, cc = 20
+E. CYP2D6*102 removed due to 0 (0) at 4481:SNPCT, thr 2, cc = 20
+E. CYP2D6*101 removed due to 0 (0) at 4401:SNPGA, thr 2, cc = 25
+E. CYP2D6*86 removed due to 18 (0) at 2610:SNPAT, thr 2, cc = 26
+E. CYP2D6*85 removed due to 20 (0) at 4180:SNPCG, thr 2, cc = 25
+E. CYP2D6*84 removed due to 0 (0) at 4481:SNPCT, thr 2, cc = 20
+E. CYP2D6*81 removed due to 18 (0) at 2610:SNPAT, thr 2, cc = 26
+E. CYP2D6*72 removed due to 0 (0) at 4401:SNPGA, thr 2, cc = 25
+E. CYP2D6*71 removed due to 0 (0) at 1494:SNPAG, thr 2, cc = 12
+E. CYP2D6*70 removed due to 20 (0) at 4180:SNPCG, thr 2, cc = 25
+E. CYP2D6*65 removed due to 0 (0) at 4481:SNPCT, thr 2, cc = 20
+E. CYP2D6*64 removed due to 0 (0) at 4401:SNPGA, thr 2, cc = 25
+E. CYP2D6*59 removed due to 20 (0) at 4180:SNPCG, thr 2, cc = 25
+E. CYP2D6*54 removed due to 20 (0) at 4180:SNPCG, thr 2, cc = 25
+E. CYP2D6*48 removed due to 0 (0) at 972:SNPGA, thr 2, cc = 10
+E. CYP2D6*12 removed due to 3 (0) at 1661:SNPCG, thr 2, cc = 21
+E. CYP2D6*37 removed due to 0 (0) at 1943:SNPCT, thr 2, cc = 39
+E. CYP2D6*10A removed due to 3 (0) at 1661:SNPCG, thr 2, cc = 21
+E. CYP2D6*10B removed due to 3 (0) at 1661:SNPCG, thr 2, cc = 21
+E. CYP2D6*8 removed due to 0 (0) at 1758:SNPCA, thr 2, cc = 21
+E. CYP2D6*7 removed due to 0 (0) at 2935:SNPTG, thr 2, cc = 36
+E. CYP2D6*6B removed due to 0 (0) at 1976:SNPCT, thr 2, cc = 37
+E. CYP2D6*1E removed due to 7 (0) at 1869:SNPAG, thr 2, cc = 36
+E. CYP2D6*19 removed due to 0 (0) at 2538:DEL4, thr 2, cc = 36
+E. CYP2D6*49 removed due to 20 (0) at 4180:SNPCG, thr 2, cc = 25
+E. CYP2D6*35A removed due to 3 (0) at 1661:SNPCG, thr 2, cc = 21
+E. CYP2D6*55 removed due to 20 (0) at 4180:SNPCG, thr 2, cc = 25
+E. CYP2D6*6A removed due to 0 (0) at 1706:DEL1, thr 2, cc = 13
+E. CYP2D6*33 removed due to 0 (0) at 2483:SNPCA, thr 2, cc = 64
+E. CYP2D6*4D removed due to 0 (0) at 1846:SNPCT, thr 2, cc = 29
+E. CYP2D6*4P removed due to 0 (0) at 4401:SNPGA, thr 2, cc = 25
+E. CYP2D6*100 removed due to 0 (0) at 4401:SNPGA, thr 2, cc = 25
+E. CYP2D6*2B removed due to 3 (0) at 1661:SNPCG, thr 2, cc = 21
+E. CYP2D6*4G removed due to 15 (0) at 2938:SNPGA, thr 2, cc = 35
+E. CYP2D6*4J removed due to 0 (0) at 1846:SNPCT, thr 2, cc = 29
+E. CYP2D6*6C removed due to 0 (0) at 1976:SNPCT, thr 2, cc = 37
+E. CYP2D6*2L removed due to 0 (0) at 3790:SNPGA, thr 2, cc = 34
+E. CYP2D6*2C removed due to 44 (0) at 2470:SNPAG, thr 2, cc = 57
+E. CYP2D6*74 removed due to 0 (0) at 3609:SNPCA, thr 2, cc = 37
+E. CYP2D6*1D removed due to 7 (0) at 2575:SNPGT, thr 2, cc = 20
+E. CYP2D6*2K removed due to 0 (0) at 4115:SNPGA, thr 2, cc = 23
+E. CYP2D6*4K removed due to 0 (0) at 1846:SNPCT, thr 2, cc = 29
+E. CYP2D6*29 removed due to 3 (0) at 1661:SNPCG, thr 2, cc = 21
+E. CYP2D6*2X removed due to 3 (0) at 1661:SNPCG, thr 2, cc = 21
+E. CYP2D6*62 removed due to 0 (0) at 4044:SNPGA, thr 2, cc = 44
+E. CYP2D6*40 removed due to 0 (0) at 1864:INSGGGGCGAAAGGGGCGAAA, thr 2, cc = 35
+E. CYP2D6*4H removed due to 0 (0) at 3877:SNPCG, thr 2, cc = 22
+E. CYP2D6*17 removed due to 3 (0) at 1661:SNPCG, thr 2, cc = 21
+E. CYP2D6*56B removed due to 20 (0) at 4180:SNPCG, thr 2, cc = 25
+E. CYP2D6*2E removed due to 3 (0) at 1661:SNPCG, thr 2, cc = 21
+E. CYP2D6*4M removed due to 0 (0) at 4401:SNPGA, thr 2, cc = 25
+E. CYP2D6*4B removed due to 0 (0) at 1846:SNPCT, thr 2, cc = 29
+E. CYP2D6*4C removed due to 0 (0) at 3887:SNPAG, thr 2, cc = 19
+E. CYP2D6*9 removed due to 0 (0) at 2614:DEL3, thr 2, cc = 25
+E. CYP2D6*6D removed due to 16 (0) at 3288:SNPCT, thr 2, cc = 33
+E. CYP2D6*4L removed due to 0 (0) at 1846:SNPCT, thr 2, cc = 29
+E. CYP2D6*1B removed due to 0 (0) at 3828:SNPCT, thr 2, cc = 29
+E. CYP2D6*4F removed due to 0 (0) at 1858:SNPGA, thr 2, cc = 31
+E. CYP2D6*4A removed due to 0 (0) at 1846:SNPCT, thr 2, cc = 29
+E. CYP2D6*2G removed due to 7 (0) at 2575:SNPGT, thr 2, cc = 20
+E. CYP2D6*52 removed due to 0 (0) at 4401:SNPGA, thr 2, cc = 25
+E. CYP2D6*21A removed due to 0 (0) at 3584:SNPCT, thr 2, cc = 25
+E. CYP2D6*45B removed due to 0 (0) at 3790:SNPGA, thr 2, cc = 34
+E. CYP2D6*4E removed due to 0 (0) at 1846:SNPCT, thr 2, cc = 29
+E. CYP2D6*2H removed due to 0 (0) at 2480:SNPGA, thr 2, cc = 59
+E. CYP2D6*11 removed due to 3 (0) at 1661:SNPCG, thr 2, cc = 21
+E. CYP2D6*3B removed due to 4 (0) at 1749:SNPTC, thr 2, cc = 19
+E. CYP2D6*73 removed due to 0 (0) at 4536:INSA, thr 2, cc = 24
+E. CYP2D6*18 removed due to 0 (0) at 4134:INSAGTGGGCAC, thr 2, cc = 19
+E. CYP2D6*14A removed due to 0 (0) at 1758:SNPCT, thr 2, cc = 21
+E. CYP2D6*14B removed due to 0 (0) at 1758:SNPCT, thr 2, cc = 21
+E. CYP2D6*69 removed due to 0 (0) at 4481:SNPCT, thr 2, cc = 20
+E. CYP2D6*45A removed due to 0 (0) at 3790:SNPGA, thr 2, cc = 34
+E. CYP2D6*20 removed due to 0 (0) at 1979:SNPAG, thr 2, cc = 37
+E. CYP2D6*21B removed due to 0 (0) at 2574:INSG, thr 2, cc = 22
+E. CYP2D6*22 removed due to 0 (0) at 82:SNPGA, thr 2, cc = 17
+E. CYP2D6*24 removed due to 0 (0) at 2853:SNPTG, thr 2, cc = 38
+E. CYP2D6*32 removed due to 3 (0) at 1661:SNPCG, thr 2, cc = 21
+E. CYP2D6*1C removed due to 0 (0) at 1978:SNPGA, thr 2, cc = 36
+E. CYP2D6*25 removed due to 0 (0) at 3198:SNPGC, thr 2, cc = 45
+E. CYP2D6*26 removed due to 0 (0) at 3277:SNPAG, thr 2, cc = 38
+E. CYP2D6*75 removed due to 0 (0) at 4045:SNPCT, thr 2, cc = 42
+E. CYP2D6*28 removed due to 0 (0) at 1704:SNPGC, thr 2, cc = 14
+E. CYP2D6*30 removed due to 0 (0) at 1864:INSGGGGCGAAA, thr 2, cc = 35
+E. CYP2D6*35X removed due to 3 (0) at 1661:SNPCG, thr 2, cc = 21
+E. CYP2D6*23 removed due to 0 (0) at 957:SNPGA, thr 2, cc = 14
+E. CYP2D6*104 removed due to 0 (0) at 4481:SNPCT, thr 2, cc = 20
+E. CYP2D6*38 removed due to 0 (0) at 2586:DEL4, thr 2, cc = 25
+E. CYP2D6*53 removed due to 6 (0) at 1617:SNPCA, thr 2, cc = 17
+E. CYP2D6*39 removed due to 3 (0) at 1661:SNPCG, thr 2, cc = 21
+E. CYP2D6*60 removed due to 0 (0) at 2303:SNPGA, thr 2, cc = 45
+E. CYP2D6*42 removed due to 0 (0) at 3260:INSAC, thr 2, cc = 38
+E. CYP2D6*43 removed due to 15 (0) at 77:SNPCT, thr 2, cc = 19
+E. CYP2D6*2F removed due to 0 (0) at 1724:SNPGA, thr 2, cc = 14
+E. CYP2D6*46h1 removed due to 0 (0) at 3790:SNPGA, thr 2, cc = 34
+E. CYP2D6*44 removed due to 0 (0) at 2950:SNPCG, thr 2, cc = 33
+E. CYP2D6*46h2 removed due to 0 (0) at 3790:SNPGA, thr 2, cc = 34
+E. CYP2D6*50 removed due to 0 (0) at 1720:SNPTG, thr 2, cc = 14
+E. CYP2D6*47 removed due to 20 (0) at 4180:SNPCG, thr 2, cc = 25
+KIMCHI ALL CYP2D6*2D removed at 4253:SNPTT due to subset of !!!
+KIMCHI ALL CYP2D6*34 removed at 4119:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 4119:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 4119:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 4119:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 4119:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 4119:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*34 removed at 4118:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 4118:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 4118:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 4118:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 4118:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 4118:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*34 removed at 4117:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 4117:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 4117:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 4117:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 4117:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 4117:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*34 removed at 4116:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 4116:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 4116:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 4116:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 4116:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 4116:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*34 removed at 4115:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 4115:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 4115:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 4115:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 4115:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 4115:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*34 removed at 4114:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 4114:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 4114:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 4114:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 4114:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 4114:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*34 removed at 4113:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 4113:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 4113:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 4113:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 4113:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 4113:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*34 removed at 4112:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 4112:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 4112:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 4112:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 4112:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 4112:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 4111:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 4111:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 4111:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 4111:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 4111:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*34 removed at 4111:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 4110:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 4110:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 4110:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 4110:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 4110:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*34 removed at 4110:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 4109:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 4109:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 4109:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 4109:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 4109:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*34 removed at 4109:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 4108:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 4108:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 4108:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 4108:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 4108:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*34 removed at 4108:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 4107:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 4107:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 4107:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 4107:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 4107:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*34 removed at 4107:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 4106:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 4106:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 4106:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 4106:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 4106:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*34 removed at 4106:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 4105:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 4105:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 4105:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 4105:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 4105:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*34 removed at 4105:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 3924:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*2D removed at 3924:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*1 removed at 3924:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*3A removed at 3924:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*15 removed at 3924:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*34 removed at 3924:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL  removed at 3923:SNPAA due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*2D removed at 3923:SNPAA due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*1 removed at 3923:SNPAA due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*3A removed at 3923:SNPAA due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*15 removed at 3923:SNPAA due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*34 removed at 3923:SNPAA due to subset of CYP2D6*27!!!
+KIMCHI ALL  removed at 3922:SNPAA due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*2D removed at 3922:SNPAA due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*1 removed at 3922:SNPAA due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*3A removed at 3922:SNPAA due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*15 removed at 3922:SNPAA due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*34 removed at 3922:SNPAA due to subset of CYP2D6*27!!!
+KIMCHI ALL  removed at 3921:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*2D removed at 3921:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*1 removed at 3921:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*3A removed at 3921:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*15 removed at 3921:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*34 removed at 3921:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL  removed at 3920:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*2D removed at 3920:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*1 removed at 3920:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*3A removed at 3920:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*15 removed at 3920:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*34 removed at 3920:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL  removed at 3919:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*2D removed at 3919:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*1 removed at 3919:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*3A removed at 3919:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*15 removed at 3919:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*34 removed at 3919:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL  removed at 3918:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*2D removed at 3918:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*1 removed at 3918:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*3A removed at 3918:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*15 removed at 3918:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*34 removed at 3918:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL  removed at 3917:SNPTT due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*2D removed at 3917:SNPTT due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*1 removed at 3917:SNPTT due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*3A removed at 3917:SNPTT due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*15 removed at 3917:SNPTT due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*34 removed at 3917:SNPTT due to subset of CYP2D6*27!!!
+KIMCHI ALL  removed at 3916:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*2D removed at 3916:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*1 removed at 3916:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*3A removed at 3916:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*15 removed at 3916:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*34 removed at 3916:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL  removed at 3915:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*2D removed at 3915:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*1 removed at 3915:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*3A removed at 3915:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*15 removed at 3915:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*34 removed at 3915:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL  removed at 3914:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*2D removed at 3914:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*1 removed at 3914:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*3A removed at 3914:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*15 removed at 3914:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*34 removed at 3914:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL  removed at 3913:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*2D removed at 3913:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*1 removed at 3913:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*3A removed at 3913:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*15 removed at 3913:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*34 removed at 3913:SNPGG due to subset of CYP2D6*27!!!
+KIMCHI ALL  removed at 3912:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*2D removed at 3912:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*1 removed at 3912:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*3A removed at 3912:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*15 removed at 3912:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*34 removed at 3912:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL  removed at 3911:SNPTT due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*2D removed at 3911:SNPTT due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*1 removed at 3911:SNPTT due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*3A removed at 3911:SNPTT due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*15 removed at 3911:SNPTT due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*34 removed at 3911:SNPTT due to subset of CYP2D6*27!!!
+KIMCHI ALL  removed at 3910:SNPTT due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*2D removed at 3910:SNPTT due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*1 removed at 3910:SNPTT due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*3A removed at 3910:SNPTT due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*15 removed at 3910:SNPTT due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*34 removed at 3910:SNPTT due to subset of CYP2D6*27!!!
+KIMCHI ALL  removed at 3909:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*2D removed at 3909:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*1 removed at 3909:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*3A removed at 3909:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*15 removed at 3909:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*34 removed at 3909:SNPCC due to subset of CYP2D6*27!!!
+KIMCHI ALL  removed at 3908:SNPAA due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*2D removed at 3908:SNPAA due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*1 removed at 3908:SNPAA due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*3A removed at 3908:SNPAA due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*15 removed at 3908:SNPAA due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*34 removed at 3908:SNPAA due to subset of CYP2D6*27!!!
+KIMCHI ALL CYP2D6*27 removed at 3781:SNPGG due to subset of !!!
+KIMCHI ALL CYP2D6*27 removed at 3780:SNPGG due to subset of !!!
+KIMCHI ALL CYP2D6*27 removed at 3779:SNPTT due to subset of !!!
+KIMCHI ALL CYP2D6*27 removed at 3778:SNPGG due to subset of !!!
+KIMCHI ALL CYP2D6*2D removed at 2921:SNPCC due to subset of !!!
+KIMCHI ALL CYP2D6*34 removed at 2921:SNPCC due to subset of !!!
+KIMCHI ALL CYP2D6*2D removed at 2920:SNPAA due to subset of !!!
+KIMCHI ALL CYP2D6*34 removed at 2920:SNPAA due to subset of !!!
+KIMCHI ALL CYP2D6*2D removed at 2919:SNPGG due to subset of !!!
+KIMCHI ALL CYP2D6*34 removed at 2919:SNPGG due to subset of !!!
+KIMCHI ALL CYP2D6*2D removed at 2918:SNPGG due to subset of !!!
+KIMCHI ALL CYP2D6*34 removed at 2918:SNPGG due to subset of !!!
+KIMCHI ALL CYP2D6*2D removed at 2917:SNPAA due to subset of !!!
+KIMCHI ALL CYP2D6*34 removed at 2917:SNPAA due to subset of !!!
+KIMCHI ALL CYP2D6*2D removed at 2916:SNPGG due to subset of !!!
+KIMCHI ALL CYP2D6*34 removed at 2916:SNPGG due to subset of !!!
+KIMCHI ALL CYP2D6*2D removed at 2915:SNPGG due to subset of !!!
+KIMCHI ALL CYP2D6*34 removed at 2915:SNPGG due to subset of !!!
+KIMCHI ALL CYP2D6*2D removed at 2914:SNPCC due to subset of !!!
+KIMCHI ALL CYP2D6*34 removed at 2914:SNPCC due to subset of !!!
+KIMCHI ALL CYP2D6*2D removed at 2913:SNPCC due to subset of !!!
+KIMCHI ALL CYP2D6*34 removed at 2913:SNPCC due to subset of !!!
+KIMCHI ALL CYP2D6*2D removed at 2912:SNPCC due to subset of !!!
+KIMCHI ALL CYP2D6*34 removed at 2912:SNPCC due to subset of !!!
+KIMCHI ALL CYP2D6*2D removed at 2911:SNPCC due to subset of !!!
+KIMCHI ALL CYP2D6*34 removed at 2911:SNPCC due to subset of !!!
+KIMCHI ALL CYP2D6*2D removed at 2910:SNPAA due to subset of !!!
+KIMCHI ALL CYP2D6*34 removed at 2910:SNPAA due to subset of !!!
+KIMCHI ALL CYP2D6*2D removed at 2909:SNPGG due to subset of !!!
+KIMCHI ALL CYP2D6*34 removed at 2909:SNPGG due to subset of !!!
+KIMCHI ALL CYP2D6*2D removed at 2908:SNPGG due to subset of !!!
+KIMCHI ALL CYP2D6*34 removed at 2908:SNPGG due to subset of !!!
+KIMCHI ALL CYP2D6*2D removed at 2907:SNPCC due to subset of !!!
+KIMCHI ALL CYP2D6*34 removed at 2907:SNPCC due to subset of !!!
+KIMCHI ALL  removed at 2804:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2804:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2804:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2804:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2804:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2803:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2803:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2803:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2803:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2803:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2802:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2802:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2802:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2802:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2802:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2801:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2801:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2801:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2801:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2801:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2800:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2800:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2800:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2800:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2800:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2799:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2799:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2799:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2799:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2799:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2798:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2798:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2798:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2798:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2798:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2797:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2797:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2797:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2797:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2797:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2796:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2796:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2796:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2796:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2796:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2795:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2795:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2795:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2795:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2795:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2794:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2794:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2794:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2794:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2794:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2793:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2793:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2793:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2793:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2793:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2792:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2792:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2792:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2792:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2792:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2791:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2791:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2791:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2791:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2791:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2790:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL CYP2D6*15 removed at 2790:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL CYP2D6*3A removed at 2790:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL CYP2D6*1 removed at 2790:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2790:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2789:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2789:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2789:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2789:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2789:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2788:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2788:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2788:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2788:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2788:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2787:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2787:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2787:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2787:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2787:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2786:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2786:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2786:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2786:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2786:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2785:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2785:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2785:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2785:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2785:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2784:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2784:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2784:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2784:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2784:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2783:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2783:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2783:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2783:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2783:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2782:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2782:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2782:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2782:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2782:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2781:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2781:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2781:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2781:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2781:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2780:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2780:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2780:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2780:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2780:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2779:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL CYP2D6*15 removed at 2779:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL CYP2D6*3A removed at 2779:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL CYP2D6*1 removed at 2779:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2779:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2778:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2778:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2778:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2778:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2778:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2777:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2777:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2777:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2777:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2777:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2776:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2776:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2776:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2776:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2776:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2775:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*1 removed at 2775:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2775:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*15 removed at 2775:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*27 removed at 2775:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2670:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2669:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2668:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2667:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2666:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2665:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2664:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2663:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2662:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2661:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2660:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2659:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2658:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2657:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2656:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2655:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2654:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2653:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2652:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2651:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2650:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2649:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2648:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2647:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2646:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2630:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2629:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2628:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2627:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2626:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2625:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2624:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2623:SNPTT due to subset of CYP2D6*34!!!
+KIMCHI ALL CYP2D6*3A removed at 2622:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2622:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL CYP2D6*3A removed at 2621:SNPTT due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2621:SNPTT due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2603:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2602:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2601:SNPAA due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2600:SNPGG due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2599:SNPGG due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2598:SNPAA due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2597:SNPAA due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2596:SNPGG due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2595:SNPGG due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2594:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2593:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2592:SNPTT due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2591:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2590:SNPAA due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2589:SNPGG due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2588:SNPTT due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2587:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2586:SNPAA due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2585:SNPGG due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2584:SNPGG due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2583:SNPTT due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2582:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2581:SNPTT due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2580:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2579:SNPGG due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2578:SNPGG due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2577:SNPGG due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2576:SNPGG due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2575:SNPGG due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2574:SNPGG due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2573:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2572:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2571:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2570:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2569:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2568:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2567:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2566:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2565:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2564:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2563:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2562:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2561:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2560:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2559:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2558:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2557:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2555:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2554:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2553:SNPAA due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2552:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2551:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2550:SNPCC due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2549:SNPTT due to subset of CYP2D6*34!!!
+KIMCHI ALL  removed at 2548:SNPGG due to subset of CYP2D6*2D!!!
+KIMCHI ALL  removed at 2547:SNPTT due to subset of CYP2D6*2D!!!
+KIMCHI ALL CYP2D6*3A removed at 2477:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL CYP2D6*15 removed at 207:SNPGG due to subset of !!!
+KIMCHI ALL CYP2D6*15 removed at 75:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL CYP2D6*15 removed at 74:SNPCC due to subset of CYP2D6*34!!!
+KIMCHI ALL CYP2D6*15 removed at 73:SNPGG due to subset of CYP2D6*34!!!
+KIMCHI ALL CYP2D6*15 removed at 72:SNPGG due to subset of CYP2D6*34!!!
+KIMCHI ALL CYP2D6*15 removed at 71:SNPTT due to subset of CYP2D6*34!!!
+KIMCHI ALL CYP2D6*15 removed at 70:SNPGG due to subset of CYP2D6*34!!!
+KIMCHI ALL CYP2D6*15 removed at 69:SNPCC due to subset of CYP2D6*34!!!
+- A. TENT@3546	Add tentative indel INST because 1 <= 7
+- A. TENT@3104	Add tentative indel DEL11 because 2 <= 21
+- A. TENT@2784	Add tentative indel INSAG because 1 <= 25
+- A. TENT@2291	Add tentative indel INSCT because 2 <= 31
+- A. TENT@2235	Add tentative indel DEL1 because 4 <= 16
+- A. TENT@1533	Add tentative indel INSG because 1 <= 5
+- A. TENT@1232	Add tentative indel DEL9 because 1 <= 3
+- A. TENT@1173	Add tentative indel INSCTCAG because 1 <= 13
+- A. TENT@1072	Add tentative indel INSC because 1 <= 6
+- A. TENT@600	Add tentative indel DEL1 because 2 <= 23
+- A. TENT@138	Add tentative indel INSA because 3 <= 15
++ CYP2D6*34:
+   . 2850:SNP*CT   8/31 		
++ CYP2D6*15:
+   .  138:INS*T  15/11 		
++ CYP2D6*1:
+
++ CYP2D6*2D:
+   . 2850:SNP*CT   8/31 		. 4180:SNP*GC  20/5  		
++ CYP2D7:
+   .  -86:SNP*TC   0/20 		.  -86:SNP*TT  20/20 		.   -2:SNP*GC  15/10 		
+   .    0:SNP*TC  16/12 		.   18:SNP*=G   -/30 		.   19:SNP*=G   -/29 		
+   .   31:SNP*GA  23/9  		.   73:SNP*=C   -/24 		.   77:SNP*GA  15/0  		
+   .   82:SNP*=C   -/17 		.  100:SNP*=C   -/12 		.  102:SNP*AG   6/0  		
+   .  108:SNP*CT   6/5  		.  124:SNP*=G   -/16 		.  125:SNP*=G   -/17 		
+   .  138:INS*T  15/11 		.  214:SNP*GC  14/17 		.  221:SNP*CA  16/15 		
+   .  223:SNP*CG  16/15 		.  227:SNP*TC  16/12 		.  232:SNP*GC  15/12 		
+   .  233:SNP*AC  17/12 		.  245:SNP*AG  15/13 		.  254:SNP*GT  16/11 		
+   .  270:SNP*CT  16/6  		.  317:SNP*AG  19/15 		.  323:SNP*GA  15/17 		
+   .  600:DEL*1  23/0  		.  607:SNP*=G   -/27 		.  739:SNP*CC  29/29 		
+   .  739:SNP*CT   0/29 		.  746:SNP*CC  15/15 		.  746:SNP*CG   0/15 		
+   .  843:SNP*TG   0/22 		.  843:SNP*TT  22/22 		.  883:SNP*=G   -/30 		
+   .  887:SNP*=C   -/26 		.  957:SNP*=C   -/14 		.  972:SNP*=C   -/10 		
+   .  974:SNP*CA   3/6  		.  997:SNP*CG   3/0  		. 1028:SNP*AG   3/0  		
+   . 1036:SNP*TC   4/0  		. 1039:SNP*=C   -/7  		. 1062:SNP*AG   7/0  		
+   . 1072:INS*G   6/-6 		. 1080:SNP*AC   6/0  		. 1082:SNP*AC   6/0  		
+   . 1083:INS*G   6/0  		. 1093:SNP*AC   6/0  		. 1103:SNP*GA   7/0  		
+   . 1104:SNP*TC   7/0  		. 1105:SNP*GA   8/0  		. 1106:SNP*AG   8/0  		
+   . 1116:SNP*TC  10/0  		. 1119:SNP*GA  10/0  		. 1123:SNP*TA  10/8  		
+   . 1125:SNP*GC  10/8  		. 1128:SNP*AC   9/8  		. 1131:SNP*GC  10/8  		
+   . 1138:SNP*CT  12/7  		. 1145:SNP*GC  13/6  		. 1151:SNP*AG  13/6  		
+   . 1160:INS*AGATAAAG  13/8  		. 1173:INS*CTGAG  13/9  		. 1178:SNP*CT  10/6  		
+   . 1185:SNP*AG  11/6  		. 1200:SNP*TG   6/3  		. 1201:SNP*AG   5/3  		
+   . 1210:SNP*TC   4/4  		. 1214:SNP*CT   4/4  		. 1215:SNP*AC   4/4  		
+   . 1218:SNP*GT   4/3  		. 1232:DEL*9   3/3  		. 1244:SNP*TG   4/0  		
+   . 1254:SNP*CT   3/0  		. 1273:SNP*GA   3/0  		. 1278:DEL*4   3/0  		
+   . 1287:SNP*AG   3/0  		. 1291:SNP*TA   3/0  		. 1295:SNP*GT   3/0  		
+   . 1296:SNP*CG   3/0  		. 1298:DEL*17   3/0  		. 1317:SNP*TC   3/0  		
+   . 1328:SNP*GC   3/0  		. 1331:INS*TGG   3/0  		. 1434:INS*C   5/0  		
+   . 1437:SNP*GC   5/0  		. 1440:SNP*TC   5/0  		. 1448:SNP*CG   6/0  		
+   . 1451:SNP*AG   6/0  		. 1460:SNP*GT   6/4  		. 1465:SNP*AG   7/5  		
+   . 1468:SNP*CA   7/5  		. 1469:SNP*AG   7/5  		. 1488:SNP*AC   5/6  		
+   . 1494:SNP*=T   -/12 		. 1499:SNP*AC   4/8  		. 1501:SNP*AG   4/9  		
+   . 1504:SNP*CT   4/9  		. 1513:SNP*=C   -/13 		. 1522:SNP*AT   4/8  		
+   . 1523:SNP*GT   4/8  		. 1525:SNP*GT   4/7  		. 1531:SNP*AG   5/7  		
+   . 1532:SNP*TC   4/7  		. 1533:INS*C   5/6  		. 1550:SNP*TC   5/6  		
+   . 1554:SNP*TG   6/6  		. 1563:SNP*TC   6/6  		. 1566:SNP*TG   6/5  		
+   . 1578:SNP*CA   8/0  		. 1583:SNP*GC   8/0  		. 1590:SNP*CC  13/13 		
+   . 1590:SNP*CT   0/13 		. 1598:SNP*AG   7/7  		. 1602:SNP*CA   0/15 		
+   . 1602:SNP*CC  15/15 		. 1608:SNP*=G   -/15 		. 1611:SNP*TA   4/11 		
+   . 1611:SNP*TT  11/11 		. 1617:SNP*GG  11/11 		. 1617:SNP*GT   6/11 		
+   . 1659:SNP*=G   -/19 		. 1661:SNP*GC   0/18 		. 1661:SNP*GG  18/18 		
+   . 1704:SNP*=C   -/14 		. 1707:SNP*=T   -/13 		. 1716:SNP*=G   -/16 		
+   . 1720:SNP*=A   -/14 		. 1724:SNP*=C   -/14 		. 1749:SNP*AG   4/15 		
+   . 1754:SNP*CA   6/15 		. 1755:SNP*TG   6/15 		. 1757:SNP*=C   -/20 		
+   . 1758:SNP*=G   -/21 		. 1783:SNP*AA  23/23 		. 1783:SNP*AC   0/23 		
+   . 1811:SNP*GA   8/15 		. 1818:SNP*GA   0/25 		. 1818:SNP*GG  25/25 		
+   . 1846:SNP*=G   -/29 		. 1850:SNP*GC  18/22 		. 1850:SNP*GG  22/22 		
+   . 1851:SNP*CC  19/19 		. 1851:SNP*CG  19/19 		. 1858:SNP*=C   -/31 		
+   . 1869:SNP*TC   0/29 		. 1869:SNP*TT  29/29 		. 1943:SNP*=G   -/39 		
+   . 1973:SNP*AA  36/36 		. 1973:SNP*AG   0/36 		. 1974:SNP*GA   0/37 		
+   . 1974:SNP*GG  37/37 		. 1976:SNP*=G   -/37 		. 1978:SNP*CC  36/36 		
+   . 1978:SNP*CT   0/36 		. 1979:SNP*TC   0/37 		. 1979:SNP*TT  37/37 		
+   . 1998:SNP*TC  18/19 		. 2027:SNP*GA   9/29 		. 2027:SNP*GG  29/29 		
+   . 2029:SNP*AA  28/28 		. 2029:SNP*AG   9/28 		. 2034:SNP*CC  27/27 		
+   . 2034:SNP*CT   7/27 		. 2050:SNP*CC  22/22 		. 2050:SNP*CT  18/22 		
+   . 2080:SNP*GC  28/27 		. 2085:SNP*AG  29/26 		. 2097:SNP*AA  51/51 		
+   . 2097:SNP*AG  12/51 		. 2129:SNP*=A   -/49 		. 2235:DEL*1  16/16 		
+   . 2239:SNP*TC  17/17 		. 2240:SNP*AG  16/18 		. 2248:SNP*CT  19/20 		
+   . 2249:SNP*AG  20/20 		. 2268:SNP*TC   0/45 		. 2268:SNP*TT  45/45 		
+   . 2291:INS*AG  31/17 		. 2291:SNP*=G   -/49 		. 2303:SNP*=C   -/45 		
+   . 2308:SNP*=G   -/49 		. 2358:SNP*AT  25/13 		. 2385:SNP*TG  30/20 		
+   . 2392:SNP*GA   0/41 		. 2392:SNP*GG  41/41 		. 2424:SNP*CC  58/58 		
+   . 2424:SNP*CG   0/58 		. 2466:SNP*TC   0/36 		. 2466:SNP*TT  36/36 		
+   . 2470:SNP*TC  44/13 		. 2480:SNP*=C   -/59 		. 2483:SNP*=G   -/64 		
+   . 2539:SNP*=A   -/32 		. 2540:SNP*=A   -/36 		. 2541:SNP*=C   -/35 		
+   . 2542:SNP*=T   -/31 		. 2549:SNP*=A   -/27 		. 2556:SNP*=C   -/27 		
+   . 2574:SNP*=C   -/22 		. 2575:SNP*CA   0/13 		. 2575:SNP*CC  13/13 		
+   . 2576:SNP*=C   -/24 		. 2579:SNP*=C   -/26 		. 2587:SNP*=G   -/28 		
+   . 2588:SNP*=A   -/29 		. 2589:SNP*=C   -/30 		. 2590:SNP*=T   -/29 		
+   . 2606:SNP*GA  16/9  		. 2606:SNP*GG   9/9  		. 2610:SNP*TA  18/8  		
+   . 2610:SNP*TT   8/8  		. 2615:SNP*=A   -/26 		. 2616:SNP*=A   -/25 		
+   . 2617:SNP*=G   -/26 		. 2661:SNP*GA  19/4  		. 2779:SNP*GA  27/16 		
+   . 2784:INS*CT  25/17 		. 2790:SNP*GC  24/14 		. 2818:SNP*AG  28/15 		
+   . 2828:SNP*=C   -/43 		. 2850:SNP*=C   -/31 		. 2853:SNP*=A   -/38 		
+   . 2863:SNP*CC  14/14 		. 2863:SNP*CG  30/14 		. 2865:SNP*GA  29/14 		
+   . 2865:SNP*GG  14/14 		. 2874:SNP*TC  30/13 		. 2875:SNP*CT  32/14 		
+   . 2896:SNP*CC  36/36 		. 2896:SNP*CT   0/36 		. 2927:SNP*=G   -/37 		
+   . 2928:SNP*=A   -/38 		. 2929:SNP*=T   -/36 		. 2930:SNP*=C   -/38 		
+   . 2931:SNP*=C   -/38 		. 2932:SNP*=T   -/37 		. 2933:SNP*=A   -/39 		
+   . 2934:SNP*=C   -/38 		. 2935:SNP*=A   -/36 		. 2936:SNP*TC  19/20 		
+   . 2937:SNP*=C   -/36 		. 2938:SNP*CT  15/20 		. 2939:SNP*=G   -/34 		
+   . 2940:SNP*=G   -/35 		. 2941:SNP*=A   -/35 		. 2942:SNP*=T   -/35 		
+   . 2943:SNP*=G   -/35 		. 2944:SNP*=T   -/34 		. 2945:SNP*=G   -/31 		
+   . 2950:SNP*=G   -/33 		. 2959:SNP*TG  15/16 		. 2965:SNP*AG  18/14 		
+   . 2966:SNP*AC  18/14 		. 2967:SNP*AC  18/14 		. 2970:SNP*GA  18/12 		
+   . 2971:SNP*TG  19/12 		. 2978:SNP*GA  19/12 		. 2980:SNP*CT  18/10 		
+   . 2988:SNP*=G   -/23 		. 2999:SNP*GC  18/4  		. 3000:SNP*CT  18/4  		
+   . 3009:SNP*AC  17/8  		. 3012:SNP*AG  19/8  		. 3013:SNP*AG  18/9  		
+   . 3017:SNP*TA  22/11 		. 3030:SNP*=G   -/33 		. 3036:SNP*CT  21/13 		
+   . 3038:SNP*AC  21/13 		. 3048:SNP*TG  23/13 		. 3051:SNP*AG  23/12 		
+   . 3057:SNP*AC  22/12 		. 3070:SNP*GA  26/13 		. 3073:SNP*CT  25/14 		
+   . 3084:SNP*TC  23/12 		. 3089:SNP*GC   0/31 		. 3089:SNP*GG  31/31 		
+   . 3091:SNP*CA  20/10 		. 3093:SNP*AG  20/9  		. 3095:DEL*2  20/10 		
+   . 3104:DEL*11  21/14 		. 3157:SNP*GT  24/24 		. 3172:SNP*=A   -/56 		
+   . 3183:SNP*=G   -/44 		. 3198:SNP*=C   -/45 		. 3201:SNP*=C   -/44 		
+   . 3235:SNP*AA  26/26 		. 3235:SNP*AG  14/26 		. 3254:SNP*TC  23/14 		
+   . 3265:SNP*GA   0/36 		. 3265:SNP*GG  36/36 		. 3268:SNP*=T   -/40 		
+   . 3277:SNP*=T   -/38 		. 3279:SNP*GA  19/18 		. 3279:SNP*GG  18/18 		
+   . 3288:SNP*GA  16/17 		. 3288:SNP*GG  17/17 		. 3310:SNP*GA   0/21 		
+   . 3310:SNP*GG  21/21 		. 3318:SNP*=G   -/32 		. 3379:SNP*CC   0/0  		
+   . 3379:SNP*CT  13/0  		. 3384:SNP*AC  25/0  		. 3392:SNP*AA  16/16 		
+   . 3392:SNP*AG  15/16 		. 3435:SNP*=C   -/42 		. 3478:SNP*AG  20/19 		
+   . 3484:SNP*GA  12/22 		. 3484:SNP*GG  22/22 		. 3491:SNP*=G   -/34 		
+   . 3533:SNP*CA   0/23 		. 3533:SNP*CC  23/23 		. 3546:INS*A   7/12 		
+   . 3552:SNP*CT   9/13 		. 3582:SNP*AG   4/15 		. 3584:SNP*=G   -/25 		
+   . 3609:SNP*=G   -/37 		. 3790:SNP*=C   -/34 		. 3828:SNP*=G   -/29 		
+   . 3835:SNP*=A   -/27 		. 3853:SNP*GA  13/5  		. 3877:SNP*=G   -/22 		
+   . 3887:SNP*=T   -/19 		. 4042:SNP*=G   -/44 		. 4044:SNP*=C   -/44 		
+   . 4045:SNP*=G   -/42 		. 4115:SNP*=C   -/23 		. 4124:SNP*GC  11/9  		
+   . 4128:SNP*CG  13/7  		. 4131:SNP*AG  12/7  		. 4133:SNP*TC  12/8  		
+   . 4155:SNP*CT   9/10 		. 4156:SNP*AC   9/10 		. 4157:SNP*=T   -/18 		
+   . 4158:SNP*GC   9/9  		. 4166:SNP*TC  10/10 		. 4167:SNP*GA   9/10 		
+   . 4168:SNP*CG  10/10 		. 4169:SNP*TC   9/11 		. 4172:SNP*CT   9/11 		
+   . 4180:SNP*GC  20/5  		. 4193:SNP*TC  14/12 		
++ CYP2D6*3A:
+   _ 2548:DEL*1   6/27 		
++ CYP2D6*27:
+   . 3853:SNP*GA  13/5  		
+
+********************************************************************************
+
+# 4193:SNP*TC		14 =>  CYP2D7 )
+CYP2D7[ 14(  7)]  
+# 4193:SNP*TT		12 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  5(  4)]  CYP2D6*27[  5(  4)]  CYP2D6*15[  5(  4)]  CYP2D6*3A[  5(  4)]  CYP2D6*1[  5(  4)]  CYP2D6*2D[  7(  5)]  [  5(  4)]  
+# 4180:SNP*GC		20 =>  CYP2D6*2D CYP2D7 )
+CYP2D6*2D[  9(  6)]  CYP2D7[ 11(  8)]  
+# 4180:SNP*GG		5 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*3A CYP2D6*27 )
+CYP2D6*27[  5(  4)]  CYP2D6*15[  5(  4)]  CYP2D6*34[  5(  4)]  CYP2D6*3A[  5(  4)]  [  5(  4)]  CYP2D6*1[  5(  4)]  
+# 4172:SNP*CT		9 =>  CYP2D7 )
+CYP2D7[  9(  6)]  
+# 4172:SNP*CC		11 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  3(  3)]  CYP2D6*27[  3(  3)]  CYP2D6*15[  3(  3)]  CYP2D6*3A[  3(  3)]  CYP2D6*1[  3(  3)]  CYP2D6*2D[  8(  5)]  [  3(  3)]  
+# 4169:SNP*TC		9 =>  CYP2D7 )
+CYP2D7[  9(  6)]  
+# 4169:SNP*TT		11 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  4(  4)]  CYP2D6*27[  4(  4)]  CYP2D6*15[  4(  4)]  CYP2D6*3A[  4(  4)]  CYP2D6*1[  4(  4)]  CYP2D6*2D[  7(  5)]  [  4(  4)]  
+# 4168:SNP*CG		10 =>  CYP2D7 )
+CYP2D7[ 10(  6)]  
+# 4168:SNP*CC		10 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  4(  4)]  CYP2D6*27[  4(  4)]  CYP2D6*15[  4(  4)]  CYP2D6*3A[  4(  4)]  CYP2D6*1[  4(  4)]  CYP2D6*2D[  6(  4)]  [  4(  4)]  
+# 4167:SNP*GA		9 =>  CYP2D7 )
+CYP2D7[  9(  5)]  
+# 4167:SNP*GG		10 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  4(  4)]  CYP2D6*27[  4(  4)]  CYP2D6*15[  4(  4)]  CYP2D6*3A[  4(  4)]  CYP2D6*1[  4(  4)]  CYP2D6*2D[  6(  4)]  [  4(  4)]  
+# 4166:SNP*TC		10 =>  CYP2D7 )
+CYP2D7[ 10(  6)]  
+# 4166:SNP*TT		10 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  4(  4)]  CYP2D6*27[  4(  4)]  CYP2D6*15[  4(  4)]  CYP2D6*3A[  4(  4)]  CYP2D6*1[  4(  4)]  CYP2D6*2D[  6(  4)]  [  4(  4)]  
+# 4158:SNP*GC		9 =>  CYP2D7 )
+CYP2D7[  9(  4)]  
+# 4158:SNP*GG		9 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  5(  5)]  CYP2D6*27[  5(  5)]  CYP2D6*15[  5(  5)]  CYP2D6*3A[  5(  5)]  CYP2D6*1[  5(  5)]  CYP2D6*2D[  5(  4)]  [  5(  5)]  
+# 4157:SNP*TT		18 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[  8(  4)]  [  5(  4)]  CYP2D6*2D[  7(  4)]  CYP2D6*1[  5(  4)]  CYP2D6*3A[  5(  4)]  CYP2D6*15[  5(  4)]  CYP2D6*27[  5(  4)]  CYP2D6*34[  5(  4)]  
+# 4156:SNP*AC		9 =>  CYP2D7 )
+CYP2D7[  9(  4)]  
+# 4156:SNP*AA		10 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  5(  4)]  CYP2D6*27[  5(  4)]  CYP2D6*15[  5(  4)]  CYP2D6*3A[  5(  4)]  CYP2D6*1[  5(  4)]  CYP2D6*2D[  7(  4)]  [  5(  4)]  
+# 4155:SNP*CT		9 =>  CYP2D7 )
+CYP2D7[  9(  4)]  
+# 4155:SNP*CC		10 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  5(  4)]  CYP2D6*27[  5(  4)]  CYP2D6*15[  5(  4)]  CYP2D6*3A[  5(  4)]  CYP2D6*1[  5(  4)]  CYP2D6*2D[  7(  4)]  [  5(  4)]  
+# 4133:SNP*TC		12 =>  CYP2D7 )
+CYP2D7[ 12(  7)]  
+# 4133:SNP*TT		8 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  5(  4)]  CYP2D6*27[  5(  4)]  CYP2D6*15[  5(  4)]  CYP2D6*3A[  5(  4)]  CYP2D6*1[  5(  4)]  CYP2D6*2D[  6(  4)]  [  5(  4)]  
+# 4131:SNP*AG		12 =>  CYP2D7 )
+CYP2D7[ 12(  7)]  
+# 4131:SNP*AA		7 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  4(  3)]  CYP2D6*27[  4(  3)]  CYP2D6*15[  4(  3)]  CYP2D6*3A[  4(  3)]  CYP2D6*1[  4(  3)]  CYP2D6*2D[  6(  4)]  [  4(  3)]  
+# 4128:SNP*CG		13 =>  CYP2D7 )
+CYP2D7[ 13(  8)]  
+# 4128:SNP*CC		7 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  4(  3)]  CYP2D6*27[  4(  3)]  CYP2D6*15[  4(  3)]  CYP2D6*3A[  4(  3)]  CYP2D6*1[  4(  3)]  CYP2D6*2D[  6(  4)]  [  4(  3)]  
+# 4124:SNP*GC		11 =>  CYP2D7 )
+CYP2D7[ 11(  7)]  
+# 4124:SNP*GG		9 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  6(  4)]  CYP2D6*27[  6(  4)]  CYP2D6*15[  6(  4)]  CYP2D6*3A[  6(  4)]  CYP2D6*1[  6(  4)]  CYP2D6*2D[  8(  5)]  [  6(  4)]  
+# 4115:SNP*CC		23 =>  CYP2D6*2D CYP2D7 )
+CYP2D6*2D[ 11(  7)]  CYP2D7[ 17(  8)]  [  9(  6)]  
+# 4045:SNP*GG		42 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 27( 12)]  CYP2D6*27[ 27( 12)]  CYP2D6*15[ 27( 12)]  CYP2D6*3A[ 27( 12)]  CYP2D6*1[ 27( 12)]  CYP2D6*2D[ 27( 12)]  CYP2D7[ 42( 17)]  [ 27( 12)]  
+# 4044:SNP*CC		44 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 28( 13)]  CYP2D6*27[ 28( 13)]  CYP2D6*15[ 28( 13)]  CYP2D6*3A[ 28( 13)]  CYP2D6*1[ 28( 13)]  CYP2D6*2D[ 28( 13)]  CYP2D7[ 44( 19)]  [ 28( 13)]  
+# 4042:SNP*GG		44 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 29( 14)]  CYP2D6*27[ 29( 14)]  CYP2D6*15[ 29( 14)]  CYP2D6*3A[ 29( 14)]  CYP2D6*1[ 29( 14)]  CYP2D6*2D[ 29( 14)]  CYP2D7[ 44( 18)]  [ 29( 14)]  
+# 3887:SNP*TT		19 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  8(  7)]  CYP2D6*27[  9(  8)]  CYP2D6*15[  8(  7)]  CYP2D6*3A[  8(  7)]  CYP2D6*1[  8(  7)]  CYP2D6*2D[  8(  7)]  CYP2D7[ 17( 12)]  [  8(  7)]  
+# 3877:SNP*GG		22 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  8(  7)]  CYP2D6*27[  9(  7)]  CYP2D6*15[  8(  7)]  CYP2D6*3A[  8(  7)]  CYP2D6*1[  8(  7)]  CYP2D6*2D[  8(  7)]  CYP2D7[ 19( 12)]  [  8(  7)]  
+# 3853:SNP*GA		13 =>  CYP2D7 CYP2D6*27 )
+CYP2D7[ 13(  9)]  CYP2D6*27[  9(  2)]  
+# 3853:SNP*GG		5 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  5(  4)]  CYP2D6*15[  5(  4)]  CYP2D6*3A[  5(  4)]  CYP2D6*1[  5(  4)]  CYP2D6*2D[  5(  4)]  [  5(  4)]  
+# 3835:SNP*AA		27 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 13(  8)]  CYP2D6*27[ 16(  4)]  CYP2D6*15[ 13(  8)]  CYP2D6*3A[ 13(  8)]  CYP2D6*1[ 13(  8)]  CYP2D6*2D[ 13(  8)]  CYP2D7[ 24( 14)]  [ 13(  8)]  
+# 3828:SNP*GG		29 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 14(  9)]  CYP2D6*27[ 17(  5)]  CYP2D6*15[ 14(  9)]  CYP2D6*3A[ 14(  9)]  CYP2D6*1[ 14(  9)]  CYP2D6*2D[ 14(  9)]  CYP2D7[ 26( 16)]  [ 14(  9)]  
+# 3790:SNP*CC		34 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 26( 10)]  CYP2D6*27[ 26(  9)]  CYP2D6*15[ 26( 10)]  CYP2D6*3A[ 26( 10)]  CYP2D6*1[ 26( 10)]  CYP2D6*2D[ 26( 10)]  CYP2D7[ 34( 22)]  [ 26( 10)]  
+# 3609:SNP*GG		37 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 29( 22)]  [ 26( 12)]  CYP2D6*2D[ 26( 12)]  CYP2D6*1[ 26( 12)]  CYP2D6*3A[ 26( 12)]  CYP2D6*15[ 26( 12)]  CYP2D6*27[ 26( 12)]  CYP2D6*34[ 26( 12)]  
+# 3584:SNP*GG		25 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 17(  7)]  CYP2D6*27[ 17(  7)]  CYP2D6*15[ 17(  7)]  CYP2D6*3A[ 17(  7)]  CYP2D6*1[ 17(  7)]  CYP2D6*2D[ 17(  7)]  CYP2D7[ 10(  7)]  [ 17(  7)]  
+# 3582:SNP*AG		4 =>  CYP2D7 )
+CYP2D7[  4(  3)]  
+# 3582:SNP*AA		15 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 15(  6)]  CYP2D6*27[ 15(  6)]  CYP2D6*15[ 15(  6)]  CYP2D6*3A[ 15(  6)]  CYP2D6*1[ 15(  6)]  CYP2D6*2D[ 15(  6)]  [ 15(  6)]  
+# 3552:SNP*CT		9 =>  CYP2D7 )
+CYP2D7[  9(  5)]  
+# 3552:SNP*CC		13 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 13(  7)]  CYP2D6*27[ 13(  7)]  CYP2D6*15[ 13(  7)]  CYP2D6*3A[ 13(  7)]  CYP2D6*1[ 13(  7)]  CYP2D6*2D[ 13(  7)]  [ 13(  7)]  
+# 3546:INS*A		7 =>  CYP2D7 )
+CYP2D7[  6(  5)]  
+# 3546:SNP*GG		20 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[  9(  5)]  [ 11(  6)]  CYP2D6*2D[ 11(  6)]  CYP2D6*1[ 11(  6)]  CYP2D6*3A[ 11(  6)]  CYP2D6*15[ 11(  6)]  CYP2D6*27[ 11(  6)]  CYP2D6*34[ 11(  6)]  
+# 3533:SNP*CC		23 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+[ 12(  8)]  CYP2D6*2D[ 12(  8)]  CYP2D6*1[ 12(  8)]  CYP2D6*3A[ 12(  8)]  CYP2D6*15[ 12(  8)]  CYP2D6*27[ 12(  8)]  CYP2D6*34[ 12(  8)]  
+# 3491:SNP*GG		34 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 12(  6)]  CYP2D6*27[ 12(  6)]  CYP2D6*15[ 12(  6)]  CYP2D6*3A[ 12(  6)]  CYP2D6*1[ 12(  6)]  CYP2D6*2D[ 12(  6)]  CYP2D7[ 22( 17)]  [ 12(  6)]  
+# 3484:SNP*GA		12 =>  CYP2D7 )
+CYP2D7[ 12( 11)]  
+# 3484:SNP*GG		22 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 14(  7)]  CYP2D6*27[ 14(  7)]  CYP2D6*15[ 14(  7)]  CYP2D6*3A[ 14(  7)]  CYP2D6*1[ 14(  7)]  CYP2D6*2D[ 14(  7)]  [ 14(  7)]  
+# 3478:SNP*AG		20 =>  CYP2D7 )
+CYP2D7[ 20( 17)]  
+# 3478:SNP*AA		19 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 19( 10)]  CYP2D6*27[ 19( 10)]  CYP2D6*15[ 19( 10)]  CYP2D6*3A[ 19( 10)]  CYP2D6*1[ 19( 10)]  CYP2D6*2D[ 19( 10)]  [ 19( 10)]  
+# 3435:SNP*CC		42 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 22(  9)]  CYP2D6*27[ 22(  9)]  CYP2D6*15[ 22(  9)]  CYP2D6*3A[ 22(  9)]  CYP2D6*1[ 22(  9)]  CYP2D6*2D[ 22(  9)]  CYP2D7[ 31( 23)]  [ 22(  9)]  
+# 3392:SNP*AG		15 =>  CYP2D7 )
+CYP2D7[ 15( 11)]  
+# 3392:SNP*AA		16 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+[  6(  3)]  CYP2D6*1[  6(  3)]  CYP2D6*2D[  6(  3)]  CYP2D6*3A[  6(  3)]  CYP2D6*15[  6(  3)]  CYP2D6*27[  6(  3)]  CYP2D6*34[  6(  3)]  
+# 3384:SNP*AA		0 =>  )
+
+# 3384:SNP*AC		25 =>  CYP2D7 )
+CYP2D7[ 25( 19)]  
+# 3379:SNP*CC		0 =>  )
+
+# 3379:SNP*CT		13 =>  CYP2D7 )
+CYP2D7[ 13( 10)]  
+# 3318:SNP*GG		32 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 28( 20)]  [ 14( 10)]  CYP2D6*2D[ 14( 10)]  CYP2D6*1[ 14( 10)]  CYP2D6*3A[ 14( 10)]  CYP2D6*15[ 14( 10)]  CYP2D6*27[ 14( 10)]  CYP2D6*34[ 14( 10)]  
+# 3310:SNP*GG		21 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 17( 10)]  [ 14( 10)]  CYP2D6*2D[ 14( 10)]  CYP2D6*1[ 14( 10)]  CYP2D6*3A[ 14( 10)]  CYP2D6*15[ 14( 10)]  CYP2D6*27[ 14( 10)]  CYP2D6*34[ 14( 10)]  
+# 3288:SNP*GA		16 =>  CYP2D7 )
+CYP2D7[ 16( 12)]  
+# 3288:SNP*GG		17 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 14( 11)]  CYP2D6*27[ 14( 11)]  CYP2D6*15[ 14( 11)]  CYP2D6*3A[ 14( 11)]  CYP2D6*1[ 14( 11)]  CYP2D6*2D[ 14( 11)]  [ 14( 11)]  
+# 3279:SNP*GA		19 =>  CYP2D7 )
+CYP2D7[ 19( 13)]  
+# 3279:SNP*GG		18 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 14( 11)]  CYP2D6*27[ 14( 11)]  CYP2D6*15[ 14( 11)]  CYP2D6*3A[ 14( 11)]  CYP2D6*1[ 14( 11)]  CYP2D6*2D[ 14( 11)]  [ 14( 11)]  
+# 3277:SNP*TT		38 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 16( 13)]  CYP2D6*27[ 16( 13)]  CYP2D6*15[ 16( 13)]  CYP2D6*3A[ 16( 13)]  CYP2D6*1[ 16( 13)]  CYP2D6*2D[ 16( 13)]  CYP2D7[ 28( 18)]  [ 16( 13)]  
+# 3268:SNP*TT		40 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 28( 18)]  [ 16( 13)]  CYP2D6*2D[ 16( 13)]  CYP2D6*1[ 16( 13)]  CYP2D6*3A[ 16( 13)]  CYP2D6*15[ 16( 13)]  CYP2D6*27[ 16( 13)]  CYP2D6*34[ 16( 13)]  
+# 3265:SNP*GG		36 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 24( 15)]  [ 13( 10)]  CYP2D6*2D[ 13( 10)]  CYP2D6*1[ 13( 10)]  CYP2D6*3A[ 13( 10)]  CYP2D6*15[ 13( 10)]  CYP2D6*27[ 13( 10)]  CYP2D6*34[ 13( 10)]  
+# 3254:SNP*TC		23 =>  CYP2D7 )
+CYP2D7[ 23( 14)]  
+# 3254:SNP*TT		14 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 13(  9)]  CYP2D6*27[ 13(  9)]  CYP2D6*15[ 13(  9)]  CYP2D6*3A[ 13(  9)]  CYP2D6*1[ 13(  9)]  CYP2D6*2D[ 13(  9)]  [ 13(  9)]  
+# 3235:SNP*AG		14 =>  CYP2D7 )
+CYP2D7[ 14(  9)]  
+# 3235:SNP*AA		26 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 17( 10)]  CYP2D6*27[ 17( 10)]  CYP2D6*15[ 17( 10)]  CYP2D6*3A[ 17( 10)]  CYP2D6*1[ 17( 10)]  CYP2D6*2D[ 17( 10)]  [ 17( 10)]  
+# 3201:SNP*CC		44 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 32( 27)]  [ 19(  9)]  CYP2D6*2D[ 19(  9)]  CYP2D6*1[ 19(  9)]  CYP2D6*3A[ 19(  9)]  CYP2D6*15[ 19(  9)]  CYP2D6*27[ 19(  9)]  CYP2D6*34[ 19(  9)]  
+# 3198:SNP*CC		45 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 19(  8)]  CYP2D6*27[ 19(  8)]  CYP2D6*15[ 19(  8)]  CYP2D6*3A[ 19(  8)]  CYP2D6*1[ 19(  8)]  CYP2D6*2D[ 19(  8)]  CYP2D7[ 32( 27)]  [ 19(  8)]  
+# 3183:SNP*GG		44 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 22( 10)]  CYP2D6*27[ 22( 10)]  CYP2D6*15[ 22( 10)]  CYP2D6*3A[ 22( 10)]  CYP2D6*1[ 22( 10)]  CYP2D6*2D[ 22( 10)]  CYP2D7[ 33( 27)]  [ 22( 10)]  
+# 3172:SNP*AA		56 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 35( 27)]  [ 28( 12)]  CYP2D6*2D[ 28( 12)]  CYP2D6*1[ 28( 12)]  CYP2D6*3A[ 28( 12)]  CYP2D6*15[ 28( 12)]  CYP2D6*27[ 28( 12)]  CYP2D6*34[ 28( 12)]  
+# 3157:SNP*GT		24 =>  CYP2D7 )
+CYP2D7[ 24( 18)]  
+# 3157:SNP*GG		24 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 21(  8)]  CYP2D6*27[ 21(  8)]  CYP2D6*15[ 21(  8)]  CYP2D6*3A[ 21(  8)]  CYP2D6*1[ 21(  8)]  CYP2D6*2D[ 21(  8)]  [ 21(  8)]  
+# 3104:DEL*11		21 =>  CYP2D7 )
+CYP2D7[ 21( 16)]  
+# 3104:SNP*CC		34 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 21( 16)]  [ 13(  7)]  CYP2D6*2D[ 13(  7)]  CYP2D6*1[ 13(  7)]  CYP2D6*3A[ 13(  7)]  CYP2D6*15[ 13(  7)]  CYP2D6*27[ 13(  7)]  CYP2D6*34[ 13(  7)]  
+# 3095:DEL*2		20 =>  CYP2D7 )
+CYP2D7[ 20( 16)]  
+# 3095:SNP*AA		28 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 20( 16)]  [  8(  5)]  CYP2D6*2D[  8(  5)]  CYP2D6*1[  8(  5)]  CYP2D6*3A[  8(  5)]  CYP2D6*15[  8(  5)]  CYP2D6*27[  8(  5)]  CYP2D6*34[  8(  5)]  
+# 3093:SNP*AG		20 =>  CYP2D7 )
+CYP2D7[ 20( 16)]  
+# 3093:SNP*AA		9 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  9(  4)]  CYP2D6*27[  9(  4)]  CYP2D6*15[  9(  4)]  CYP2D6*3A[  9(  4)]  CYP2D6*1[  9(  4)]  CYP2D6*2D[  9(  4)]  [  9(  4)]  
+# 3091:SNP*CA		20 =>  CYP2D7 )
+CYP2D7[ 20( 15)]  
+# 3091:SNP*CC		10 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 10(  5)]  CYP2D6*27[ 10(  5)]  CYP2D6*15[ 10(  5)]  CYP2D6*3A[ 10(  5)]  CYP2D6*1[ 10(  5)]  CYP2D6*2D[ 10(  5)]  [ 10(  5)]  
+# 3089:SNP*GG		31 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 19( 16)]  [ 10(  5)]  CYP2D6*2D[ 10(  5)]  CYP2D6*1[ 10(  5)]  CYP2D6*3A[ 10(  5)]  CYP2D6*15[ 10(  5)]  CYP2D6*27[ 10(  5)]  CYP2D6*34[ 10(  5)]  
+# 3084:SNP*TC		23 =>  CYP2D7 )
+CYP2D7[ 23( 19)]  
+# 3084:SNP*TT		12 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 12(  5)]  CYP2D6*27[ 12(  5)]  CYP2D6*15[ 12(  5)]  CYP2D6*3A[ 12(  5)]  CYP2D6*1[ 12(  5)]  CYP2D6*2D[ 12(  5)]  [ 12(  5)]  
+# 3073:SNP*CT		25 =>  CYP2D7 )
+CYP2D7[ 25( 21)]  
+# 3073:SNP*CC		14 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 14(  8)]  CYP2D6*27[ 14(  8)]  CYP2D6*15[ 14(  8)]  CYP2D6*3A[ 14(  8)]  CYP2D6*1[ 14(  8)]  CYP2D6*2D[ 14(  8)]  [ 14(  8)]  
+# 3070:SNP*GA		26 =>  CYP2D7 )
+CYP2D7[ 26( 22)]  
+# 3070:SNP*GG		13 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 13(  7)]  CYP2D6*27[ 13(  7)]  CYP2D6*15[ 13(  7)]  CYP2D6*3A[ 13(  7)]  CYP2D6*1[ 13(  7)]  CYP2D6*2D[ 13(  7)]  [ 13(  7)]  
+# 3057:SNP*AC		22 =>  CYP2D7 )
+CYP2D7[ 22( 17)]  
+# 3057:SNP*AA		12 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 12(  6)]  CYP2D6*27[ 12(  6)]  CYP2D6*15[ 12(  6)]  CYP2D6*3A[ 12(  6)]  CYP2D6*1[ 12(  6)]  CYP2D6*2D[ 12(  6)]  [ 12(  6)]  
+# 3051:SNP*AG		23 =>  CYP2D7 )
+CYP2D7[ 23( 19)]  
+# 3051:SNP*AA		12 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 12(  6)]  CYP2D6*27[ 12(  6)]  CYP2D6*15[ 12(  6)]  CYP2D6*3A[ 12(  6)]  CYP2D6*1[ 12(  6)]  CYP2D6*2D[ 12(  6)]  [ 12(  6)]  
+# 3048:SNP*TG		23 =>  CYP2D7 )
+CYP2D7[ 23( 19)]  
+# 3048:SNP*TT		13 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 13(  7)]  CYP2D6*27[ 13(  7)]  CYP2D6*15[ 13(  7)]  CYP2D6*3A[ 13(  7)]  CYP2D6*1[ 13(  7)]  CYP2D6*2D[ 13(  7)]  [ 13(  7)]  
+# 3038:SNP*AC		21 =>  CYP2D7 )
+CYP2D7[ 21( 17)]  
+# 3038:SNP*AA		13 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 13(  7)]  CYP2D6*27[ 13(  7)]  CYP2D6*15[ 13(  7)]  CYP2D6*3A[ 13(  7)]  CYP2D6*1[ 13(  7)]  CYP2D6*2D[ 13(  7)]  [ 13(  7)]  
+# 3036:SNP*CT		21 =>  CYP2D7 )
+CYP2D7[ 21( 17)]  
+# 3036:SNP*CC		13 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 13(  7)]  CYP2D6*27[ 13(  7)]  CYP2D6*15[ 13(  7)]  CYP2D6*3A[ 13(  7)]  CYP2D6*1[ 13(  7)]  CYP2D6*2D[ 13(  7)]  [ 13(  7)]  
+# 3030:SNP*GG		33 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 12(  6)]  CYP2D6*27[ 12(  6)]  CYP2D6*15[ 12(  6)]  CYP2D6*3A[ 12(  6)]  CYP2D6*1[ 12(  6)]  CYP2D6*2D[ 12(  6)]  CYP2D7[ 21( 17)]  [ 12(  6)]  
+# 3017:SNP*TA		22 =>  CYP2D7 )
+CYP2D7[ 22( 18)]  
+# 3017:SNP*TT		11 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 11(  6)]  CYP2D6*27[ 11(  6)]  CYP2D6*15[ 11(  6)]  CYP2D6*3A[ 11(  6)]  CYP2D6*1[ 11(  6)]  CYP2D6*2D[ 11(  6)]  [ 11(  6)]  
+# 3013:SNP*AG		18 =>  CYP2D7 )
+CYP2D7[ 18( 15)]  
+# 3013:SNP*AA		9 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  9(  5)]  CYP2D6*27[  9(  5)]  CYP2D6*15[  9(  5)]  CYP2D6*3A[  9(  5)]  CYP2D6*1[  9(  5)]  CYP2D6*2D[  9(  5)]  [  9(  5)]  
+# 3012:SNP*AG		19 =>  CYP2D7 )
+CYP2D7[ 19( 16)]  
+# 3012:SNP*AA		8 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  8(  5)]  CYP2D6*27[  8(  5)]  CYP2D6*15[  8(  5)]  CYP2D6*3A[  8(  5)]  CYP2D6*1[  8(  5)]  CYP2D6*2D[  8(  5)]  [  8(  5)]  
+# 3009:SNP*AC		17 =>  CYP2D7 )
+CYP2D7[ 17( 15)]  
+# 3009:SNP*AA		8 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  8(  6)]  CYP2D6*27[  8(  6)]  CYP2D6*15[  8(  6)]  CYP2D6*3A[  8(  6)]  CYP2D6*1[  8(  6)]  CYP2D6*2D[  8(  6)]  [  8(  6)]  
+# 3000:SNP*CT		18 =>  CYP2D7 )
+CYP2D7[ 18( 15)]  
+# 3000:SNP*CC		4 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  4(  3)]  CYP2D6*27[  4(  3)]  CYP2D6*15[  4(  3)]  CYP2D6*3A[  4(  3)]  CYP2D6*1[  4(  3)]  CYP2D6*2D[  4(  3)]  [  4(  3)]  
+# 2999:SNP*GC		18 =>  CYP2D7 )
+CYP2D7[ 18( 15)]  
+# 2999:SNP*GG		4 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  4(  3)]  CYP2D6*27[  4(  3)]  CYP2D6*15[  4(  3)]  CYP2D6*3A[  4(  3)]  CYP2D6*1[  4(  3)]  CYP2D6*2D[  4(  3)]  [  4(  3)]  
+# 2988:SNP*GG		23 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  5(  3)]  CYP2D6*27[  5(  3)]  CYP2D6*15[  5(  3)]  CYP2D6*3A[  5(  3)]  CYP2D6*1[  5(  3)]  CYP2D6*2D[  5(  3)]  CYP2D7[ 18( 16)]  [  5(  3)]  
+# 2980:SNP*CT		18 =>  CYP2D7 )
+CYP2D7[ 18( 14)]  
+# 2980:SNP*CC		10 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 10(  4)]  CYP2D6*27[ 10(  4)]  CYP2D6*15[ 10(  4)]  CYP2D6*3A[ 10(  4)]  CYP2D6*1[ 10(  4)]  CYP2D6*2D[ 10(  4)]  [ 10(  4)]  
+# 2978:SNP*GA		19 =>  CYP2D7 )
+CYP2D7[ 19( 15)]  
+# 2978:SNP*GG		12 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 12(  6)]  CYP2D6*27[ 12(  6)]  CYP2D6*15[ 12(  6)]  CYP2D6*3A[ 12(  6)]  CYP2D6*1[ 12(  6)]  CYP2D6*2D[ 12(  6)]  [ 12(  6)]  
+# 2971:SNP*TG		19 =>  CYP2D7 )
+CYP2D7[ 19( 15)]  
+# 2971:SNP*TT		12 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 12(  6)]  CYP2D6*27[ 12(  6)]  CYP2D6*15[ 12(  6)]  CYP2D6*3A[ 12(  6)]  CYP2D6*1[ 12(  6)]  CYP2D6*2D[ 12(  6)]  [ 12(  6)]  
+# 2970:SNP*GA		18 =>  CYP2D7 )
+CYP2D7[ 18( 14)]  
+# 2970:SNP*GG		12 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 12(  6)]  CYP2D6*27[ 12(  6)]  CYP2D6*15[ 12(  6)]  CYP2D6*3A[ 12(  6)]  CYP2D6*1[ 12(  6)]  CYP2D6*2D[ 12(  6)]  [ 12(  6)]  
+# 2967:SNP*AC		18 =>  CYP2D7 )
+CYP2D7[ 18( 14)]  
+# 2967:SNP*AA		14 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 14(  6)]  CYP2D6*27[ 14(  6)]  CYP2D6*15[ 14(  6)]  CYP2D6*3A[ 14(  7)]  CYP2D6*1[ 14(  6)]  CYP2D6*2D[ 14(  6)]  [ 14(  6)]  
+# 2966:SNP*AC		18 =>  CYP2D7 )
+CYP2D7[ 18( 14)]  
+# 2966:SNP*AA		14 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 14(  6)]  CYP2D6*27[ 14(  6)]  CYP2D6*15[ 14(  6)]  CYP2D6*3A[ 14(  7)]  CYP2D6*1[ 14(  6)]  CYP2D6*2D[ 14(  6)]  [ 14(  6)]  
+# 2965:SNP*AG		18 =>  CYP2D7 )
+CYP2D7[ 18( 14)]  
+# 2965:SNP*AA		14 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 14(  6)]  CYP2D6*27[ 14(  6)]  CYP2D6*15[ 14(  6)]  CYP2D6*3A[ 14(  7)]  CYP2D6*1[ 14(  6)]  CYP2D6*2D[ 14(  6)]  [ 14(  6)]  
+# 2959:SNP*TG		15 =>  CYP2D7 )
+CYP2D7[ 15( 11)]  
+# 2959:SNP*TT		16 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 16(  6)]  CYP2D6*27[ 16(  6)]  CYP2D6*15[ 16(  6)]  CYP2D6*3A[ 16(  7)]  CYP2D6*1[ 16(  6)]  CYP2D6*2D[ 16(  6)]  [ 16(  6)]  
+# 2950:SNP*GG		33 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 18(  9)]  CYP2D6*27[ 18(  9)]  CYP2D6*15[ 18(  9)]  CYP2D6*3A[ 18(  9)]  CYP2D6*1[ 18(  9)]  CYP2D6*2D[ 18(  9)]  CYP2D7[ 18( 14)]  [ 18(  9)]  
+# 2945:SNP*GG		31 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 19( 10)]  CYP2D6*27[ 19( 10)]  CYP2D6*15[ 19( 10)]  CYP2D6*3A[ 19(  9)]  CYP2D6*1[ 19( 10)]  CYP2D6*2D[ 19( 10)]  CYP2D7[ 16( 13)]  [ 19( 10)]  
+# 2944:SNP*TT		34 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 20( 10)]  CYP2D6*27[ 20( 10)]  CYP2D6*15[ 20( 10)]  CYP2D6*3A[ 20(  9)]  CYP2D6*1[ 20( 10)]  CYP2D6*2D[ 20( 10)]  CYP2D7[ 18( 15)]  [ 20( 10)]  
+# 2943:SNP*GG		35 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 20( 10)]  CYP2D6*27[ 20( 10)]  CYP2D6*15[ 20( 10)]  CYP2D6*3A[ 20(  9)]  CYP2D6*1[ 20( 10)]  CYP2D6*2D[ 20( 10)]  CYP2D7[ 19( 16)]  [ 20( 10)]  
+# 2942:SNP*TT		35 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 20( 10)]  CYP2D6*27[ 20( 10)]  CYP2D6*15[ 20( 10)]  CYP2D6*3A[ 20(  9)]  CYP2D6*1[ 20( 10)]  CYP2D6*2D[ 20( 10)]  CYP2D7[ 19( 16)]  [ 20( 10)]  
+# 2941:SNP*AA		35 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 20( 10)]  CYP2D6*27[ 20( 10)]  CYP2D6*15[ 20( 10)]  CYP2D6*3A[ 20(  9)]  CYP2D6*1[ 20( 10)]  CYP2D6*2D[ 20( 10)]  CYP2D7[ 19( 16)]  [ 20( 10)]  
+# 2940:SNP*GG		35 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 20( 10)]  CYP2D6*27[ 20( 10)]  CYP2D6*15[ 20( 10)]  CYP2D6*3A[ 20(  9)]  CYP2D6*1[ 20( 10)]  CYP2D6*2D[ 20( 10)]  CYP2D7[ 19( 16)]  [ 20( 10)]  
+# 2939:SNP*GG		34 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 21( 10)]  CYP2D6*27[ 21( 10)]  CYP2D6*15[ 21( 10)]  CYP2D6*3A[ 21(  9)]  CYP2D6*1[ 21( 10)]  CYP2D6*2D[ 21( 10)]  CYP2D7[ 17( 15)]  [ 21( 10)]  
+# 2938:SNP*CT		15 =>  CYP2D7 )
+CYP2D7[ 15( 12)]  
+# 2938:SNP*CC		20 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 20( 10)]  CYP2D6*27[ 20( 10)]  CYP2D6*15[ 20( 10)]  CYP2D6*3A[ 20(  9)]  CYP2D6*1[ 20( 10)]  CYP2D6*2D[ 20( 10)]  [ 20( 10)]  
+# 2937:SNP*CC		36 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 21( 10)]  CYP2D6*27[ 21( 10)]  CYP2D6*15[ 21( 10)]  CYP2D6*3A[ 21(  9)]  CYP2D6*1[ 21( 10)]  CYP2D6*2D[ 21( 10)]  CYP2D7[ 19( 15)]  [ 21( 10)]  
+# 2936:SNP*TC		19 =>  CYP2D7 )
+CYP2D7[ 19( 15)]  
+# 2936:SNP*TT		20 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 20(  9)]  CYP2D6*27[ 20(  9)]  CYP2D6*15[ 20(  9)]  CYP2D6*3A[ 20(  8)]  CYP2D6*1[ 20(  9)]  CYP2D6*2D[ 20(  9)]  [ 20(  9)]  
+# 2935:SNP*AA		36 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 21( 10)]  CYP2D6*27[ 21( 10)]  CYP2D6*15[ 21( 10)]  CYP2D6*3A[ 21(  9)]  CYP2D6*1[ 21( 10)]  CYP2D6*2D[ 21( 10)]  CYP2D7[ 19( 16)]  [ 21( 10)]  
+# 2934:SNP*CC		38 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 21( 17)]  [ 21( 10)]  CYP2D6*2D[ 21( 10)]  CYP2D6*1[ 21( 10)]  CYP2D6*3A[ 21(  9)]  CYP2D6*15[ 21( 10)]  CYP2D6*27[ 21( 10)]  CYP2D6*34[ 21( 10)]  
+# 2933:SNP*AA		39 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 22( 18)]  [ 21( 10)]  CYP2D6*2D[ 21( 10)]  CYP2D6*1[ 21( 10)]  CYP2D6*3A[ 21(  9)]  CYP2D6*15[ 21( 10)]  CYP2D6*27[ 21( 10)]  CYP2D6*34[ 21( 10)]  
+# 2932:SNP*TT		37 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 21( 17)]  [ 20( 10)]  CYP2D6*2D[ 20( 10)]  CYP2D6*1[ 20( 10)]  CYP2D6*3A[ 20(  9)]  CYP2D6*15[ 20( 10)]  CYP2D6*27[ 20( 10)]  CYP2D6*34[ 20( 10)]  
+# 2931:SNP*CC		38 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 21( 17)]  [ 21( 10)]  CYP2D6*2D[ 21( 10)]  CYP2D6*1[ 21( 10)]  CYP2D6*3A[ 21(  9)]  CYP2D6*15[ 21( 10)]  CYP2D6*27[ 21( 10)]  CYP2D6*34[ 21( 10)]  
+# 2930:SNP*CC		38 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 21( 18)]  [ 21( 10)]  CYP2D6*2D[ 21( 10)]  CYP2D6*1[ 21( 10)]  CYP2D6*3A[ 21(  9)]  CYP2D6*15[ 21( 10)]  CYP2D6*27[ 21( 10)]  CYP2D6*34[ 21( 10)]  
+# 2929:SNP*TT		36 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 19( 16)]  [ 21( 10)]  CYP2D6*2D[ 21( 10)]  CYP2D6*1[ 21( 10)]  CYP2D6*3A[ 21(  9)]  CYP2D6*15[ 21( 10)]  CYP2D6*27[ 21( 10)]  CYP2D6*34[ 21( 10)]  
+# 2928:SNP*AA		38 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 21( 18)]  [ 21( 10)]  CYP2D6*2D[ 21( 10)]  CYP2D6*1[ 21( 10)]  CYP2D6*3A[ 21(  9)]  CYP2D6*15[ 21( 10)]  CYP2D6*27[ 21( 10)]  CYP2D6*34[ 21( 10)]  
+# 2927:SNP*GG		37 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 20( 17)]  [ 22( 10)]  CYP2D6*2D[ 22( 10)]  CYP2D6*1[ 22( 10)]  CYP2D6*3A[ 22(  9)]  CYP2D6*15[ 22( 10)]  CYP2D6*27[ 22( 10)]  CYP2D6*34[ 22( 10)]  
+# 2896:SNP*CC		36 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 26( 21)]  [ 14(  6)]  CYP2D6*2D[ 14(  6)]  CYP2D6*1[ 14(  6)]  CYP2D6*3A[ 14(  6)]  CYP2D6*15[ 14(  6)]  CYP2D6*27[ 14(  6)]  CYP2D6*34[ 14(  6)]  
+# 2875:SNP*CT		32 =>  CYP2D7 )
+CYP2D7[ 32( 27)]  
+# 2875:SNP*CC		14 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 10(  5)]  CYP2D6*27[  9(  5)]  CYP2D6*15[  9(  5)]  CYP2D6*3A[  9(  5)]  CYP2D6*1[  9(  5)]  CYP2D6*2D[ 10(  5)]  [  9(  5)]  
+# 2874:SNP*TC		30 =>  CYP2D7 )
+CYP2D7[ 30( 26)]  
+# 2874:SNP*TT		13 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  9(  4)]  CYP2D6*27[  8(  4)]  CYP2D6*15[  8(  4)]  CYP2D6*3A[  8(  4)]  CYP2D6*1[  8(  4)]  CYP2D6*2D[  9(  4)]  [  8(  4)]  
+# 2865:SNP*GA		29 =>  CYP2D7 )
+CYP2D7[ 29( 25)]  
+# 2865:SNP*GG		14 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  9(  5)]  CYP2D6*27[  7(  4)]  CYP2D6*15[  7(  4)]  CYP2D6*3A[  7(  5)]  CYP2D6*1[  7(  4)]  CYP2D6*2D[  9(  5)]  [  7(  4)]  
+# 2863:SNP*CG		30 =>  CYP2D7 )
+CYP2D7[ 30( 26)]  
+# 2863:SNP*CC		14 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  9(  5)]  CYP2D6*27[  6(  4)]  CYP2D6*15[  6(  4)]  CYP2D6*3A[  6(  5)]  CYP2D6*1[  6(  4)]  CYP2D6*2D[  9(  5)]  [  6(  4)]  
+# 2853:SNP*AA		38 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  8(  4)]  CYP2D6*27[  5(  3)]  CYP2D6*15[  5(  3)]  CYP2D6*3A[  5(  4)]  CYP2D6*1[  5(  3)]  CYP2D6*2D[  8(  4)]  CYP2D7[ 29( 24)]  [  5(  3)]  
+# 2850:SNP*CT		8 =>  CYP2D6*34 CYP2D6*2D )
+CYP2D6*34[  8(  4)]  CYP2D6*2D[  8(  4)]  
+# 2850:SNP*CC		31 =>  CYP2D6*15 CYP2D6*1 CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 29( 25)]  CYP2D6*27[  4(  3)]  CYP2D6*1[  4(  3)]  CYP2D6*3A[  4(  4)]  [  4(  3)]  CYP2D6*15[  4(  3)]  
+# 2828:SNP*CC		43 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 30( 29)]  [  8(  5)]  CYP2D6*2D[ 11(  6)]  CYP2D6*1[  8(  5)]  CYP2D6*3A[  8(  6)]  CYP2D6*15[  8(  5)]  CYP2D6*27[  8(  5)]  CYP2D6*34[ 11(  6)]  
+# 2818:SNP*AG		28 =>  CYP2D7 )
+CYP2D7[ 28( 26)]  
+# 2818:SNP*AA		15 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 13(  7)]  CYP2D6*27[  9(  6)]  CYP2D6*15[  9(  6)]  CYP2D6*3A[  9(  6)]  CYP2D6*1[  9(  6)]  CYP2D6*2D[ 13(  7)]  [  9(  6)]  
+# 2790:SNP*GC		24 =>  CYP2D7 )
+CYP2D7[ 24( 21)]  
+# 2790:SNP*GG		14 =>  CYP2D6*34 CYP2D6*2D )
+CYP2D6*34[ 14(  6)]  CYP2D6*2D[ 14(  6)]  [ 12(  6)]  
+# 2784:INS*CT		25 =>  CYP2D7 )
+CYP2D7[ 25( 21)]  
+# 2784:SNP*GG		42 =>  CYP2D6*34 CYP2D6*2D CYP2D7 )
+CYP2D7[ 26( 22)]  [ 15(  8)]  CYP2D6*2D[ 16(  8)]  CYP2D6*34[ 16(  8)]  
+# 2779:SNP*GA		27 =>  CYP2D7 )
+CYP2D7[ 27( 23)]  
+# 2779:SNP*GG		16 =>  CYP2D6*34 CYP2D6*2D )
+CYP2D6*34[ 16(  8)]  CYP2D6*2D[ 16(  8)]  [ 15(  8)]  
+# 2661:SNP*GA		19 =>  CYP2D7 )
+CYP2D7[ 19( 16)]  
+# 2661:SNP*GG		4 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  4(  3)]  CYP2D6*27[  4(  3)]  CYP2D6*15[  4(  3)]  CYP2D6*3A[  4(  3)]  CYP2D6*1[  4(  3)]  CYP2D6*2D[  4(  3)]  [  3(  3)]  
+# 2617:SNP*GG		26 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*27 )
+CYP2D6*34[  4(  2)]  CYP2D6*27[  4(  2)]  CYP2D6*15[  4(  2)]  CYP2D6*1[  4(  2)]  CYP2D6*2D[  4(  2)]  CYP2D7[ 25( 17)]  
+# 2616:SNP*AA		25 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*27 )
+CYP2D6*34[  4(  2)]  CYP2D6*27[  4(  2)]  CYP2D6*15[  4(  2)]  CYP2D6*1[  4(  2)]  CYP2D6*2D[  4(  2)]  CYP2D7[ 24( 16)]  
+# 2615:SNP*AA		26 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*27 )
+CYP2D6*34[  4(  2)]  CYP2D6*27[  4(  2)]  CYP2D6*15[  4(  2)]  CYP2D6*1[  4(  2)]  CYP2D6*2D[  4(  2)]  CYP2D7[ 25( 17)]  
+# 2610:SNP*TA		18 =>  CYP2D7 )
+CYP2D7[ 18( 16)]  
+# 2610:SNP*TT		8 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  4(  2)]  CYP2D6*27[  4(  2)]  CYP2D6*15[  4(  2)]  CYP2D6*3A[  4(  2)]  CYP2D6*1[  4(  2)]  CYP2D6*2D[  4(  2)]  
+# 2606:SNP*GA		16 =>  CYP2D7 )
+CYP2D7[ 16( 15)]  
+# 2606:SNP*GG		9 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  4(  2)]  CYP2D6*27[  4(  2)]  CYP2D6*15[  4(  2)]  CYP2D6*3A[  4(  2)]  CYP2D6*1[  4(  2)]  CYP2D6*2D[  4(  2)]  
+# 2590:SNP*TT		29 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  5(  4)]  CYP2D6*27[  5(  4)]  CYP2D6*15[  5(  4)]  CYP2D6*3A[  4(  2)]  CYP2D6*1[  5(  4)]  CYP2D6*2D[  5(  4)]  CYP2D7[ 29( 18)]  [  2(  2)]  
+# 2589:SNP*CC		30 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  5(  4)]  CYP2D6*27[  5(  4)]  CYP2D6*15[  5(  4)]  CYP2D6*3A[  4(  2)]  CYP2D6*1[  5(  4)]  CYP2D6*2D[  5(  4)]  CYP2D7[ 30( 19)]  [  2(  2)]  
+# 2588:SNP*AA		29 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  5(  4)]  CYP2D6*27[  5(  4)]  CYP2D6*15[  5(  4)]  CYP2D6*3A[  4(  2)]  CYP2D6*1[  5(  4)]  CYP2D6*2D[  5(  4)]  CYP2D7[ 29( 18)]  [  2(  2)]  
+# 2587:SNP*GG		28 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  4(  3)]  CYP2D6*27[  4(  3)]  CYP2D6*15[  4(  3)]  CYP2D6*3A[  4(  2)]  CYP2D6*1[  4(  3)]  CYP2D6*2D[  4(  3)]  CYP2D7[ 28( 17)]  [  0(  0)]  
+# 2579:SNP*CC		26 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  4(  4)]  CYP2D6*27[  4(  4)]  CYP2D6*15[  4(  4)]  CYP2D6*3A[  3(  2)]  CYP2D6*1[  4(  4)]  CYP2D6*2D[  4(  4)]  CYP2D7[ 26( 16)]  [  2(  2)]  
+# 2576:SNP*CC		24 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  4(  4)]  CYP2D6*27[  4(  4)]  CYP2D6*15[  4(  4)]  CYP2D6*3A[  4(  3)]  CYP2D6*1[  4(  4)]  CYP2D6*2D[  4(  4)]  CYP2D7[ 24( 15)]  [  2(  2)]  
+# 2575:SNP*CC		13 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  4(  4)]  CYP2D6*27[  4(  4)]  CYP2D6*15[  4(  4)]  CYP2D6*3A[  4(  3)]  CYP2D6*1[  4(  4)]  CYP2D6*2D[  4(  4)]  CYP2D7[ 13(  6)]  [  2(  2)]  
+# 2574:SNP*CC		22 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  5(  4)]  CYP2D6*27[  5(  4)]  CYP2D6*15[  5(  4)]  CYP2D6*3A[  4(  3)]  CYP2D6*1[  5(  4)]  CYP2D6*2D[  5(  4)]  CYP2D7[ 22( 14)]  [  3(  2)]  
+# 2556:SNP*CC		27 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 27( 20)]  [ 11(  3)]  CYP2D6*2D[ 13(  5)]  CYP2D6*1[ 13(  5)]  CYP2D6*3A[  6(  4)]  CYP2D6*15[ 13(  5)]  CYP2D6*27[ 13(  5)]  CYP2D6*34[ 13(  5)]  
+# 2549:SNP*AA		27 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*27 )
+CYP2D6*34[ 15(  5)]  CYP2D6*27[ 15(  5)]  CYP2D6*15[ 15(  5)]  CYP2D6*1[ 15(  5)]  CYP2D6*2D[ 15(  5)]  CYP2D7[ 27( 22)]  [ 14(  4)]  
+# 2548:DEL*1		6 =>  CYP2D6*3A )
+CYP2D6*3A[  6(  4)]  
+# 2548:SNP*CC		33 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+[ 14(  4)]  CYP2D6*2D[ 15(  5)]  CYP2D6*1[ 15(  5)]  CYP2D6*3A[  6(  4)]  CYP2D6*15[ 15(  5)]  CYP2D6*27[ 15(  5)]  CYP2D6*34[ 15(  5)]  
+# 2542:SNP*TT		31 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 15(  5)]  CYP2D6*27[ 15(  4)]  CYP2D6*15[ 15(  4)]  CYP2D6*3A[  6(  4)]  CYP2D6*1[ 15(  4)]  CYP2D6*2D[ 15(  5)]  CYP2D7[ 30( 24)]  [ 15(  4)]  
+# 2541:SNP*CC		35 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 15(  5)]  CYP2D6*27[ 15(  4)]  CYP2D6*15[ 15(  4)]  CYP2D6*3A[  7(  4)]  CYP2D6*1[ 15(  4)]  CYP2D6*2D[ 15(  5)]  CYP2D7[ 34( 25)]  [ 15(  4)]  
+# 2540:SNP*AA		36 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 15(  5)]  CYP2D6*27[ 15(  4)]  CYP2D6*15[ 15(  4)]  CYP2D6*3A[  7(  4)]  CYP2D6*1[ 15(  4)]  CYP2D6*2D[ 15(  5)]  CYP2D7[ 35( 26)]  [ 15(  4)]  
+# 2539:SNP*AA		32 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 15(  5)]  CYP2D6*27[ 15(  4)]  CYP2D6*15[ 15(  4)]  CYP2D6*3A[  7(  4)]  CYP2D6*1[ 15(  4)]  CYP2D6*2D[ 15(  5)]  CYP2D7[ 31( 25)]  [ 15(  4)]  
+# 2483:SNP*GG		64 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 20( 10)]  CYP2D6*27[ 20(  9)]  CYP2D6*15[ 20(  9)]  CYP2D6*3A[ 14(  9)]  CYP2D6*1[ 20(  9)]  CYP2D6*2D[ 20( 10)]  CYP2D7[ 52( 36)]  [ 20(  9)]  
+# 2480:SNP*CC		59 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 16( 10)]  CYP2D6*27[ 16(  9)]  CYP2D6*15[ 16(  9)]  CYP2D6*3A[ 14(  9)]  CYP2D6*1[ 16(  9)]  CYP2D6*2D[ 16( 10)]  CYP2D7[ 47( 32)]  [ 16(  9)]  
+# 2470:SNP*TC		44 =>  CYP2D7 )
+CYP2D7[ 44( 31)]  
+# 2470:SNP*TT		13 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 13(  9)]  CYP2D6*27[ 13(  8)]  CYP2D6*15[ 13(  8)]  CYP2D6*3A[ 13(  8)]  CYP2D6*1[ 13(  8)]  CYP2D6*2D[ 13(  9)]  [ 13(  8)]  
+# 2466:SNP*TT		36 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 25( 17)]  [ 14( 10)]  CYP2D6*2D[ 14( 10)]  CYP2D6*1[ 14( 10)]  CYP2D6*3A[ 14( 10)]  CYP2D6*15[ 14( 10)]  CYP2D6*27[ 14( 10)]  CYP2D6*34[ 14( 10)]  
+# 2424:SNP*CC		58 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 42( 34)]  [ 22( 14)]  CYP2D6*2D[ 22( 14)]  CYP2D6*1[ 22( 14)]  CYP2D6*3A[ 22( 14)]  CYP2D6*15[ 22( 14)]  CYP2D6*27[ 22( 14)]  CYP2D6*34[ 22( 14)]  
+# 2392:SNP*GG		41 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 25( 21)]  [ 20( 13)]  CYP2D6*2D[ 20( 13)]  CYP2D6*1[ 20( 13)]  CYP2D6*3A[ 20( 13)]  CYP2D6*15[ 20( 13)]  CYP2D6*27[ 20( 13)]  CYP2D6*34[ 20( 13)]  
+# 2385:SNP*TG		30 =>  CYP2D7 )
+CYP2D7[ 30( 27)]  
+# 2385:SNP*TT		20 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 20( 14)]  CYP2D6*27[ 20( 14)]  CYP2D6*15[ 20( 14)]  CYP2D6*3A[ 20( 14)]  CYP2D6*1[ 20( 14)]  CYP2D6*2D[ 20( 14)]  [ 20( 14)]  
+# 2358:SNP*AT		25 =>  CYP2D7 )
+CYP2D7[ 25( 23)]  
+# 2358:SNP*AA		13 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 13(  9)]  CYP2D6*27[ 13(  9)]  CYP2D6*15[ 13(  9)]  CYP2D6*3A[ 13(  9)]  CYP2D6*1[ 13(  9)]  CYP2D6*2D[ 13(  9)]  [ 13(  9)]  
+# 2308:SNP*GG		49 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 42( 35)]  [ 15(  7)]  CYP2D6*2D[ 15(  9)]  CYP2D6*1[ 15(  9)]  CYP2D6*3A[ 15(  8)]  CYP2D6*15[ 15(  9)]  CYP2D6*27[ 15(  9)]  CYP2D6*34[ 15(  9)]  
+# 2303:SNP*CC		45 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 38( 31)]  [ 15(  8)]  CYP2D6*2D[ 15( 10)]  CYP2D6*1[ 15( 10)]  CYP2D6*3A[ 15(  9)]  CYP2D6*15[ 15( 10)]  CYP2D6*27[ 15( 10)]  CYP2D6*34[ 15( 10)]  
+# 2291:INS*AG		31 =>  CYP2D7 )
+CYP2D7[ 31( 24)]  
+# 2291:SNP*GG		49 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 39( 31)]  [ 18( 11)]  CYP2D6*2D[ 18( 13)]  CYP2D6*1[ 18( 13)]  CYP2D6*3A[ 18( 12)]  CYP2D6*15[ 18( 13)]  CYP2D6*27[ 18( 13)]  CYP2D6*34[ 18( 13)]  
+# 2268:SNP*TT		45 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 27( 20)]  [ 22( 10)]  CYP2D6*2D[ 22( 12)]  CYP2D6*1[ 22( 12)]  CYP2D6*3A[ 22( 11)]  CYP2D6*15[ 22( 12)]  CYP2D6*27[ 22( 12)]  CYP2D6*34[ 22( 12)]  
+# 2249:SNP*AG		20 =>  CYP2D7 )
+CYP2D7[ 20( 14)]  
+# 2249:SNP*AA		20 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 20( 11)]  CYP2D6*27[ 20( 11)]  CYP2D6*15[ 20( 11)]  CYP2D6*3A[ 20( 10)]  CYP2D6*1[ 20( 11)]  CYP2D6*2D[ 20( 11)]  [ 20(  9)]  
+# 2248:SNP*CT		19 =>  CYP2D7 )
+CYP2D7[ 19( 13)]  
+# 2248:SNP*CC		20 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 20( 11)]  CYP2D6*27[ 20( 11)]  CYP2D6*15[ 20( 11)]  CYP2D6*3A[ 20( 10)]  CYP2D6*1[ 20( 11)]  CYP2D6*2D[ 20( 11)]  [ 20(  9)]  
+# 2240:SNP*AG		16 =>  CYP2D7 )
+CYP2D7[ 16( 12)]  
+# 2240:SNP*AA		18 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 18( 10)]  CYP2D6*27[ 18( 10)]  CYP2D6*15[ 18( 10)]  CYP2D6*3A[ 18(  9)]  CYP2D6*1[ 18( 10)]  CYP2D6*2D[ 18( 10)]  [ 18(  8)]  
+# 2239:SNP*TC		17 =>  CYP2D7 )
+CYP2D7[ 17( 13)]  
+# 2239:SNP*TT		17 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 17( 10)]  CYP2D6*27[ 17( 10)]  CYP2D6*15[ 17( 10)]  CYP2D6*3A[ 17(  8)]  CYP2D6*1[ 17( 10)]  CYP2D6*2D[ 17( 10)]  [ 17(  9)]  
+# 2235:DEL*1		16 =>  CYP2D7 )
+CYP2D7[ 15( 13)]  
+# 2235:SNP*CC		33 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 19( 16)]  [ 19( 10)]  CYP2D6*2D[ 19( 10)]  CYP2D6*1[ 19( 10)]  CYP2D6*3A[ 19(  9)]  CYP2D6*15[ 19( 10)]  CYP2D6*27[ 19( 10)]  CYP2D6*34[ 19( 10)]  
+# 2129:SNP*AA		49 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 26( 14)]  CYP2D6*27[ 26( 14)]  CYP2D6*15[ 26( 14)]  CYP2D6*3A[ 26( 14)]  CYP2D6*1[ 26( 14)]  CYP2D6*2D[ 26( 14)]  CYP2D7[ 37( 30)]  [ 26( 14)]  
+# 2097:SNP*AG		12 =>  CYP2D7 )
+CYP2D7[ 12(  8)]  
+# 2097:SNP*AA		51 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 32( 22)]  CYP2D6*27[ 32( 22)]  CYP2D6*15[ 32( 22)]  CYP2D6*3A[ 32( 22)]  CYP2D6*1[ 32( 22)]  CYP2D6*2D[ 32( 22)]  [ 32( 22)]  
+# 2085:SNP*AG		29 =>  CYP2D7 )
+CYP2D7[ 29( 24)]  
+# 2085:SNP*AA		26 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 26( 17)]  CYP2D6*27[ 26( 17)]  CYP2D6*15[ 26( 17)]  CYP2D6*3A[ 26( 17)]  CYP2D6*1[ 26( 17)]  CYP2D6*2D[ 26( 17)]  [ 26( 17)]  
+# 2080:SNP*GC		28 =>  CYP2D7 )
+CYP2D7[ 28( 23)]  
+# 2080:SNP*GG		27 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 27( 20)]  CYP2D6*27[ 27( 20)]  CYP2D6*15[ 27( 20)]  CYP2D6*3A[ 27( 20)]  CYP2D6*1[ 27( 20)]  CYP2D6*2D[ 27( 20)]  [ 27( 20)]  
+# 2050:SNP*CT		18 =>  CYP2D7 )
+CYP2D7[ 18( 15)]  
+# 2050:SNP*CC		22 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 22( 18)]  CYP2D6*27[ 22( 18)]  CYP2D6*15[ 22( 18)]  CYP2D6*3A[ 22( 18)]  CYP2D6*1[ 22( 18)]  CYP2D6*2D[ 22( 18)]  [ 22( 18)]  
+# 2034:SNP*CT		7 =>  CYP2D7 )
+CYP2D7[  7(  5)]  
+# 2034:SNP*CC		27 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 18( 13)]  CYP2D6*27[ 18( 13)]  CYP2D6*15[ 18( 13)]  CYP2D6*3A[ 18( 13)]  CYP2D6*1[ 18( 13)]  CYP2D6*2D[ 18( 13)]  [ 18( 13)]  
+# 2029:SNP*AG		9 =>  CYP2D7 )
+CYP2D7[  9(  7)]  
+# 2029:SNP*AA		28 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 18( 13)]  CYP2D6*27[ 18( 13)]  CYP2D6*15[ 18( 13)]  CYP2D6*3A[ 18( 13)]  CYP2D6*1[ 18( 13)]  CYP2D6*2D[ 18( 13)]  [ 18( 13)]  
+# 2027:SNP*GA		9 =>  CYP2D7 )
+CYP2D7[  9(  7)]  
+# 2027:SNP*GG		29 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 18( 13)]  CYP2D6*27[ 18( 13)]  CYP2D6*15[ 18( 13)]  CYP2D6*3A[ 18( 13)]  CYP2D6*1[ 18( 13)]  CYP2D6*2D[ 18( 13)]  [ 18( 13)]  
+# 1998:SNP*TC		18 =>  CYP2D7 )
+CYP2D7[ 18( 15)]  
+# 1998:SNP*TT		19 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 19( 13)]  CYP2D6*27[ 19( 13)]  CYP2D6*15[ 19( 13)]  CYP2D6*3A[ 19( 13)]  CYP2D6*1[ 19( 13)]  CYP2D6*2D[ 19( 13)]  [ 19( 13)]  
+# 1979:SNP*TT		37 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 20( 11)]  CYP2D6*27[ 20( 11)]  CYP2D6*15[ 20( 11)]  CYP2D6*3A[ 20( 11)]  CYP2D6*1[ 20( 11)]  CYP2D6*2D[ 20( 11)]  CYP2D7[ 23( 19)]  [ 20( 11)]  
+# 1978:SNP*CC		36 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 21( 11)]  CYP2D6*27[ 21( 11)]  CYP2D6*15[ 21( 11)]  CYP2D6*3A[ 21( 11)]  CYP2D6*1[ 21( 11)]  CYP2D6*2D[ 21( 11)]  CYP2D7[ 22( 20)]  [ 21( 11)]  
+# 1976:SNP*GG		37 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 21( 11)]  CYP2D6*27[ 21( 11)]  CYP2D6*15[ 21( 11)]  CYP2D6*3A[ 21( 11)]  CYP2D6*1[ 21( 11)]  CYP2D6*2D[ 21( 11)]  CYP2D7[ 24( 20)]  [ 21( 11)]  
+# 1974:SNP*GG		37 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 21( 11)]  CYP2D6*27[ 21( 11)]  CYP2D6*15[ 21( 11)]  CYP2D6*3A[ 21( 11)]  CYP2D6*1[ 21( 11)]  CYP2D6*2D[ 21( 11)]  CYP2D7[ 24( 20)]  [ 21( 11)]  
+# 1973:SNP*AA		36 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 21( 11)]  CYP2D6*27[ 21( 11)]  CYP2D6*15[ 21( 11)]  CYP2D6*3A[ 21( 11)]  CYP2D6*1[ 21( 11)]  CYP2D6*2D[ 21( 11)]  CYP2D7[ 23( 19)]  [ 21( 11)]  
+# 1943:SNP*GG		39 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 27( 16)]  CYP2D6*27[ 27( 16)]  CYP2D6*15[ 27( 16)]  CYP2D6*3A[ 27( 16)]  CYP2D6*1[ 27( 16)]  CYP2D6*2D[ 27( 16)]  CYP2D7[ 30( 21)]  [ 27( 16)]  
+# 1869:SNP*TT		29 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 20(  6)]  CYP2D6*27[ 20(  6)]  CYP2D6*15[ 20(  6)]  CYP2D6*3A[ 20(  6)]  CYP2D6*1[ 20(  6)]  CYP2D6*2D[ 20(  6)]  CYP2D7[ 28( 10)]  [ 20(  6)]  
+# 1858:SNP*CC		31 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 22(  7)]  CYP2D6*27[ 22(  7)]  CYP2D6*15[ 22(  7)]  CYP2D6*3A[ 22(  7)]  CYP2D6*1[ 22(  7)]  CYP2D6*2D[ 22(  7)]  CYP2D7[ 24( 14)]  [ 22(  7)]  
+# 1851:SNP*CG		19 =>  CYP2D7 )
+CYP2D7[ 19( 11)]  
+# 1851:SNP*CC		19 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 17(  5)]  CYP2D6*27[ 17(  5)]  CYP2D6*3A[ 17(  5)]  CYP2D6*15[ 17(  5)]  CYP2D6*1[ 17(  5)]  CYP2D6*2D[ 17(  5)]  [ 17(  5)]  
+# 1850:SNP*GC		18 =>  CYP2D7 )
+CYP2D7[ 18( 10)]  
+# 1850:SNP*GG		22 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 20(  6)]  CYP2D6*27[ 20(  6)]  CYP2D6*3A[ 20(  6)]  CYP2D6*15[ 20(  6)]  CYP2D6*1[ 20(  6)]  CYP2D6*2D[ 20(  6)]  [ 20(  6)]  
+# 1846:SNP*GG		29 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 20(  6)]  CYP2D6*27[ 20(  6)]  CYP2D6*3A[ 20(  6)]  CYP2D6*15[ 20(  6)]  CYP2D6*1[ 20(  6)]  CYP2D6*2D[ 20(  6)]  CYP2D7[ 20( 12)]  [ 20(  6)]  
+# 1818:SNP*GA		0 =>  CYP2D7 )
+
+# 1818:SNP*GG		25 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 11( 10)]  [ 14(  4)]  CYP2D6*2D[ 14(  4)]  CYP2D6*1[ 14(  4)]  CYP2D6*3A[ 14(  4)]  CYP2D6*15[ 14(  4)]  CYP2D6*27[ 14(  4)]  CYP2D6*34[ 14(  4)]  
+# 1811:SNP*GA		8 =>  CYP2D7 )
+CYP2D7[  8(  8)]  
+# 1811:SNP*GG		15 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 14(  5)]  CYP2D6*27[ 14(  5)]  CYP2D6*15[ 14(  5)]  CYP2D6*3A[ 14(  5)]  CYP2D6*1[ 14(  5)]  CYP2D6*2D[ 14(  5)]  [ 14(  5)]  
+# 1783:SNP*AC		0 =>  CYP2D7 )
+
+# 1783:SNP*AA		23 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[  8(  8)]  [ 15(  7)]  CYP2D6*2D[ 15(  7)]  CYP2D6*1[ 15(  7)]  CYP2D6*3A[ 15(  7)]  CYP2D6*15[ 15(  7)]  CYP2D6*27[ 15(  7)]  CYP2D6*34[ 15(  7)]  
+# 1758:SNP*GG		21 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[  6(  6)]  CYP2D6*34[ 15(  8)]  CYP2D6*27[ 15(  8)]  CYP2D6*15[ 15(  8)]  CYP2D6*3A[ 15(  8)]  CYP2D6*1[ 15(  8)]  CYP2D6*2D[ 15(  8)]  [ 15(  8)]  
+# 1757:SNP*CC		20 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[  5(  5)]  CYP2D6*34[ 15(  8)]  CYP2D6*27[ 15(  8)]  CYP2D6*15[ 15(  8)]  CYP2D6*3A[ 15(  8)]  CYP2D6*1[ 15(  8)]  CYP2D6*2D[ 15(  8)]  [ 15(  8)]  
+# 1755:SNP*TG		6 =>  CYP2D7 )
+CYP2D7[  6(  6)]  
+# 1755:SNP*TT		15 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 15(  8)]  CYP2D6*27[ 15(  8)]  CYP2D6*15[ 15(  8)]  CYP2D6*3A[ 15(  8)]  CYP2D6*1[ 15(  8)]  CYP2D6*2D[ 15(  8)]  [ 15(  8)]  
+# 1754:SNP*CA		6 =>  CYP2D7 )
+CYP2D7[  6(  6)]  
+# 1754:SNP*CC		15 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 15(  8)]  CYP2D6*27[ 15(  8)]  CYP2D6*15[ 15(  8)]  CYP2D6*3A[ 15(  8)]  CYP2D6*1[ 15(  8)]  CYP2D6*2D[ 15(  8)]  [ 15(  8)]  
+# 1749:SNP*AG		4 =>  CYP2D7 )
+CYP2D7[  4(  4)]  
+# 1749:SNP*AA		15 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 15(  9)]  CYP2D6*27[ 15(  9)]  CYP2D6*15[ 15(  9)]  CYP2D6*3A[ 15(  9)]  CYP2D6*1[ 15(  9)]  CYP2D6*2D[ 15(  9)]  [ 15(  9)]  
+# 1724:SNP*CC		14 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 13(  7)]  CYP2D6*27[ 13(  7)]  CYP2D6*15[ 13(  7)]  CYP2D6*3A[ 13(  7)]  CYP2D6*1[ 13(  7)]  CYP2D6*2D[ 13(  7)]  CYP2D7[  4(  2)]  [ 13(  7)]  
+# 1720:SNP*AA		14 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 12(  7)]  CYP2D6*27[ 12(  7)]  CYP2D6*15[ 12(  7)]  CYP2D6*3A[ 12(  7)]  CYP2D6*1[ 12(  7)]  CYP2D6*2D[ 12(  7)]  CYP2D7[  5(  3)]  [ 12(  7)]  
+# 1716:SNP*GG		16 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 12(  7)]  CYP2D6*27[ 12(  7)]  CYP2D6*15[ 12(  7)]  CYP2D6*3A[ 12(  7)]  CYP2D6*1[ 12(  7)]  CYP2D6*2D[ 12(  7)]  CYP2D7[  6(  3)]  [ 12(  7)]  
+# 1707:SNP*TT		13 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  9(  5)]  CYP2D6*27[  9(  5)]  CYP2D6*15[  9(  5)]  CYP2D6*3A[  9(  5)]  CYP2D6*1[  9(  5)]  CYP2D6*2D[  9(  5)]  CYP2D7[  6(  3)]  [  9(  5)]  
+# 1704:SNP*CC		14 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  9(  5)]  CYP2D6*27[  9(  5)]  CYP2D6*15[  9(  5)]  CYP2D6*3A[  9(  5)]  CYP2D6*1[  9(  5)]  CYP2D6*2D[  9(  5)]  CYP2D7[  7(  3)]  [  9(  5)]  
+# 1661:SNP*GG		18 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 16(  6)]  CYP2D6*34[  8(  3)]  CYP2D6*27[  8(  3)]  CYP2D6*15[  8(  3)]  CYP2D6*3A[  8(  3)]  [  8(  3)]  CYP2D6*2D[  8(  3)]  CYP2D6*1[  8(  3)]  
+# 1659:SNP*GG		19 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  9(  4)]  CYP2D6*27[  9(  4)]  CYP2D6*15[  9(  4)]  CYP2D6*3A[  9(  4)]  CYP2D6*1[  9(  4)]  CYP2D6*2D[  9(  4)]  CYP2D7[ 15(  5)]  [  9(  4)]  
+# 1617:SNP*GT		6 =>  CYP2D7 )
+CYP2D7[  6(  5)]  
+# 1617:SNP*GG		11 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+[  9(  4)]  CYP2D6*2D[  9(  4)]  CYP2D6*1[  9(  4)]  CYP2D6*3A[  9(  4)]  CYP2D6*15[  9(  4)]  CYP2D6*27[  9(  4)]  CYP2D6*34[  9(  4)]  
+# 1611:SNP*TA		4 =>  CYP2D7 )
+CYP2D7[  4(  4)]  
+# 1611:SNP*TT		11 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+[  9(  4)]  CYP2D6*2D[  9(  4)]  CYP2D6*1[  9(  4)]  CYP2D6*3A[  9(  4)]  CYP2D6*15[  9(  4)]  CYP2D6*27[  9(  4)]  CYP2D6*34[  9(  4)]  
+# 1608:SNP*GG		15 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[  8(  7)]  [  8(  4)]  CYP2D6*2D[  8(  4)]  CYP2D6*1[  8(  4)]  CYP2D6*3A[  8(  4)]  CYP2D6*15[  8(  4)]  CYP2D6*27[  8(  4)]  CYP2D6*34[  8(  4)]  
+# 1602:SNP*CC		15 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[  8(  7)]  [  7(  3)]  CYP2D6*2D[  7(  3)]  CYP2D6*1[  7(  3)]  CYP2D6*3A[  7(  3)]  CYP2D6*15[  7(  3)]  CYP2D6*27[  7(  3)]  CYP2D6*34[  7(  3)]  
+# 1598:SNP*AG		7 =>  CYP2D7 )
+CYP2D7[  7(  7)]  
+# 1598:SNP*AA		7 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  7(  3)]  CYP2D6*27[  7(  3)]  CYP2D6*15[  7(  3)]  CYP2D6*3A[  7(  3)]  CYP2D6*1[  7(  3)]  CYP2D6*2D[  7(  3)]  [  7(  3)]  
+# 1590:SNP*CC		13 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[  7(  7)]  [  6(  2)]  CYP2D6*2D[  6(  2)]  CYP2D6*1[  6(  2)]  CYP2D6*3A[  6(  2)]  CYP2D6*15[  6(  2)]  CYP2D6*27[  6(  2)]  CYP2D6*34[  6(  2)]  
+# 1583:SNP*GG		0 =>  )
+
+# 1583:SNP*GC		8 =>  CYP2D7 )
+CYP2D7[  8(  8)]  
+# 1578:SNP*CC		0 =>  )
+
+# 1578:SNP*CA		8 =>  CYP2D7 )
+CYP2D7[  8(  8)]  
+# 1566:SNP*TG		6 =>  CYP2D7 )
+CYP2D7[  6(  6)]  
+# 1566:SNP*TT		5 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  5(  2)]  CYP2D6*27[  5(  2)]  CYP2D6*15[  5(  2)]  CYP2D6*3A[  5(  2)]  CYP2D6*1[  5(  2)]  CYP2D6*2D[  5(  2)]  [  5(  2)]  
+# 1563:SNP*TC		6 =>  CYP2D7 )
+CYP2D7[  6(  6)]  
+# 1563:SNP*TT		6 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  6(  3)]  CYP2D6*27[  6(  3)]  CYP2D6*15[  6(  3)]  CYP2D6*3A[  6(  3)]  CYP2D6*1[  6(  3)]  CYP2D6*2D[  6(  3)]  [  6(  3)]  
+# 1554:SNP*TG		6 =>  CYP2D7 )
+CYP2D7[  6(  6)]  
+# 1554:SNP*TT		6 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  6(  3)]  CYP2D6*27[  6(  3)]  CYP2D6*15[  6(  3)]  CYP2D6*3A[  6(  3)]  CYP2D6*1[  6(  3)]  CYP2D6*2D[  6(  3)]  [  6(  3)]  
+# 1550:SNP*TC		5 =>  CYP2D7 )
+CYP2D7[  5(  5)]  
+# 1550:SNP*TT		6 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  6(  3)]  CYP2D6*27[  6(  3)]  CYP2D6*15[  6(  3)]  CYP2D6*3A[  6(  3)]  CYP2D6*1[  6(  3)]  CYP2D6*2D[  6(  3)]  [  6(  3)]  
+# 1533:INS*C		5 =>  CYP2D7 )
+CYP2D7[  5(  3)]  
+# 1533:SNP*AA		13 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[  6(  5)]  [  7(  6)]  CYP2D6*2D[  7(  6)]  CYP2D6*1[  7(  6)]  CYP2D6*3A[  7(  6)]  CYP2D6*15[  7(  6)]  CYP2D6*27[  7(  6)]  CYP2D6*34[  7(  6)]  
+# 1532:SNP*TC		4 =>  CYP2D7 )
+CYP2D7[  4(  3)]  
+# 1532:SNP*TT		7 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  7(  6)]  CYP2D6*27[  7(  6)]  CYP2D6*15[  7(  6)]  CYP2D6*3A[  7(  6)]  CYP2D6*1[  7(  6)]  CYP2D6*2D[  7(  6)]  [  7(  6)]  
+# 1531:SNP*AG		5 =>  CYP2D7 )
+CYP2D7[  5(  3)]  
+# 1531:SNP*AA		7 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  7(  6)]  CYP2D6*27[  7(  6)]  CYP2D6*15[  7(  6)]  CYP2D6*3A[  7(  6)]  CYP2D6*1[  7(  6)]  CYP2D6*2D[  7(  6)]  [  7(  6)]  
+# 1525:SNP*GT		4 =>  CYP2D7 )
+CYP2D7[  4(  2)]  
+# 1525:SNP*GG		7 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  7(  6)]  CYP2D6*27[  7(  6)]  CYP2D6*15[  7(  6)]  CYP2D6*3A[  7(  6)]  CYP2D6*1[  7(  6)]  CYP2D6*2D[  7(  6)]  [  7(  6)]  
+# 1523:SNP*GT		4 =>  CYP2D7 )
+CYP2D7[  4(  2)]  
+# 1523:SNP*GG		8 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  8(  6)]  CYP2D6*27[  8(  6)]  CYP2D6*15[  8(  6)]  CYP2D6*3A[  8(  6)]  CYP2D6*1[  8(  6)]  CYP2D6*2D[  8(  6)]  [  8(  6)]  
+# 1522:SNP*AT		4 =>  CYP2D7 )
+CYP2D7[  4(  2)]  
+# 1522:SNP*AA		8 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  8(  6)]  CYP2D6*27[  8(  6)]  CYP2D6*15[  8(  6)]  CYP2D6*3A[  8(  6)]  CYP2D6*1[  8(  6)]  CYP2D6*2D[  8(  6)]  [  8(  6)]  
+# 1513:SNP*CC		13 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  9(  7)]  CYP2D6*27[  9(  7)]  CYP2D6*15[  9(  7)]  CYP2D6*3A[  9(  7)]  CYP2D6*1[  9(  7)]  CYP2D6*2D[  9(  7)]  CYP2D7[  4(  2)]  [  9(  7)]  
+# 1504:SNP*CT		4 =>  CYP2D7 )
+CYP2D7[  4(  2)]  
+# 1504:SNP*CC		9 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  9(  7)]  CYP2D6*27[  9(  7)]  CYP2D6*15[  9(  7)]  CYP2D6*3A[  9(  7)]  CYP2D6*1[  9(  7)]  CYP2D6*2D[  9(  7)]  [  9(  7)]  
+# 1501:SNP*AG		4 =>  CYP2D7 )
+CYP2D7[  4(  2)]  
+# 1501:SNP*AA		9 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  9(  7)]  CYP2D6*27[  9(  7)]  CYP2D6*15[  9(  7)]  CYP2D6*3A[  9(  7)]  CYP2D6*1[  9(  7)]  CYP2D6*2D[  9(  7)]  [  9(  7)]  
+# 1499:SNP*AC		4 =>  CYP2D7 )
+CYP2D7[  4(  2)]  
+# 1499:SNP*AA		8 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  8(  6)]  CYP2D6*27[  8(  6)]  CYP2D6*15[  8(  6)]  CYP2D6*3A[  8(  6)]  CYP2D6*1[  8(  6)]  CYP2D6*2D[  8(  6)]  [  8(  6)]  
+# 1494:SNP*TT		12 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  7(  5)]  CYP2D6*27[  7(  5)]  CYP2D6*15[  7(  5)]  CYP2D6*3A[  7(  5)]  CYP2D6*1[  7(  5)]  CYP2D6*2D[  7(  5)]  CYP2D7[  5(  3)]  [  7(  5)]  
+# 1488:SNP*AC		5 =>  CYP2D7 )
+CYP2D7[  5(  3)]  
+# 1488:SNP*AA		6 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  6(  4)]  CYP2D6*27[  6(  4)]  CYP2D6*15[  6(  4)]  CYP2D6*3A[  6(  4)]  CYP2D6*1[  6(  4)]  CYP2D6*2D[  6(  4)]  [  6(  4)]  
+# 1469:SNP*AG		7 =>  CYP2D7 )
+CYP2D7[  7(  6)]  
+# 1469:SNP*AA		5 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  5(  3)]  CYP2D6*27[  5(  3)]  CYP2D6*15[  5(  3)]  CYP2D6*3A[  5(  3)]  CYP2D6*1[  5(  3)]  CYP2D6*2D[  5(  3)]  [  5(  3)]  
+# 1468:SNP*CA		7 =>  CYP2D7 )
+CYP2D7[  7(  6)]  
+# 1468:SNP*CC		5 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  5(  3)]  CYP2D6*27[  5(  3)]  CYP2D6*15[  5(  3)]  CYP2D6*3A[  5(  3)]  CYP2D6*1[  5(  3)]  CYP2D6*2D[  5(  3)]  [  5(  3)]  
+# 1465:SNP*AG		7 =>  CYP2D7 )
+CYP2D7[  7(  6)]  
+# 1465:SNP*AA		5 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  5(  3)]  CYP2D6*27[  5(  3)]  CYP2D6*15[  5(  3)]  CYP2D6*3A[  5(  3)]  CYP2D6*1[  5(  3)]  CYP2D6*2D[  5(  3)]  [  5(  3)]  
+# 1460:SNP*GT		6 =>  CYP2D7 )
+CYP2D7[  6(  6)]  
+# 1460:SNP*GG		4 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  4(  2)]  CYP2D6*27[  4(  2)]  CYP2D6*15[  4(  2)]  CYP2D6*3A[  4(  2)]  CYP2D6*1[  4(  2)]  CYP2D6*2D[  4(  2)]  [  4(  2)]  
+# 1451:SNP*AA		0 =>  )
+
+# 1451:SNP*AG		6 =>  CYP2D7 )
+CYP2D7[  6(  6)]  
+# 1448:SNP*CC		0 =>  )
+
+# 1448:SNP*CG		6 =>  CYP2D7 )
+CYP2D7[  6(  6)]  
+# 1440:SNP*TT		0 =>  )
+
+# 1440:SNP*TC		5 =>  CYP2D7 )
+CYP2D7[  5(  5)]  
+# 1437:SNP*GC		5 =>  CYP2D7 )
+CYP2D7[  5(  5)]  
+# 1437:SNP*GG		0 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+
+# 1434:INS*C		5 =>  CYP2D7 )
+CYP2D7[  5(  5)]  
+# 1434:SNP*AA		5 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[  5(  5)]  
+# 1391:SNP*CT		0 =>  CYP2D7 )
+
+# 1384:SNP*GA		0 =>  CYP2D7 )
+
+# 1378:SNP*CG		0 =>  CYP2D7 )
+
+# 1377:SNP*CG		0 =>  CYP2D7 )
+
+# 1375:SNP*GA		0 =>  CYP2D7 )
+
+# 1331:INS*TGG		3 =>  CYP2D7 )
+CYP2D7[  3(  3)]  
+# 1331:SNP*CC		3 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[  3(  3)]  
+# 1328:SNP*GG		0 =>  )
+
+# 1328:SNP*GC		3 =>  CYP2D7 )
+CYP2D7[  3(  3)]  
+# 1317:SNP*TT		0 =>  )
+
+# 1317:SNP*TC		3 =>  CYP2D7 )
+CYP2D7[  3(  3)]  
+# 1298:DEL*17		3 =>  CYP2D7 )
+CYP2D7[  3(  3)]  
+# 1298:SNP*TT		4 =>  CYP2D7 )
+CYP2D7[  3(  3)]  [  0(  0)]  
+# 1296:SNP*CC		0 =>  )
+
+# 1296:SNP*CG		3 =>  CYP2D7 )
+CYP2D7[  3(  3)]  
+# 1295:SNP*GG		0 =>  )
+
+# 1295:SNP*GT		3 =>  CYP2D7 )
+CYP2D7[  3(  3)]  
+# 1291:SNP*TT		0 =>  )
+
+# 1291:SNP*TA		3 =>  CYP2D7 )
+CYP2D7[  3(  3)]  
+# 1287:SNP*AA		0 =>  )
+
+# 1287:SNP*AG		3 =>  CYP2D7 )
+CYP2D7[  3(  3)]  
+# 1278:DEL*4		3 =>  CYP2D7 )
+CYP2D7[  3(  3)]  
+# 1273:SNP*GG		0 =>  )
+
+# 1273:SNP*GA		3 =>  CYP2D7 )
+CYP2D7[  3(  3)]  
+# 1254:SNP*CC		0 =>  )
+
+# 1254:SNP*CT		3 =>  CYP2D7 )
+CYP2D7[  3(  3)]  
+# 1244:SNP*TT		0 =>  )
+
+# 1244:SNP*TG		4 =>  CYP2D7 )
+CYP2D7[  4(  3)]  
+# 1232:DEL*9		3 =>  CYP2D7 )
+CYP2D7[  3(  2)]  
+# 1232:SNP*GG		6 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  3(  3)]  CYP2D6*27[  3(  3)]  CYP2D6*15[  3(  3)]  CYP2D6*3A[  3(  3)]  CYP2D6*1[  3(  3)]  CYP2D6*2D[  3(  3)]  CYP2D7[  3(  2)]  [  3(  3)]  
+# 1218:SNP*GT		4 =>  CYP2D7 )
+CYP2D7[  4(  2)]  
+# 1218:SNP*GG		3 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  3(  3)]  CYP2D6*27[  3(  3)]  CYP2D6*15[  3(  3)]  CYP2D6*3A[  3(  3)]  CYP2D6*1[  3(  3)]  CYP2D6*2D[  3(  3)]  [  3(  3)]  
+# 1215:SNP*AC		4 =>  CYP2D7 )
+CYP2D7[  4(  2)]  
+# 1215:SNP*AA		4 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  4(  4)]  CYP2D6*27[  4(  4)]  CYP2D6*15[  4(  4)]  CYP2D6*3A[  4(  4)]  CYP2D6*1[  4(  4)]  CYP2D6*2D[  4(  4)]  [  4(  4)]  
+# 1214:SNP*CT		4 =>  CYP2D7 )
+CYP2D7[  4(  2)]  
+# 1214:SNP*CC		4 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  4(  4)]  CYP2D6*27[  4(  4)]  CYP2D6*15[  4(  4)]  CYP2D6*3A[  4(  4)]  CYP2D6*1[  4(  4)]  CYP2D6*2D[  4(  4)]  [  4(  4)]  
+# 1210:SNP*TC		4 =>  CYP2D7 )
+CYP2D7[  4(  2)]  
+# 1210:SNP*TT		4 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  4(  4)]  CYP2D6*27[  4(  4)]  CYP2D6*15[  4(  4)]  CYP2D6*3A[  4(  4)]  CYP2D6*1[  4(  4)]  CYP2D6*2D[  4(  4)]  [  4(  4)]  
+# 1201:SNP*AG		5 =>  CYP2D7 )
+CYP2D7[  5(  3)]  
+# 1201:SNP*AA		3 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  3(  3)]  CYP2D6*27[  3(  3)]  CYP2D6*15[  3(  3)]  CYP2D6*3A[  3(  3)]  CYP2D6*1[  3(  3)]  CYP2D6*2D[  3(  3)]  [  3(  3)]  
+# 1200:SNP*TG		6 =>  CYP2D7 )
+CYP2D7[  6(  3)]  
+# 1200:SNP*TT		3 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  3(  3)]  CYP2D6*27[  3(  3)]  CYP2D6*15[  3(  3)]  CYP2D6*3A[  3(  3)]  CYP2D6*1[  3(  3)]  CYP2D6*2D[  3(  3)]  [  3(  3)]  
+# 1185:SNP*AG		11 =>  CYP2D7 )
+CYP2D7[ 11(  4)]  
+# 1185:SNP*AA		6 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  6(  5)]  CYP2D6*27[  6(  5)]  CYP2D6*15[  6(  5)]  CYP2D6*3A[  6(  5)]  CYP2D6*1[  6(  5)]  CYP2D6*2D[  6(  5)]  [  6(  5)]  
+# 1178:SNP*CT		10 =>  CYP2D7 )
+CYP2D7[ 10(  3)]  
+# 1178:SNP*CC		6 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  6(  5)]  CYP2D6*27[  6(  5)]  CYP2D6*15[  6(  5)]  CYP2D6*3A[  6(  5)]  CYP2D6*1[  6(  5)]  CYP2D6*2D[  6(  5)]  [  6(  5)]  
+# 1173:INS*CTGAG		13 =>  CYP2D7 )
+CYP2D7[ 13(  6)]  
+# 1173:SNP*GG		21 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  7(  5)]  CYP2D6*27[  7(  5)]  CYP2D6*15[  7(  5)]  CYP2D6*3A[  7(  5)]  CYP2D6*1[  7(  5)]  CYP2D6*2D[  7(  5)]  CYP2D7[ 14(  7)]  [  7(  5)]  
+# 1160:INS*AGATAAAG		13 =>  CYP2D7 )
+CYP2D7[ 13(  8)]  
+# 1160:SNP*GG		21 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  6(  3)]  CYP2D6*27[  6(  3)]  CYP2D6*15[  6(  3)]  CYP2D6*3A[  6(  3)]  CYP2D6*1[  6(  3)]  CYP2D6*2D[  6(  3)]  CYP2D7[ 15(  9)]  [  6(  3)]  
+# 1151:SNP*AG		13 =>  CYP2D7 )
+CYP2D7[ 13(  8)]  
+# 1151:SNP*AA		6 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  6(  3)]  CYP2D6*27[  6(  3)]  CYP2D6*15[  6(  3)]  CYP2D6*3A[  6(  3)]  CYP2D6*1[  6(  3)]  CYP2D6*2D[  6(  3)]  [  6(  3)]  
+# 1145:SNP*GC		13 =>  CYP2D7 )
+CYP2D7[ 13(  9)]  
+# 1145:SNP*GG		6 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  6(  3)]  CYP2D6*27[  6(  3)]  CYP2D6*15[  6(  3)]  CYP2D6*3A[  6(  3)]  CYP2D6*1[  6(  3)]  CYP2D6*2D[  6(  3)]  [  6(  3)]  
+# 1138:SNP*CT		12 =>  CYP2D7 )
+CYP2D7[ 12(  8)]  
+# 1138:SNP*CC		7 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  7(  2)]  CYP2D6*27[  7(  2)]  CYP2D6*15[  7(  2)]  CYP2D6*3A[  7(  2)]  CYP2D6*1[  7(  2)]  CYP2D6*2D[  7(  2)]  [  7(  2)]  
+# 1131:SNP*GC		10 =>  CYP2D7 )
+CYP2D7[ 10(  8)]  
+# 1131:SNP*GG		8 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  8(  2)]  CYP2D6*27[  8(  2)]  CYP2D6*15[  8(  2)]  CYP2D6*3A[  8(  2)]  CYP2D6*1[  8(  2)]  CYP2D6*2D[  8(  2)]  [  8(  2)]  
+# 1128:SNP*AC		9 =>  CYP2D7 )
+CYP2D7[  9(  8)]  
+# 1128:SNP*AA		8 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  8(  2)]  CYP2D6*27[  8(  2)]  CYP2D6*15[  8(  2)]  CYP2D6*3A[  8(  2)]  CYP2D6*1[  8(  2)]  CYP2D6*2D[  8(  2)]  [  8(  2)]  
+# 1125:SNP*GC		10 =>  CYP2D7 )
+CYP2D7[ 10(  9)]  
+# 1125:SNP*GG		8 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  8(  2)]  CYP2D6*27[  8(  2)]  CYP2D6*15[  8(  2)]  CYP2D6*3A[  8(  2)]  CYP2D6*1[  8(  2)]  CYP2D6*2D[  8(  2)]  [  8(  2)]  
+# 1123:SNP*TA		10 =>  CYP2D7 )
+CYP2D7[ 10(  8)]  
+# 1123:SNP*TT		8 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  8(  2)]  CYP2D6*27[  8(  2)]  CYP2D6*15[  8(  2)]  CYP2D6*3A[  8(  2)]  CYP2D6*1[  8(  2)]  CYP2D6*2D[  8(  2)]  [  8(  2)]  
+# 1119:SNP*GG		0 =>  )
+
+# 1119:SNP*GA		10 =>  CYP2D7 )
+CYP2D7[ 10(  8)]  
+# 1116:SNP*TT		0 =>  )
+
+# 1116:SNP*TC		10 =>  CYP2D7 )
+CYP2D7[ 10(  8)]  
+# 1106:SNP*AA		0 =>  )
+
+# 1106:SNP*AG		8 =>  CYP2D7 )
+CYP2D7[  8(  6)]  
+# 1105:SNP*GG		0 =>  )
+
+# 1105:SNP*GA		8 =>  CYP2D7 )
+CYP2D7[  8(  6)]  
+# 1104:SNP*TT		0 =>  )
+
+# 1104:SNP*TC		7 =>  CYP2D7 )
+CYP2D7[  7(  5)]  
+# 1103:SNP*GG		0 =>  )
+
+# 1103:SNP*GA		7 =>  CYP2D7 )
+CYP2D7[  7(  5)]  
+# 1093:SNP*AA		0 =>  )
+
+# 1093:SNP*AC		6 =>  CYP2D7 )
+CYP2D7[  6(  4)]  
+# 1083:INS*G		6 =>  CYP2D7 )
+CYP2D7[  6(  4)]  
+# 1083:SNP*TT		15 =>  CYP2D7 )
+CYP2D7[  6(  4)]  [  0(  0)]  
+# 1082:SNP*AA		0 =>  )
+
+# 1082:SNP*AC		6 =>  CYP2D7 )
+CYP2D7[  6(  4)]  
+# 1080:SNP*AA		0 =>  )
+
+# 1080:SNP*AC		6 =>  CYP2D7 )
+CYP2D7[  6(  4)]  
+# 1072:INS*G		6 =>  CYP2D7 )
+CYP2D7[  6(  4)]  
+# 1072:SNP*AA		17 =>  CYP2D7 )
+CYP2D7[  7(  5)]  [  0(  0)]  
+# 1062:SNP*AA		0 =>  )
+
+# 1062:SNP*AG		7 =>  CYP2D7 )
+CYP2D7[  7(  5)]  
+# 1039:SNP*CC		7 =>  CYP2D7 )
+CYP2D7[  4(  4)]  [  0(  0)]  
+# 1036:SNP*TT		0 =>  )
+
+# 1036:SNP*TC		4 =>  CYP2D7 )
+CYP2D7[  4(  4)]  
+# 1028:SNP*AA		0 =>  )
+
+# 1028:SNP*AG		3 =>  CYP2D7 )
+CYP2D7[  3(  3)]  
+#  997:SNP*CC		0 =>  )
+
+#  997:SNP*CG		3 =>  CYP2D7 )
+CYP2D7[  3(  3)]  
+#  974:SNP*CA		3 =>  CYP2D7 )
+CYP2D7[  3(  3)]  
+#  974:SNP*CC		6 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  6(  2)]  CYP2D6*27[  6(  2)]  CYP2D6*3A[  6(  2)]  CYP2D6*15[  6(  2)]  CYP2D6*1[  6(  2)]  CYP2D6*2D[  6(  2)]  [  6(  2)]  
+#  972:SNP*CC		10 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[  4(  3)]  [  6(  2)]  CYP2D6*2D[  6(  2)]  CYP2D6*1[  6(  2)]  CYP2D6*3A[  6(  2)]  CYP2D6*15[  6(  2)]  CYP2D6*27[  6(  2)]  CYP2D6*34[  6(  2)]  
+#  957:SNP*CC		14 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  7(  3)]  CYP2D6*27[  7(  3)]  CYP2D6*15[  7(  3)]  CYP2D6*3A[  7(  3)]  CYP2D6*1[  7(  3)]  CYP2D6*2D[  7(  3)]  CYP2D7[  9(  6)]  [  7(  3)]  
+#  887:SNP*CC		26 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 26( 20)]  [ 17( 11)]  CYP2D6*2D[ 17( 11)]  CYP2D6*1[ 17( 11)]  CYP2D6*3A[ 17( 11)]  CYP2D6*15[ 17( 11)]  CYP2D6*27[ 17( 11)]  CYP2D6*34[ 17( 11)]  
+#  883:SNP*GG		30 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 18( 12)]  CYP2D6*27[ 18( 12)]  CYP2D6*15[ 18( 12)]  CYP2D6*3A[ 18( 12)]  CYP2D6*1[ 18( 12)]  CYP2D6*2D[ 18( 12)]  CYP2D7[ 30( 23)]  [ 18( 12)]  
+#  843:SNP*TT		22 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 20( 12)]  CYP2D6*27[ 20( 12)]  CYP2D6*15[ 20( 12)]  CYP2D6*3A[ 20( 12)]  CYP2D6*1[ 20( 12)]  CYP2D6*2D[ 20( 12)]  CYP2D7[ 22( 17)]  [ 20( 12)]  
+#  746:SNP*CC		15 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  9(  4)]  CYP2D6*27[  9(  4)]  CYP2D6*15[  9(  4)]  CYP2D6*3A[  9(  4)]  CYP2D6*1[  9(  4)]  CYP2D6*2D[  9(  4)]  CYP2D7[ 15( 12)]  [  9(  4)]  
+#  739:SNP*CC		29 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 10(  4)]  CYP2D6*27[ 10(  4)]  CYP2D6*15[ 10(  4)]  CYP2D6*3A[ 10(  4)]  CYP2D6*1[ 10(  4)]  CYP2D6*2D[ 10(  4)]  CYP2D7[ 29( 20)]  [ 10(  4)]  
+#  607:SNP*GG		27 =>  CYP2D7 )
+CYP2D7[ 27( 15)]  [  2(  2)]  
+#  600:DEL*1		23 =>  CYP2D7 )
+CYP2D7[ 22( 14)]  
+#  600:SNP*CC		26 =>  CYP2D7 )
+CYP2D7[ 26( 15)]  [  0(  0)]  
+#  323:SNP*GA		15 =>  CYP2D7 )
+CYP2D7[ 15(  9)]  
+#  323:SNP*GG		17 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 13(  4)]  CYP2D6*27[ 13(  4)]  CYP2D6*15[ 13(  4)]  CYP2D6*3A[ 13(  4)]  CYP2D6*1[ 13(  4)]  CYP2D6*2D[ 13(  4)]  [ 13(  4)]  
+#  317:SNP*AG		19 =>  CYP2D7 )
+CYP2D7[ 19( 10)]  
+#  317:SNP*AA		15 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 11(  3)]  CYP2D6*27[ 11(  3)]  CYP2D6*15[ 11(  3)]  CYP2D6*3A[ 11(  3)]  CYP2D6*1[ 11(  3)]  CYP2D6*2D[ 11(  3)]  [ 11(  3)]  
+#  270:SNP*CT		16 =>  CYP2D7 )
+CYP2D7[ 16(  6)]  
+#  270:SNP*CC		6 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  6(  4)]  CYP2D6*27[  6(  4)]  CYP2D6*15[  6(  4)]  CYP2D6*3A[  6(  4)]  CYP2D6*1[  6(  4)]  CYP2D6*2D[  6(  4)]  [  6(  4)]  
+#  254:SNP*GT		16 =>  CYP2D7 )
+CYP2D7[ 16(  6)]  
+#  254:SNP*GG		11 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 11(  6)]  CYP2D6*27[ 11(  6)]  CYP2D6*15[ 11(  6)]  CYP2D6*3A[ 11(  6)]  CYP2D6*1[ 11(  6)]  CYP2D6*2D[ 11(  6)]  [ 11(  6)]  
+#  245:SNP*AG		15 =>  CYP2D7 )
+CYP2D7[ 15(  9)]  
+#  245:SNP*AA		13 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 13(  8)]  CYP2D6*27[ 13(  8)]  CYP2D6*15[ 13(  8)]  CYP2D6*3A[ 13(  8)]  CYP2D6*1[ 13(  8)]  CYP2D6*2D[ 13(  8)]  [ 13(  8)]  
+#  233:SNP*AC		17 =>  CYP2D7 )
+CYP2D7[ 17( 11)]  
+#  233:SNP*AA		12 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 12(  7)]  CYP2D6*27[ 12(  7)]  CYP2D6*15[ 12(  7)]  CYP2D6*3A[ 12(  7)]  CYP2D6*1[ 12(  7)]  CYP2D6*2D[ 12(  7)]  [ 12(  7)]  
+#  232:SNP*GC		15 =>  CYP2D7 )
+CYP2D7[ 15( 10)]  
+#  232:SNP*GG		12 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 12(  7)]  CYP2D6*27[ 12(  7)]  CYP2D6*15[ 12(  7)]  CYP2D6*3A[ 12(  7)]  CYP2D6*1[ 12(  7)]  CYP2D6*2D[ 12(  7)]  [ 12(  7)]  
+#  227:SNP*TC		16 =>  CYP2D7 )
+CYP2D7[ 16( 11)]  
+#  227:SNP*TT		12 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 12(  7)]  CYP2D6*27[ 12(  7)]  CYP2D6*15[ 12(  7)]  CYP2D6*3A[ 12(  7)]  CYP2D6*1[ 12(  7)]  CYP2D6*2D[ 12(  7)]  [ 12(  7)]  
+#  223:SNP*CG		16 =>  CYP2D7 )
+CYP2D7[ 16( 11)]  
+#  223:SNP*CC		15 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 15(  9)]  CYP2D6*27[ 15(  9)]  CYP2D6*15[ 15(  9)]  CYP2D6*3A[ 15(  9)]  CYP2D6*1[ 15(  9)]  CYP2D6*2D[ 15(  9)]  [ 15(  9)]  
+#  221:SNP*CA		16 =>  CYP2D7 )
+CYP2D7[ 16( 11)]  
+#  221:SNP*CC		15 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 15(  9)]  CYP2D6*27[ 15(  9)]  CYP2D6*15[ 15(  9)]  CYP2D6*3A[ 15(  9)]  CYP2D6*1[ 15(  9)]  CYP2D6*2D[ 15(  9)]  [ 15(  9)]  
+#  214:SNP*GC		14 =>  CYP2D7 )
+CYP2D7[ 14(  9)]  
+#  214:SNP*GG		17 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 17( 11)]  CYP2D6*27[ 17( 11)]  CYP2D6*15[ 17( 11)]  CYP2D6*3A[ 17( 11)]  CYP2D6*1[ 17( 11)]  CYP2D6*2D[ 17( 11)]  [ 17( 11)]  
+#  138:INS*T		15 =>  CYP2D6*15 CYP2D7 )
+CYP2D7[ 13(  5)]  CYP2D6*15[  7(  3)]  
+#  138:SNP*GG		28 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 24( 13)]  [ 15( 12)]  CYP2D6*2D[ 15( 12)]  CYP2D6*1[ 15( 12)]  CYP2D6*3A[ 15( 12)]  CYP2D6*15[  8(  4)]  CYP2D6*27[ 15( 12)]  CYP2D6*34[ 15( 12)]  
+#  125:SNP*GG		17 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  7(  5)]  CYP2D6*27[  7(  5)]  CYP2D6*3A[  7(  5)]  CYP2D6*1[  7(  5)]  CYP2D6*2D[  7(  5)]  CYP2D7[ 13(  7)]  [  7(  5)]  
+#  124:SNP*GG		16 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  7(  5)]  CYP2D6*27[  7(  5)]  CYP2D6*3A[  7(  5)]  CYP2D6*1[  7(  5)]  CYP2D6*2D[  7(  5)]  CYP2D7[ 12(  6)]  [  7(  5)]  
+#  108:SNP*CT		6 =>  CYP2D7 )
+CYP2D7[  6(  3)]  
+#  108:SNP*CC		5 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  5(  2)]  CYP2D6*27[  5(  2)]  CYP2D6*3A[  5(  2)]  CYP2D6*1[  5(  2)]  CYP2D6*2D[  5(  2)]  [  5(  2)]  
+#  102:SNP*AA		0 =>  )
+
+#  102:SNP*AG		6 =>  CYP2D7 )
+CYP2D7[  6(  4)]  
+#  100:SNP*CC		12 =>  CYP2D7 )
+CYP2D7[  7(  4)]  [  0(  0)]  
+#   82:SNP*CC		17 =>  CYP2D7 )
+CYP2D7[ 13(  5)]  [  0(  0)]  
+#   77:SNP*GG		0 =>  )
+
+#   77:SNP*GA		15 =>  CYP2D7 )
+CYP2D7[ 15(  5)]  
+#   73:SNP*CC		24 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  5(  2)]  CYP2D6*27[  5(  2)]  CYP2D6*3A[  5(  2)]  CYP2D6*1[  5(  2)]  CYP2D6*2D[  5(  2)]  CYP2D7[ 19(  8)]  [  5(  2)]  
+#   31:SNP*GA		23 =>  CYP2D7 )
+CYP2D7[ 23(  7)]  
+#   31:SNP*GG		9 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  9(  6)]  CYP2D6*27[  9(  6)]  CYP2D6*15[  9(  6)]  CYP2D6*3A[  9(  6)]  CYP2D6*1[  9(  6)]  CYP2D6*2D[  9(  6)]  [  9(  6)]  
+#   19:SNP*GG		29 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[  9(  7)]  CYP2D6*27[  9(  7)]  CYP2D6*15[  9(  7)]  CYP2D6*3A[  9(  7)]  CYP2D6*1[  9(  7)]  CYP2D6*2D[  9(  7)]  CYP2D7[ 20(  5)]  [  9(  7)]  
+#   18:SNP*GG		30 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D7 CYP2D6*3A CYP2D6*27 )
+CYP2D7[ 20(  5)]  [ 10(  7)]  CYP2D6*2D[ 10(  7)]  CYP2D6*1[ 10(  7)]  CYP2D6*3A[ 10(  7)]  CYP2D6*15[ 10(  7)]  CYP2D6*27[ 10(  7)]  CYP2D6*34[ 10(  7)]  
+#    0:SNP*TC		16 =>  CYP2D7 )
+CYP2D7[ 16(  5)]  
+#    0:SNP*TT		12 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 12(  8)]  CYP2D6*27[ 12(  8)]  CYP2D6*15[ 12(  8)]  CYP2D6*3A[ 12(  8)]  CYP2D6*1[ 12(  8)]  CYP2D6*2D[ 12(  8)]  [ 12(  8)]  
+#   -2:SNP*GC		15 =>  CYP2D7 )
+CYP2D7[ 15(  3)]  
+#   -2:SNP*GG		10 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 10(  6)]  CYP2D6*27[ 10(  6)]  CYP2D6*15[ 10(  6)]  CYP2D6*3A[ 10(  6)]  CYP2D6*1[ 10(  6)]  CYP2D6*2D[ 10(  6)]  [ 10(  6)]  
+#  -86:SNP*TC		0 =>  CYP2D7 )
+
+#  -86:SNP*TT		20 =>  CYP2D6*34 CYP2D6*15 CYP2D6*1 CYP2D6*2D CYP2D6*3A CYP2D6*27 )
+CYP2D6*34[ 19(  8)]  CYP2D6*27[ 19(  8)]  CYP2D6*15[ 19(  8)]  CYP2D6*3A[ 19(  8)]  CYP2D6*1[ 19(  8)]  CYP2D6*2D[ 19(  8)]  [ 19(  8)]  
+EXTRA 1 <= + CYP2D6*3A
+CPLEXer: status 1, optimum value 2465.00, memory 0.8M, results:
+        *2D: value 1
+        *3A: value 1
+        2D7: value 2
+SAYONARA [cnt=14,ccv=7.0] 14 cleaned from 4193:SNPAG
+SAYONARA [cnt=11,ccv=6.0] 11 cleaned from 4180:SNPCG
+SAYONARA [cnt=9,ccv=5.0] 9 cleaned from 4172:SNPGA
+SAYONARA [cnt=9,ccv=5.0] 9 cleaned from 4169:SNPAG
+SAYONARA [cnt=10,ccv=5.0] 10 cleaned from 4168:SNPGC
+SAYONARA [cnt=9,ccv=5.0] 9 cleaned from 4167:SNPCT
+SAYONARA [cnt=10,ccv=5.0] 10 cleaned from 4166:SNPAG
+SAYONARA [cnt=9,ccv=5.0] 9 cleaned from 4158:SNPCG
+SAYONARA [cnt=8,ccv=5.0] 8 cleaned from 4157:SNPAA
+SAYONARA [cnt=9,ccv=5.0] 9 cleaned from 4156:SNPTG
+SAYONARA [cnt=9,ccv=5.0] 9 cleaned from 4155:SNPGA
+SAYONARA [cnt=10,ccv=5.0] 12 cleaned from 4133:SNPAG
+SAYONARA [cnt=10,ccv=5.0] 12 cleaned from 4131:SNPTC
+SAYONARA [cnt=10,ccv=5.0] 13 cleaned from 4128:SNPGC
+SAYONARA [cnt=10,ccv=5.0] 11 cleaned from 4124:SNPCG
+SAYONARA [cnt=12,ccv=6.0] 12 cleaned from 4115:SNPGG
+SAYONARA [cnt=22,ccv=11.0] 22 cleaned from 4045:SNPCC
+SAYONARA [cnt=22,ccv=11.0] 22 cleaned from 4044:SNPGG
+SAYONARA [cnt=22,ccv=11.0] 22 cleaned from 4042:SNPCC
+SAYONARA [cnt=10,ccv=5.0] 10 cleaned from 3887:SNPAA
+SAYONARA [cnt=12,ccv=6.0] 12 cleaned from 3877:SNPCC
+SAYONARA [cnt=10,ccv=5.0] 10 cleaned from 3853:SNPCT
+SAYONARA [cnt=14,ccv=7.0] 14 cleaned from 3835:SNPTT
+SAYONARA [cnt=14,ccv=7.0] 14 cleaned from 3828:SNPCC
+SAYONARA [cnt=18,ccv=9.0] 18 cleaned from 3790:SNPGG
+SAYONARA [cnt=18,ccv=9.0] 18 cleaned from 3609:SNPCC
+SAYONARA [cnt=10,ccv=6.0] 10 cleaned from 3584:SNPCC
+SAYONARA [cnt=4,ccv=5.0] 4 cleaned from 3582:SNPTC
+SAYONARA [cnt=9,ccv=6.0] 9 cleaned from 3552:SNPGA
+SAYONARA [cnt=6,ccv=5.0] 6 cleaned from 3546:INST
+SAYONARA [cnt=9,ccv=5.0] 9 cleaned from 3546:SNPCC
+SAYONARA [cnt=18,ccv=9.0] 22 cleaned from 3491:SNPCC
+SAYONARA [cnt=12,ccv=9.0] 12 cleaned from 3484:SNPCT
+SAYONARA [cnt=20,ccv=10.0] 20 cleaned from 3478:SNPTC
+SAYONARA [cnt=22,ccv=11.0] 22 cleaned from 3435:SNPGG
+SAYONARA [cnt=15,ccv=8.0] 15 cleaned from 3392:SNPTC
+SAYONARA [cnt=12,ccv=6.0] 25 cleaned from 3384:SNPTG
+SAYONARA [cnt=6,ccv=3.0] 13 cleaned from 3379:SNPGA
+SAYONARA [cnt=16,ccv=8.0] 18 cleaned from 3318:SNPCC
+SAYONARA [cnt=10,ccv=5.0] 10 cleaned from 3310:SNPCC
+SAYONARA [cnt=16,ccv=8.0] 16 cleaned from 3288:SNPCT
+SAYONARA [cnt=18,ccv=9.0] 19 cleaned from 3279:SNPCT
+SAYONARA [cnt=20,ccv=10.0] 22 cleaned from 3277:SNPAA
+SAYONARA [cnt=20,ccv=10.0] 24 cleaned from 3268:SNPAA
+SAYONARA [cnt=18,ccv=9.0] 23 cleaned from 3265:SNPCC
+SAYONARA [cnt=18,ccv=9.0] 23 cleaned from 3254:SNPAG
+SAYONARA [cnt=14,ccv=10.0] 14 cleaned from 3235:SNPTC
+SAYONARA [cnt=22,ccv=11.0] 22 cleaned from 3201:SNPGG
+SAYONARA [cnt=22,ccv=11.0] 22 cleaned from 3198:SNPGG
+SAYONARA [cnt=22,ccv=11.0] 22 cleaned from 3183:SNPCC
+SAYONARA [cnt=28,ccv=14.0] 28 cleaned from 3172:SNPTT
+SAYONARA [cnt=24,ccv=12.0] 24 cleaned from 3157:SNPCA
+SAYONARA [cnt=18,ccv=9.0] 21 cleaned from 3104:DEL11
+SAYONARA [cnt=18,ccv=9.0] 21 cleaned from 3104:SNPGG
+SAYONARA [cnt=14,ccv=7.0] 20 cleaned from 3095:DEL2
+SAYONARA [cnt=14,ccv=7.0] 20 cleaned from 3095:SNPTT
+SAYONARA [cnt=14,ccv=7.0] 20 cleaned from 3093:SNPTC
+SAYONARA [cnt=16,ccv=8.0] 20 cleaned from 3091:SNPGT
+SAYONARA [cnt=16,ccv=8.0] 19 cleaned from 3089:SNPCC
+SAYONARA [cnt=18,ccv=9.0] 23 cleaned from 3084:SNPAG
+SAYONARA [cnt=20,ccv=10.0] 25 cleaned from 3073:SNPGA
+SAYONARA [cnt=20,ccv=10.0] 26 cleaned from 3070:SNPCT
+SAYONARA [cnt=18,ccv=9.0] 22 cleaned from 3057:SNPTG
+SAYONARA [cnt=18,ccv=9.0] 23 cleaned from 3051:SNPTC
+SAYONARA [cnt=18,ccv=9.0] 23 cleaned from 3048:SNPAC
+SAYONARA [cnt=18,ccv=9.0] 21 cleaned from 3038:SNPTG
+SAYONARA [cnt=18,ccv=9.0] 21 cleaned from 3036:SNPGA
+SAYONARA [cnt=16,ccv=8.0] 21 cleaned from 3030:SNPCC
+SAYONARA [cnt=16,ccv=8.0] 22 cleaned from 3017:SNPAT
+SAYONARA [cnt=14,ccv=7.0] 18 cleaned from 3013:SNPTC
+SAYONARA [cnt=14,ccv=7.0] 19 cleaned from 3012:SNPTC
+SAYONARA [cnt=12,ccv=6.0] 17 cleaned from 3009:SNPTG
+SAYONARA [cnt=12,ccv=6.0] 18 cleaned from 3000:SNPGA
+SAYONARA [cnt=12,ccv=6.0] 18 cleaned from 2999:SNPCG
+SAYONARA [cnt=12,ccv=6.0] 18 cleaned from 2988:SNPCC
+SAYONARA [cnt=14,ccv=7.0] 18 cleaned from 2980:SNPGA
+SAYONARA [cnt=16,ccv=8.0] 19 cleaned from 2978:SNPCT
+SAYONARA [cnt=16,ccv=8.0] 19 cleaned from 2971:SNPAC
+SAYONARA [cnt=16,ccv=8.0] 18 cleaned from 2970:SNPCT
+SAYONARA [cnt=16,ccv=8.0] 18 cleaned from 2967:SNPTG
+SAYONARA [cnt=16,ccv=8.0] 18 cleaned from 2966:SNPTG
+SAYONARA [cnt=16,ccv=8.0] 18 cleaned from 2965:SNPTC
+SAYONARA [cnt=15,ccv=8.0] 15 cleaned from 2959:SNPAC
+SAYONARA [cnt=16,ccv=8.0] 18 cleaned from 2950:SNPCC
+SAYONARA [cnt=16,ccv=8.0] 16 cleaned from 2945:SNPCC
+SAYONARA [cnt=18,ccv=9.0] 18 cleaned from 2944:SNPAA
+SAYONARA [cnt=18,ccv=9.0] 19 cleaned from 2943:SNPCC
+SAYONARA [cnt=18,ccv=9.0] 19 cleaned from 2942:SNPAA
+SAYONARA [cnt=18,ccv=9.0] 19 cleaned from 2941:SNPTT
+SAYONARA [cnt=18,ccv=9.0] 19 cleaned from 2940:SNPCC
+SAYONARA [cnt=17,ccv=9.0] 17 cleaned from 2939:SNPCC
+SAYONARA [cnt=15,ccv=9.0] 15 cleaned from 2938:SNPGA
+SAYONARA [cnt=18,ccv=9.0] 19 cleaned from 2937:SNPGG
+SAYONARA [cnt=19,ccv=10.0] 19 cleaned from 2936:SNPAG
+SAYONARA [cnt=18,ccv=9.0] 19 cleaned from 2935:SNPTT
+SAYONARA [cnt=20,ccv=10.0] 21 cleaned from 2934:SNPGG
+SAYONARA [cnt=20,ccv=10.0] 22 cleaned from 2933:SNPTT
+SAYONARA [cnt=18,ccv=9.0] 21 cleaned from 2932:SNPAA
+SAYONARA [cnt=20,ccv=10.0] 21 cleaned from 2931:SNPGG
+SAYONARA [cnt=20,ccv=10.0] 21 cleaned from 2930:SNPGG
+SAYONARA [cnt=18,ccv=9.0] 19 cleaned from 2929:SNPAA
+SAYONARA [cnt=20,ccv=10.0] 21 cleaned from 2928:SNPTT
+SAYONARA [cnt=18,ccv=9.0] 20 cleaned from 2927:SNPCC
+SAYONARA [cnt=18,ccv=9.0] 26 cleaned from 2896:SNPGG
+SAYONARA [cnt=24,ccv=12.0] 32 cleaned from 2875:SNPGA
+SAYONARA [cnt=22,ccv=11.0] 30 cleaned from 2874:SNPAG
+SAYONARA [cnt=22,ccv=11.0] 29 cleaned from 2865:SNPCT
+SAYONARA [cnt=22,ccv=11.0] 30 cleaned from 2863:SNPGC
+SAYONARA [cnt=20,ccv=10.0] 29 cleaned from 2853:SNPTT
+SAYONARA [cnt=20,ccv=10.0] 29 cleaned from 2850:SNPGG
+SAYONARA [cnt=22,ccv=11.0] 30 cleaned from 2828:SNPGG
+SAYONARA [cnt=22,ccv=11.0] 28 cleaned from 2818:SNPTC
+SAYONARA [cnt=20,ccv=10.0] 24 cleaned from 2790:SNPCG
+SAYONARA [cnt=22,ccv=11.0] 25 cleaned from 2784:INSAG
+SAYONARA [cnt=22,ccv=11.0] 26 cleaned from 2784:SNPCC
+SAYONARA [cnt=22,ccv=11.0] 27 cleaned from 2779:SNPCT
+SAYONARA [cnt=12,ccv=6.0] 19 cleaned from 2661:SNPCT
+SAYONARA [cnt=14,ccv=7.0] 22 cleaned from 2617:SNPCC
+SAYONARA [cnt=12,ccv=6.0] 21 cleaned from 2616:SNPTT
+SAYONARA [cnt=14,ccv=7.0] 22 cleaned from 2615:SNPTT
+SAYONARA [cnt=14,ccv=7.0] 18 cleaned from 2610:SNPAT
+SAYONARA [cnt=12,ccv=6.0] 16 cleaned from 2606:SNPCT
+SAYONARA [cnt=14,ccv=7.0] 22 cleaned from 2590:SNPAA
+SAYONARA [cnt=16,ccv=8.0] 23 cleaned from 2589:SNPGG
+SAYONARA [cnt=14,ccv=7.0] 22 cleaned from 2588:SNPTT
+SAYONARA [cnt=14,ccv=7.0] 22 cleaned from 2587:SNPCC
+SAYONARA [cnt=14,ccv=7.0] 20 cleaned from 2579:SNPGG
+SAYONARA [cnt=12,ccv=6.0] 17 cleaned from 2576:SNPGG
+SAYONARA [cnt=6,ccv=3.0] 6 cleaned from 2575:SNPGG
+SAYONARA [cnt=12,ccv=6.0] 14 cleaned from 2574:SNPGG
+SAYONARA [cnt=14,ccv=7.0] 14 cleaned from 2556:SNPGG
+SAYONARA [cnt=14,ccv=7.0] 14 cleaned from 2549:SNPTT
+SAYONARA [cnt=16,ccv=8.0] 16 cleaned from 2542:SNPAA
+SAYONARA [cnt=18,ccv=9.0] 18 cleaned from 2541:SNPGG
+SAYONARA [cnt=18,ccv=9.0] 18 cleaned from 2540:SNPTT
+SAYONARA [cnt=16,ccv=8.0] 16 cleaned from 2539:SNPTT
+SAYONARA [cnt=32,ccv=16.0] 44 cleaned from 2483:SNPCC
+SAYONARA [cnt=30,ccv=15.0] 43 cleaned from 2480:SNPGG
+SAYONARA [cnt=28,ccv=14.0] 44 cleaned from 2470:SNPAG
+SAYONARA [cnt=18,ccv=9.0] 23 cleaned from 2466:SNPAA
+SAYONARA [cnt=30,ccv=15.0] 37 cleaned from 2424:SNPGG
+SAYONARA [cnt=20,ccv=10.0] 21 cleaned from 2392:SNPCC
+SAYONARA [cnt=26,ccv=13.0] 30 cleaned from 2385:SNPAC
+SAYONARA [cnt=20,ccv=10.0] 25 cleaned from 2358:SNPTA
+SAYONARA [cnt=24,ccv=12.0] 34 cleaned from 2308:SNPCC
+SAYONARA [cnt=22,ccv=11.0] 30 cleaned from 2303:SNPGG
+SAYONARA [cnt=24,ccv=12.0] 31 cleaned from 2291:INSCT
+SAYONARA [cnt=24,ccv=12.0] 31 cleaned from 2291:SNPCC
+SAYONARA [cnt=22,ccv=11.0] 22 cleaned from 2268:SNPAA
+SAYONARA [cnt=20,ccv=10.0] 20 cleaned from 2249:SNPTC
+SAYONARA [cnt=19,ccv=10.0] 19 cleaned from 2248:SNPGA
+SAYONARA [cnt=16,ccv=9.0] 16 cleaned from 2240:SNPTC
+SAYONARA [cnt=17,ccv=9.0] 17 cleaned from 2239:SNPAG
+SAYONARA [cnt=15,ccv=8.0] 15 cleaned from 2235:DEL1
+SAYONARA [cnt=16,ccv=8.0] 18 cleaned from 2235:SNPGG
+SAYONARA [cnt=24,ccv=12.0] 24 cleaned from 2129:SNPTT
+SAYONARA [cnt=12,ccv=16.0] 12 cleaned from 2097:SNPTC
+SAYONARA [cnt=28,ccv=14.0] 29 cleaned from 2085:SNPTC
+SAYONARA [cnt=28,ccv=14.0] 28 cleaned from 2080:SNPCG
+SAYONARA [cnt=18,ccv=10.0] 18 cleaned from 2050:SNPGA
+SAYONARA [cnt=7,ccv=9.0] 7 cleaned from 2034:SNPGA
+SAYONARA [cnt=9,ccv=9.0] 9 cleaned from 2029:SNPTC
+SAYONARA [cnt=9,ccv=10.0] 9 cleaned from 2027:SNPCT
+SAYONARA [cnt=18,ccv=9.0] 18 cleaned from 1998:SNPAG
+SAYONARA [cnt=18,ccv=9.0] 18 cleaned from 1979:SNPAA
+SAYONARA [cnt=18,ccv=9.0] 18 cleaned from 1978:SNPGG
+SAYONARA [cnt=18,ccv=9.0] 18 cleaned from 1976:SNPCC
+SAYONARA [cnt=18,ccv=9.0] 18 cleaned from 1974:SNPCC
+SAYONARA [cnt=18,ccv=9.0] 18 cleaned from 1973:SNPTT
+SAYONARA [cnt=20,ccv=10.0] 20 cleaned from 1943:SNPCC
+SAYONARA [cnt=14,ccv=7.0] 21 cleaned from 1869:SNPAA
+SAYONARA [cnt=16,ccv=8.0] 20 cleaned from 1858:SNPGG
+SAYONARA [cnt=19,ccv=10.0] 19 cleaned from 1851:SNPGC
+SAYONARA [cnt=18,ccv=10.0] 18 cleaned from 1850:SNPCG
+SAYONARA [cnt=14,ccv=7.0] 20 cleaned from 1846:SNPCC
+SAYONARA [cnt=11,ccv=6.0] 11 cleaned from 1818:SNPCH
+SAYONARA [cnt=11,ccv=6.0] 11 cleaned from 1818:SNPCC
+SAYONARA [cnt=8,ccv=6.0] 8 cleaned from 1811:SNPCT
+SAYONARA [cnt=8,ccv=6.0] 8 cleaned from 1783:SNPTI
+SAYONARA [cnt=8,ccv=6.0] 8 cleaned from 1783:SNPTT
+SAYONARA [cnt=6,ccv=5.0] 6 cleaned from 1758:SNPCC
+SAYONARA [cnt=5,ccv=5.0] 5 cleaned from 1757:SNPGG
+SAYONARA [cnt=6,ccv=5.0] 6 cleaned from 1755:SNPAC
+SAYONARA [cnt=6,ccv=5.0] 6 cleaned from 1754:SNPGT
+SAYONARA [cnt=4,ccv=5.0] 4 cleaned from 1749:SNPTC
+SAYONARA [cnt=4,ccv=4.0] 4 cleaned from 1724:SNPGG
+SAYONARA [cnt=5,ccv=4.0] 5 cleaned from 1720:SNPTT
+SAYONARA [cnt=6,ccv=4.0] 6 cleaned from 1716:SNPCC
+SAYONARA [cnt=6,ccv=3.0] 6 cleaned from 1707:SNPAA
+SAYONARA [cnt=7,ccv=4.0] 7 cleaned from 1704:SNPGG
+SAYONARA [cnt=10,ccv=5.0] 10 cleaned from 1661:SNPCC
+SAYONARA [cnt=10,ccv=5.0] 10 cleaned from 1659:SNPCC
+SAYONARA [cnt=6,ccv=4.0] 6 cleaned from 1617:SNPCA
+SAYONARA [cnt=4,ccv=4.0] 4 cleaned from 1611:SNPAT
+SAYONARA [cnt=8,ccv=4.0] 8 cleaned from 1608:SNPCC
+SAYONARA [cnt=8,ccv=4.0] 8 cleaned from 1602:SNPGG
+SAYONARA [cnt=7,ccv=4.0] 7 cleaned from 1598:SNPTC
+SAYONARA [cnt=6,ccv=3.0] 7 cleaned from 1590:SNPGG
+SAYONARA [cnt=4,ccv=2.0] 8 cleaned from 1583:SNPCG
+SAYONARA [cnt=4,ccv=2.0] 8 cleaned from 1578:SNPGT
+SAYONARA [cnt=6,ccv=3.0] 6 cleaned from 1566:SNPAC
+SAYONARA [cnt=6,ccv=3.0] 6 cleaned from 1563:SNPAG
+SAYONARA [cnt=6,ccv=3.0] 6 cleaned from 1554:SNPAC
+SAYONARA [cnt=5,ccv=3.0] 5 cleaned from 1550:SNPAG
+SAYONARA [cnt=5,ccv=3.0] 5 cleaned from 1533:INSG
+SAYONARA [cnt=6,ccv=3.0] 6 cleaned from 1533:SNPTT
+SAYONARA [cnt=4,ccv=3.0] 4 cleaned from 1532:SNPAG
+SAYONARA [cnt=5,ccv=3.0] 5 cleaned from 1531:SNPTC
+SAYONARA [cnt=4,ccv=3.0] 4 cleaned from 1525:SNPCA
+SAYONARA [cnt=4,ccv=3.0] 4 cleaned from 1523:SNPCA
+SAYONARA [cnt=4,ccv=3.0] 4 cleaned from 1522:SNPTA
+SAYONARA [cnt=4,ccv=3.0] 4 cleaned from 1513:SNPGG
+SAYONARA [cnt=4,ccv=3.0] 4 cleaned from 1504:SNPGA
+SAYONARA [cnt=4,ccv=3.0] 4 cleaned from 1501:SNPTC
+SAYONARA [cnt=4,ccv=3.0] 4 cleaned from 1499:SNPTG
+SAYONARA [cnt=5,ccv=3.0] 5 cleaned from 1494:SNPAA
+SAYONARA [cnt=5,ccv=3.0] 5 cleaned from 1488:SNPTG
+SAYONARA [cnt=6,ccv=3.0] 7 cleaned from 1469:SNPTC
+SAYONARA [cnt=6,ccv=3.0] 7 cleaned from 1468:SNPGT
+SAYONARA [cnt=6,ccv=3.0] 7 cleaned from 1465:SNPTC
+SAYONARA [cnt=6,ccv=3.0] 6 cleaned from 1460:SNPCA
+SAYONARA [cnt=4,ccv=2.0] 6 cleaned from 1451:SNPTC
+SAYONARA [cnt=4,ccv=2.0] 6 cleaned from 1448:SNPGC
+SAYONARA [cnt=2,ccv=1.0] 5 cleaned from 1440:SNPAG
+SAYONARA [cnt=2,ccv=1.0] 5 cleaned from 1437:SNPCG
+SAYONARA [cnt=2,ccv=1.0] 5 cleaned from 1434:INSG
+SAYONARA [cnt=2,ccv=1.0] 5 cleaned from 1434:SNPTT
+SAYONARA [cnt=2,ccv=1.0] 3 cleaned from 1331:INSCCA
+SAYONARA [cnt=2,ccv=1.0] 3 cleaned from 1331:SNPGG
+SAYONARA [cnt=2,ccv=1.0] 3 cleaned from 1328:SNPCG
+SAYONARA [cnt=2,ccv=1.0] 3 cleaned from 1317:SNPAG
+SAYONARA [cnt=2,ccv=1.0] 3 cleaned from 1298:DEL17
+SAYONARA [cnt=2,ccv=1.0] 3 cleaned from 1298:SNPAA
+SAYONARA [cnt=2,ccv=1.0] 3 cleaned from 1296:SNPGC
+SAYONARA [cnt=2,ccv=1.0] 3 cleaned from 1295:SNPCA
+SAYONARA [cnt=2,ccv=1.0] 3 cleaned from 1291:SNPAT
+SAYONARA [cnt=2,ccv=1.0] 3 cleaned from 1287:SNPTC
+SAYONARA [cnt=0,ccv=0.0] 3 cleaned from 1278:DEL4
+SAYONARA [cnt=2,ccv=1.0] 3 cleaned from 1273:SNPCT
+SAYONARA [cnt=2,ccv=1.0] 3 cleaned from 1254:SNPGA
+SAYONARA [cnt=2,ccv=1.0] 4 cleaned from 1244:SNPAC
+SAYONARA [cnt=3,ccv=2.0] 3 cleaned from 1232:DEL9
+SAYONARA [cnt=3,ccv=2.0] 3 cleaned from 1232:SNPCC
+SAYONARA [cnt=4,ccv=2.0] 4 cleaned from 1220:SNPCC
+SAYONARA [cnt=4,ccv=2.0] 4 cleaned from 1218:SNPCA
+SAYONARA [cnt=4,ccv=2.0] 4 cleaned from 1215:SNPTG
+SAYONARA [cnt=4,ccv=2.0] 4 cleaned from 1214:SNPGA
+SAYONARA [cnt=4,ccv=2.0] 4 cleaned from 1210:SNPAG
+SAYONARA [cnt=4,ccv=2.0] 5 cleaned from 1201:SNPTC
+SAYONARA [cnt=4,ccv=2.0] 6 cleaned from 1200:SNPAC
+SAYONARA [cnt=8,ccv=4.0] 11 cleaned from 1185:SNPTC
+SAYONARA [cnt=8,ccv=4.0] 10 cleaned from 1178:SNPGA
+SAYONARA [cnt=10,ccv=5.0] 13 cleaned from 1173:INSCTCAG
+SAYONARA [cnt=10,ccv=5.0] 14 cleaned from 1173:SNPCC
+SAYONARA [cnt=10,ccv=5.0] 13 cleaned from 1160:INSCTTTATCT
+SAYONARA [cnt=10,ccv=5.0] 15 cleaned from 1160:SNPCC
+SAYONARA [cnt=10,ccv=5.0] 13 cleaned from 1151:SNPTC
+SAYONARA [cnt=10,ccv=5.0] 13 cleaned from 1145:SNPCG
+SAYONARA [cnt=10,ccv=5.0] 12 cleaned from 1138:SNPGA
+SAYONARA [cnt=10,ccv=5.0] 10 cleaned from 1131:SNPCG
+SAYONARA [cnt=8,ccv=4.0] 9 cleaned from 1128:SNPTG
+SAYONARA [cnt=10,ccv=5.0] 10 cleaned from 1125:SNPCG
+SAYONARA [cnt=10,ccv=5.0] 10 cleaned from 1123:SNPAT
+SAYONARA [cnt=6,ccv=3.0] 10 cleaned from 1119:SNPCT
+SAYONARA [cnt=6,ccv=3.0] 10 cleaned from 1116:SNPAG
+SAYONARA [cnt=4,ccv=2.0] 8 cleaned from 1106:SNPTC
+SAYONARA [cnt=4,ccv=2.0] 8 cleaned from 1105:SNPCT
+SAYONARA [cnt=4,ccv=2.0] 7 cleaned from 1104:SNPAG
+SAYONARA [cnt=4,ccv=2.0] 7 cleaned from 1103:SNPCT
+SAYONARA [cnt=4,ccv=2.0] 6 cleaned from 1093:SNPTG
+SAYONARA [cnt=6,ccv=4.0] 6 cleaned from 1083:INSC
+SAYONARA [cnt=6,ccv=4.0] 6 cleaned from 1083:SNPAA
+SAYONARA [cnt=4,ccv=2.0] 6 cleaned from 1082:SNPTG
+SAYONARA [cnt=4,ccv=2.0] 6 cleaned from 1080:SNPTG
+SAYONARA [cnt=6,ccv=4.0] 6 cleaned from 1072:INSC
+SAYONARA [cnt=7,ccv=4.0] 7 cleaned from 1072:SNPTT
+SAYONARA [cnt=4,ccv=2.0] 7 cleaned from 1062:SNPTC
+SAYONARA [cnt=4,ccv=2.0] 4 cleaned from 1039:SNPGG
+SAYONARA [cnt=2,ccv=1.0] 4 cleaned from 1036:SNPAG
+SAYONARA [cnt=2,ccv=1.0] 3 cleaned from 1028:SNPTC
+SAYONARA [cnt=2,ccv=1.0] 3 cleaned from 997:SNPGC
+SAYONARA [cnt=3,ccv=2.0] 3 cleaned from 974:SNPGT
+SAYONARA [cnt=4,ccv=3.0] 4 cleaned from 972:SNPGG
+SAYONARA [cnt=8,ccv=4.0] 8 cleaned from 957:SNPGG
+SAYONARA [cnt=14,ccv=7.0] 14 cleaned from 887:SNPGG
+SAYONARA [cnt=16,ccv=8.0] 16 cleaned from 883:SNPCC
+SAYONARA [cnt=12,ccv=6.0] 12 cleaned from 843:SNPAA
+SAYONARA [cnt=8,ccv=4.0] 8 cleaned from 746:SNPGG
+SAYONARA [cnt=14,ccv=7.0] 19 cleaned from 739:SNPGG
+SAYONARA [cnt=14,ccv=7.0] 25 cleaned from 607:SNPCC
+SAYONARA [cnt=14,ccv=7.0] 22 cleaned from 600:DEL1
+SAYONARA [cnt=14,ccv=7.0] 26 cleaned from 600:SNPGG
+SAYONARA [cnt=15,ccv=8.0] 15 cleaned from 323:SNPCT
+SAYONARA [cnt=18,ccv=9.0] 19 cleaned from 317:SNPTC
+SAYONARA [cnt=12,ccv=6.0] 16 cleaned from 270:SNPGA
+SAYONARA [cnt=14,ccv=7.0] 16 cleaned from 254:SNPCA
+SAYONARA [cnt=14,ccv=7.0] 15 cleaned from 245:SNPTC
+SAYONARA [cnt=14,ccv=7.0] 17 cleaned from 233:SNPTG
+SAYONARA [cnt=14,ccv=7.0] 15 cleaned from 232:SNPCG
+SAYONARA [cnt=14,ccv=7.0] 16 cleaned from 227:SNPAG
+SAYONARA [cnt=16,ccv=8.0] 16 cleaned from 223:SNPGC
+SAYONARA [cnt=16,ccv=8.0] 16 cleaned from 221:SNPGT
+SAYONARA [cnt=14,ccv=8.0] 14 cleaned from 214:SNPCG
+SAYONARA [cnt=13,ccv=7.0] 13 cleaned from 138:INSA
+SAYONARA [cnt=14,ccv=7.0] 14 cleaned from 138:SNPCC
+SAYONARA [cnt=8,ccv=4.0] 10 cleaned from 125:SNPCC
+SAYONARA [cnt=8,ccv=4.0] 9 cleaned from 124:SNPCC
+SAYONARA [cnt=6,ccv=3.0] 6 cleaned from 108:SNPGA
+SAYONARA [cnt=4,ccv=2.0] 6 cleaned from 102:SNPTC
+SAYONARA [cnt=6,ccv=3.0] 7 cleaned from 100:SNPGG
+SAYONARA [cnt=8,ccv=4.0] 13 cleaned from 82:SNPGG
+SAYONARA [cnt=8,ccv=4.0] 15 cleaned from 77:SNPCT
+SAYONARA [cnt=12,ccv=6.0] 19 cleaned from 73:SNPGG
+SAYONARA [cnt=16,ccv=8.0] 23 cleaned from 31:SNPCT
+SAYONARA [cnt=14,ccv=7.0] 20 cleaned from 19:SNPCC
+SAYONARA [cnt=16,ccv=8.0] 20 cleaned from 18:SNPCC
+SAYONARA [cnt=14,ccv=7.0] 16 cleaned from 0:SNPAG
+SAYONARA [cnt=12,ccv=6.0] 15 cleaned from -2:SNPCG
+EX. CYP2D6*15 removed due to 0 (0) at 138:INSA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 4193:SNPAG, thr 2
+EX. CYP2D7 removed due to 9 (0) at 4180:SNPCG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 4172:SNPGA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 4169:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 4168:SNPGC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 4167:SNPCT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 4166:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 4158:SNPCG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 4156:SNPTG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 4155:SNPGA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 4133:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 4131:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 4128:SNPGC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 4124:SNPCG, thr 2
+EX. CYP2D7 removed due to 3 (0) at 3853:SNPCT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3582:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3552:SNPGA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3546:INST, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3478:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3384:SNPTG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3254:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3157:SNPCA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3104:DEL11, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3095:DEL2, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3093:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3091:SNPGT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3084:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3073:SNPGA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3070:SNPCT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3057:SNPTG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3051:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3048:SNPAC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3038:SNPTG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3036:SNPGA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3017:SNPAT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3013:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3012:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3009:SNPTG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 3000:SNPGA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2999:SNPCG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2980:SNPGA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2978:SNPCT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2971:SNPAC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2970:SNPCT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2967:SNPTG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2966:SNPTG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2965:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2959:SNPAC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2938:SNPGA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2936:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2875:SNPGA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2874:SNPAG, thr 2
+EX. CYP2D7 removed due to 2 (0) at 2850:SNPGG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2818:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2790:SNPCG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2784:INSAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2779:SNPCT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2661:SNPCT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2470:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2385:SNPAC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2358:SNPTA, thr 2
+EX. CYP2D7 removed due to 18 (0) at 2291:SNPCC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2291:INSCT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2249:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2248:SNPGA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2240:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2239:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2235:DEL1, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2085:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 2080:SNPCG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1998:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1811:SNPCT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1755:SNPAC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1754:SNPGT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1749:SNPTC, thr 2
+EX. CYP2D7 removed due to 6 (0) at 1707:SNPAA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1598:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1583:SNPCG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1578:SNPGT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1566:SNPAC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1563:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1554:SNPAC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1550:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1533:INSG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1532:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1531:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1525:SNPCA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1523:SNPCA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1522:SNPTA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1504:SNPGA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1501:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1499:SNPTG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1488:SNPTG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1469:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1468:SNPGT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1465:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1460:SNPCA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1451:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1448:SNPGC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1440:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1437:SNPCG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1434:INSG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1331:INSCCA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1328:SNPCG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1317:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1298:DEL17, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1296:SNPGC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1295:SNPCA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1291:SNPAT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1287:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1273:SNPCT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1254:SNPGA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1244:SNPAC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1232:DEL9, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1218:SNPCA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1215:SNPTG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1214:SNPGA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1210:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1201:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1200:SNPAC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1185:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1178:SNPGA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1173:INSCTCAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1160:INSCTTTATCT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1151:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1145:SNPCG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1138:SNPGA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1131:SNPCG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1128:SNPTG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1125:SNPCG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1123:SNPAT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1119:SNPCT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1116:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1106:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1105:SNPCT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1104:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1103:SNPCT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1093:SNPTG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1083:INSC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1082:SNPTG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1080:SNPTG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1072:INSC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1062:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1036:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 1028:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 997:SNPGC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 974:SNPGT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 600:DEL1, thr 2
+EX. CYP2D7 removed due to 0 (0) at 323:SNPCT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 317:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 270:SNPGA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 254:SNPCA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 245:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 233:SNPTG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 232:SNPCG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 227:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 223:SNPGC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 221:SNPGT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 214:SNPCG, thr 2
+EX. CYP2D7 removed due to 0 (0) at 138:INSA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 108:SNPGA, thr 2
+EX. CYP2D7 removed due to 0 (0) at 102:SNPTC, thr 2
+EX. CYP2D7 removed due to 0 (0) at 77:SNPCT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 31:SNPCT, thr 2
+EX. CYP2D7 removed due to 0 (0) at 0:SNPAG, thr 2
+EX. CYP2D7 removed due to 0 (0) at -2:SNPCG, thr 2
+EX. CYP2D6*27 removed due to 3 (0) at 3853:SNPCT, thr 2
+
+
+MEGAWAHA
++ CYP2D6*34:
+   . 2850:SNP*CT   8/0  		
++ CYP2D6*1:
+
++ CYP2D6*2D:
+   . 2850:SNP*CT   8/0  		. 4180:SNP*GC   9/5  		
++ CYP2D6*3A:
+   _ 2548:DEL*1   6/13 		
+
+********************************************************************************
+
+# 4180:SNP*GC		9 =>  CYP2D6*2D )
+CYP2D6*2D[  9(  6)]  
+# 4180:SNP*GG		5 =>  CYP2D6*34 CYP2D6*1 CYP2D6*3A )
+CYP2D6*34[  5(  4)]  CYP2D6*3A[  5(  4)]  [  5(  4)]  CYP2D6*1[  5(  4)]  
+# 4157:SNP*TT		10 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[  5(  4)]  CYP2D6*2D[  7(  4)]  CYP2D6*1[  5(  4)]  CYP2D6*3A[  5(  4)]  CYP2D6*34[  5(  4)]  
+# 4115:SNP*CC		11 =>  CYP2D6*2D )
+CYP2D6*2D[ 11(  7)]  [  9(  6)]  
+# 4045:SNP*GG		20 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 20(  8)]  CYP2D6*3A[ 20(  8)]  CYP2D6*1[ 20(  8)]  CYP2D6*2D[ 20(  8)]  [ 20(  8)]  
+# 4044:SNP*CC		22 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 22( 10)]  CYP2D6*3A[ 22( 10)]  CYP2D6*1[ 22( 10)]  CYP2D6*2D[ 22( 10)]  [ 22( 10)]  
+# 4042:SNP*GG		22 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 22( 10)]  CYP2D6*3A[ 22( 10)]  CYP2D6*1[ 22( 10)]  CYP2D6*2D[ 22( 10)]  [ 22( 10)]  
+# 3887:SNP*TT		9 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  6(  5)]  CYP2D6*3A[  6(  5)]  CYP2D6*1[  6(  5)]  CYP2D6*2D[  6(  5)]  [  6(  5)]  
+# 3877:SNP*GG		10 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  8(  7)]  CYP2D6*3A[  8(  7)]  CYP2D6*1[  8(  7)]  CYP2D6*2D[  8(  7)]  [  8(  7)]  
+# 3835:SNP*AA		13 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 10(  7)]  CYP2D6*3A[ 10(  7)]  CYP2D6*1[ 10(  7)]  CYP2D6*2D[ 10(  7)]  [ 10(  7)]  
+# 3828:SNP*GG		15 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 10(  6)]  CYP2D6*3A[ 10(  6)]  CYP2D6*1[ 10(  6)]  CYP2D6*2D[ 10(  6)]  [ 10(  6)]  
+# 3790:SNP*CC		16 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 15(  6)]  CYP2D6*3A[ 15(  6)]  CYP2D6*1[ 15(  6)]  CYP2D6*2D[ 15(  6)]  [ 15(  6)]  
+# 3609:SNP*GG		19 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 19(  7)]  CYP2D6*2D[ 19(  7)]  CYP2D6*1[ 19(  7)]  CYP2D6*3A[ 19(  7)]  CYP2D6*34[ 19(  7)]  
+# 3584:SNP*GG		15 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 15(  6)]  CYP2D6*3A[ 15(  6)]  CYP2D6*1[ 15(  6)]  CYP2D6*2D[ 15(  6)]  [ 15(  6)]  
+# 3533:SNP*CC		12 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 12(  8)]  CYP2D6*2D[ 12(  8)]  CYP2D6*1[ 12(  8)]  CYP2D6*3A[ 12(  8)]  CYP2D6*34[ 12(  8)]  
+# 3491:SNP*GG		12 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 12(  6)]  CYP2D6*3A[ 12(  6)]  CYP2D6*1[ 12(  6)]  CYP2D6*2D[ 12(  6)]  [ 12(  6)]  
+# 3484:SNP*GG		14 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 14(  7)]  CYP2D6*3A[ 14(  7)]  CYP2D6*1[ 14(  7)]  CYP2D6*2D[ 14(  7)]  [ 14(  7)]  
+# 3435:SNP*CC		20 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 20(  8)]  CYP2D6*3A[ 20(  8)]  CYP2D6*1[ 20(  8)]  CYP2D6*2D[ 20(  8)]  [ 20(  8)]  
+# 3392:SNP*AA		3 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[  3(  2)]  CYP2D6*1[  3(  2)]  CYP2D6*2D[  3(  2)]  CYP2D6*3A[  3(  2)]  CYP2D6*34[  3(  2)]  
+# 3318:SNP*GG		14 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 14( 10)]  CYP2D6*2D[ 14( 10)]  CYP2D6*1[ 14( 10)]  CYP2D6*3A[ 14( 10)]  CYP2D6*34[ 14( 10)]  
+# 3310:SNP*GG		11 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 11(  7)]  CYP2D6*2D[ 11(  7)]  CYP2D6*1[ 11(  7)]  CYP2D6*3A[ 11(  7)]  CYP2D6*34[ 11(  7)]  
+# 3288:SNP*GG		14 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 14( 11)]  CYP2D6*3A[ 14( 11)]  CYP2D6*1[ 14( 11)]  CYP2D6*2D[ 14( 11)]  [ 14( 11)]  
+# 3279:SNP*GG		14 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 14( 11)]  CYP2D6*3A[ 14( 11)]  CYP2D6*1[ 14( 11)]  CYP2D6*2D[ 14( 11)]  [ 14( 11)]  
+# 3277:SNP*TT		16 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 16( 13)]  CYP2D6*3A[ 16( 13)]  CYP2D6*1[ 16( 13)]  CYP2D6*2D[ 16( 13)]  [ 16( 13)]  
+# 3268:SNP*TT		16 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 16( 13)]  CYP2D6*2D[ 16( 13)]  CYP2D6*1[ 16( 13)]  CYP2D6*3A[ 16( 13)]  CYP2D6*34[ 16( 13)]  
+# 3265:SNP*GG		13 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 13( 10)]  CYP2D6*2D[ 13( 10)]  CYP2D6*1[ 13( 10)]  CYP2D6*3A[ 13( 10)]  CYP2D6*34[ 13( 10)]  
+# 3235:SNP*AA		17 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 17( 10)]  CYP2D6*3A[ 17( 10)]  CYP2D6*1[ 17( 10)]  CYP2D6*2D[ 17( 10)]  [ 17( 10)]  
+# 3201:SNP*CC		18 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 18(  9)]  CYP2D6*2D[ 18(  9)]  CYP2D6*1[ 18(  9)]  CYP2D6*3A[ 18(  9)]  CYP2D6*34[ 18(  9)]  
+# 3198:SNP*CC		18 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 18(  8)]  CYP2D6*3A[ 18(  8)]  CYP2D6*1[ 18(  8)]  CYP2D6*2D[ 18(  8)]  [ 18(  8)]  
+# 3183:SNP*GG		22 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 22( 10)]  CYP2D6*3A[ 22( 10)]  CYP2D6*1[ 22( 10)]  CYP2D6*2D[ 22( 10)]  [ 22( 10)]  
+# 3172:SNP*AA		24 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 24( 10)]  CYP2D6*2D[ 24( 10)]  CYP2D6*1[ 24( 10)]  CYP2D6*3A[ 24( 10)]  CYP2D6*34[ 24( 10)]  
+# 3089:SNP*GG		10 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 10(  5)]  CYP2D6*2D[ 10(  5)]  CYP2D6*1[ 10(  5)]  CYP2D6*3A[ 10(  5)]  CYP2D6*34[ 10(  5)]  
+# 3030:SNP*GG		12 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 12(  6)]  CYP2D6*3A[ 12(  6)]  CYP2D6*1[ 12(  6)]  CYP2D6*2D[ 12(  6)]  [ 12(  6)]  
+# 2988:SNP*GG		5 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  5(  3)]  CYP2D6*3A[  5(  3)]  CYP2D6*1[  5(  3)]  CYP2D6*2D[  5(  3)]  [  5(  3)]  
+# 2950:SNP*GG		15 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 15(  6)]  CYP2D6*3A[ 15(  7)]  CYP2D6*1[ 15(  6)]  CYP2D6*2D[ 15(  6)]  [ 15(  6)]  
+# 2945:SNP*GG		15 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 15(  6)]  CYP2D6*3A[ 15(  7)]  CYP2D6*1[ 15(  6)]  CYP2D6*2D[ 15(  6)]  [ 15(  6)]  
+# 2944:SNP*TT		16 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 16(  6)]  CYP2D6*3A[ 16(  7)]  CYP2D6*1[ 16(  6)]  CYP2D6*2D[ 16(  6)]  [ 16(  6)]  
+# 2943:SNP*GG		16 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 16(  6)]  CYP2D6*3A[ 16(  7)]  CYP2D6*1[ 16(  6)]  CYP2D6*2D[ 16(  6)]  [ 16(  6)]  
+# 2942:SNP*TT		16 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 16(  6)]  CYP2D6*3A[ 16(  7)]  CYP2D6*1[ 16(  6)]  CYP2D6*2D[ 16(  6)]  [ 16(  6)]  
+# 2941:SNP*AA		16 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 16(  6)]  CYP2D6*3A[ 16(  7)]  CYP2D6*1[ 16(  6)]  CYP2D6*2D[ 16(  6)]  [ 16(  6)]  
+# 2940:SNP*GG		16 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 16(  6)]  CYP2D6*3A[ 16(  7)]  CYP2D6*1[ 16(  6)]  CYP2D6*2D[ 16(  6)]  [ 16(  6)]  
+# 2939:SNP*GG		17 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 17(  6)]  CYP2D6*3A[ 17(  7)]  CYP2D6*1[ 17(  6)]  CYP2D6*2D[ 17(  6)]  [ 17(  6)]  
+# 2937:SNP*CC		17 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 17(  6)]  CYP2D6*3A[ 17(  7)]  CYP2D6*1[ 17(  6)]  CYP2D6*2D[ 17(  6)]  [ 17(  6)]  
+# 2935:SNP*AA		17 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 17(  6)]  CYP2D6*3A[ 17(  7)]  CYP2D6*1[ 17(  6)]  CYP2D6*2D[ 17(  6)]  [ 17(  6)]  
+# 2934:SNP*CC		17 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 17(  6)]  CYP2D6*2D[ 17(  6)]  CYP2D6*1[ 17(  6)]  CYP2D6*3A[ 17(  7)]  CYP2D6*34[ 17(  6)]  
+# 2933:SNP*AA		17 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 17(  6)]  CYP2D6*2D[ 17(  6)]  CYP2D6*1[ 17(  6)]  CYP2D6*3A[ 17(  7)]  CYP2D6*34[ 17(  6)]  
+# 2932:SNP*TT		16 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 16(  6)]  CYP2D6*2D[ 16(  6)]  CYP2D6*1[ 16(  6)]  CYP2D6*3A[ 16(  7)]  CYP2D6*34[ 16(  6)]  
+# 2931:SNP*CC		17 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 17(  6)]  CYP2D6*2D[ 17(  6)]  CYP2D6*1[ 17(  6)]  CYP2D6*3A[ 17(  7)]  CYP2D6*34[ 17(  6)]  
+# 2930:SNP*CC		17 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 17(  6)]  CYP2D6*2D[ 17(  6)]  CYP2D6*1[ 17(  6)]  CYP2D6*3A[ 17(  7)]  CYP2D6*34[ 17(  6)]  
+# 2929:SNP*TT		17 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 17(  6)]  CYP2D6*2D[ 17(  6)]  CYP2D6*1[ 17(  6)]  CYP2D6*3A[ 17(  7)]  CYP2D6*34[ 17(  6)]  
+# 2928:SNP*AA		17 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 17(  6)]  CYP2D6*2D[ 17(  6)]  CYP2D6*1[ 17(  6)]  CYP2D6*3A[ 17(  7)]  CYP2D6*34[ 17(  6)]  
+# 2927:SNP*GG		17 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 17(  6)]  CYP2D6*2D[ 17(  6)]  CYP2D6*1[ 17(  6)]  CYP2D6*3A[ 17(  7)]  CYP2D6*34[ 17(  6)]  
+# 2896:SNP*CC		9 =>  CYP2D6*34 CYP2D6*2D CYP2D6*3A )
+[  0(  0)]  CYP2D6*2D[  9(  2)]  CYP2D6*3A[  7(  2)]  CYP2D6*34[  9(  2)]  
+# 2865:SNP*GG		10 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  8(  5)]  CYP2D6*3A[  4(  3)]  CYP2D6*1[  4(  3)]  CYP2D6*2D[  8(  5)]  [  4(  3)]  
+# 2863:SNP*CC		10 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  8(  5)]  CYP2D6*3A[  3(  3)]  CYP2D6*1[  3(  3)]  CYP2D6*2D[  8(  5)]  [  3(  3)]  
+# 2853:SNP*AA		9 =>  CYP2D6*34 CYP2D6*2D )
+CYP2D6*34[  7(  4)]  CYP2D6*2D[  7(  4)]  [  2(  2)]  
+# 2850:SNP*CC		0 =>  )
+
+# 2850:SNP*CT		8 =>  CYP2D6*34 CYP2D6*2D )
+CYP2D6*34[  8(  4)]  CYP2D6*2D[  8(  4)]  
+# 2828:SNP*CC		13 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[  7(  5)]  CYP2D6*2D[ 11(  6)]  CYP2D6*1[  7(  5)]  CYP2D6*3A[  7(  5)]  CYP2D6*34[ 11(  6)]  
+# 2617:SNP*GG		4 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D )
+CYP2D6*34[  4(  2)]  CYP2D6*1[  4(  2)]  CYP2D6*2D[  4(  2)]  
+# 2616:SNP*AA		4 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D )
+CYP2D6*34[  4(  2)]  CYP2D6*1[  4(  2)]  CYP2D6*2D[  4(  2)]  
+# 2615:SNP*AA		4 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D )
+CYP2D6*34[  4(  2)]  CYP2D6*1[  4(  2)]  CYP2D6*2D[  4(  2)]  
+# 2610:SNP*TT		5 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  4(  2)]  CYP2D6*3A[  4(  2)]  CYP2D6*1[  4(  2)]  CYP2D6*2D[  4(  2)]  
+# 2606:SNP*GG		5 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  4(  2)]  CYP2D6*3A[  4(  2)]  CYP2D6*1[  4(  2)]  CYP2D6*2D[  4(  2)]  
+# 2590:SNP*TT		7 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  5(  4)]  CYP2D6*3A[  4(  2)]  CYP2D6*1[  5(  4)]  CYP2D6*2D[  5(  4)]  [  2(  2)]  
+# 2589:SNP*CC		7 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  5(  4)]  CYP2D6*3A[  4(  2)]  CYP2D6*1[  5(  4)]  CYP2D6*2D[  5(  4)]  [  2(  2)]  
+# 2588:SNP*AA		7 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  5(  4)]  CYP2D6*3A[  4(  2)]  CYP2D6*1[  5(  4)]  CYP2D6*2D[  5(  4)]  [  2(  2)]  
+# 2587:SNP*GG		6 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  4(  3)]  CYP2D6*3A[  4(  2)]  CYP2D6*1[  4(  3)]  CYP2D6*2D[  4(  3)]  [  0(  0)]  
+# 2579:SNP*CC		6 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  4(  4)]  CYP2D6*3A[  3(  2)]  CYP2D6*1[  4(  4)]  CYP2D6*2D[  4(  4)]  [  2(  2)]  
+# 2576:SNP*CC		7 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  4(  4)]  CYP2D6*3A[  4(  3)]  CYP2D6*1[  4(  4)]  CYP2D6*2D[  4(  4)]  [  2(  2)]  
+# 2575:SNP*CC		7 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  4(  4)]  CYP2D6*3A[  4(  3)]  CYP2D6*1[  4(  4)]  CYP2D6*2D[  4(  4)]  [  2(  2)]  
+# 2574:SNP*CC		8 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  5(  4)]  CYP2D6*3A[  4(  3)]  CYP2D6*1[  5(  4)]  CYP2D6*2D[  5(  4)]  [  3(  2)]  
+# 2556:SNP*CC		13 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[  6(  3)]  CYP2D6*2D[  8(  5)]  CYP2D6*1[  8(  5)]  CYP2D6*3A[  6(  4)]  CYP2D6*34[  8(  5)]  
+# 2549:SNP*AA		13 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D )
+CYP2D6*34[ 13(  5)]  CYP2D6*1[ 13(  5)]  CYP2D6*2D[ 13(  5)]  [ 12(  4)]  
+# 2548:DEL*1		6 =>  CYP2D6*3A )
+CYP2D6*3A[  6(  4)]  
+# 2548:SNP*CC		21 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 14(  4)]  CYP2D6*2D[ 15(  5)]  CYP2D6*1[ 15(  5)]  CYP2D6*3A[  6(  4)]  CYP2D6*34[ 15(  5)]  
+# 2542:SNP*TT		15 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 12(  3)]  CYP2D6*3A[  4(  3)]  CYP2D6*1[ 12(  2)]  CYP2D6*2D[ 12(  3)]  [ 12(  2)]  
+# 2541:SNP*CC		17 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 13(  4)]  CYP2D6*3A[  5(  3)]  CYP2D6*1[ 13(  3)]  CYP2D6*2D[ 13(  4)]  [ 13(  3)]  
+# 2540:SNP*AA		18 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 15(  5)]  CYP2D6*3A[  4(  2)]  CYP2D6*1[ 15(  4)]  CYP2D6*2D[ 15(  5)]  [ 15(  4)]  
+# 2539:SNP*AA		16 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D )
+CYP2D6*34[ 14(  5)]  CYP2D6*1[ 14(  4)]  CYP2D6*2D[ 14(  5)]  [ 14(  4)]  
+# 2483:SNP*GG		20 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 19( 10)]  CYP2D6*3A[ 13(  9)]  CYP2D6*1[ 19(  9)]  CYP2D6*2D[ 19( 10)]  [ 19(  9)]  
+# 2480:SNP*CC		16 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 15( 10)]  CYP2D6*3A[ 13(  9)]  CYP2D6*1[ 15(  9)]  CYP2D6*2D[ 15( 10)]  [ 15(  9)]  
+# 2466:SNP*TT		13 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 13( 10)]  CYP2D6*2D[ 13( 10)]  CYP2D6*1[ 13( 10)]  CYP2D6*3A[ 13( 10)]  CYP2D6*34[ 13( 10)]  
+# 2424:SNP*CC		21 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 21( 14)]  CYP2D6*2D[ 21( 14)]  CYP2D6*1[ 21( 14)]  CYP2D6*3A[ 21( 14)]  CYP2D6*34[ 21( 14)]  
+# 2392:SNP*GG		20 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 20( 13)]  CYP2D6*2D[ 20( 13)]  CYP2D6*1[ 20( 13)]  CYP2D6*3A[ 20( 13)]  CYP2D6*34[ 20( 13)]  
+# 2308:SNP*GG		15 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 15(  7)]  CYP2D6*2D[ 15(  9)]  CYP2D6*1[ 15(  9)]  CYP2D6*3A[ 15(  8)]  CYP2D6*34[ 15(  9)]  
+# 2303:SNP*CC		15 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 15(  8)]  CYP2D6*2D[ 15( 10)]  CYP2D6*1[ 15( 10)]  CYP2D6*3A[ 15(  9)]  CYP2D6*34[ 15( 10)]  
+# 2291:SNP*GG		18 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 18( 11)]  CYP2D6*2D[ 18( 13)]  CYP2D6*1[ 18( 13)]  CYP2D6*3A[ 18( 12)]  CYP2D6*34[ 18( 13)]  
+# 2268:SNP*TT		22 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 22( 10)]  CYP2D6*2D[ 22( 12)]  CYP2D6*1[ 22( 12)]  CYP2D6*3A[ 22( 11)]  CYP2D6*34[ 22( 12)]  
+# 2129:SNP*AA		25 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 25( 13)]  CYP2D6*3A[ 25( 13)]  CYP2D6*1[ 25( 13)]  CYP2D6*2D[ 25( 13)]  [ 25( 13)]  
+# 2097:SNP*AA		32 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 32( 22)]  CYP2D6*3A[ 32( 22)]  CYP2D6*1[ 32( 22)]  CYP2D6*2D[ 32( 22)]  [ 32( 22)]  
+# 2050:SNP*CC		22 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 22( 18)]  CYP2D6*3A[ 22( 18)]  CYP2D6*1[ 22( 18)]  CYP2D6*2D[ 22( 18)]  [ 22( 18)]  
+# 2034:SNP*CC		18 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 18( 13)]  CYP2D6*3A[ 18( 13)]  CYP2D6*1[ 18( 13)]  CYP2D6*2D[ 18( 13)]  [ 18( 13)]  
+# 2029:SNP*AA		18 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 18( 13)]  CYP2D6*3A[ 18( 13)]  CYP2D6*1[ 18( 13)]  CYP2D6*2D[ 18( 13)]  [ 18( 13)]  
+# 2027:SNP*GG		18 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 18( 13)]  CYP2D6*3A[ 18( 13)]  CYP2D6*1[ 18( 13)]  CYP2D6*2D[ 18( 13)]  [ 18( 13)]  
+# 1979:SNP*TT		19 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 19( 10)]  CYP2D6*3A[ 19( 10)]  CYP2D6*1[ 19( 10)]  CYP2D6*2D[ 19( 10)]  [ 19( 10)]  
+# 1978:SNP*CC		18 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 18( 10)]  CYP2D6*3A[ 18( 10)]  CYP2D6*1[ 18( 10)]  CYP2D6*2D[ 18( 10)]  [ 18( 10)]  
+# 1976:SNP*GG		19 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 19( 10)]  CYP2D6*3A[ 19( 10)]  CYP2D6*1[ 19( 10)]  CYP2D6*2D[ 19( 10)]  [ 19( 10)]  
+# 1974:SNP*GG		19 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 19( 10)]  CYP2D6*3A[ 19( 10)]  CYP2D6*1[ 19( 10)]  CYP2D6*2D[ 19( 10)]  [ 19( 10)]  
+# 1973:SNP*AA		18 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 18( 10)]  CYP2D6*3A[ 18( 10)]  CYP2D6*1[ 18( 10)]  CYP2D6*2D[ 18( 10)]  [ 18( 10)]  
+# 1943:SNP*GG		19 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 19( 10)]  CYP2D6*3A[ 19( 10)]  CYP2D6*1[ 19( 10)]  CYP2D6*2D[ 19( 10)]  [ 19( 10)]  
+# 1869:SNP*TT		8 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  8(  3)]  CYP2D6*3A[  8(  3)]  CYP2D6*1[  8(  3)]  CYP2D6*2D[  8(  3)]  [  8(  3)]  
+# 1858:SNP*CC		10 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 10(  4)]  CYP2D6*3A[ 10(  4)]  CYP2D6*1[ 10(  4)]  CYP2D6*2D[ 10(  4)]  [ 10(  4)]  
+# 1851:SNP*CC		6 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  6(  2)]  CYP2D6*3A[  6(  2)]  CYP2D6*1[  6(  2)]  CYP2D6*2D[  6(  2)]  [  6(  2)]  
+# 1850:SNP*GG		8 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  8(  3)]  CYP2D6*3A[  8(  3)]  CYP2D6*1[  8(  3)]  CYP2D6*2D[  8(  3)]  [  8(  3)]  
+# 1846:SNP*GG		8 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  8(  3)]  CYP2D6*3A[  8(  3)]  CYP2D6*1[  8(  3)]  CYP2D6*2D[  8(  3)]  [  8(  3)]  
+# 1818:SNP*GG		13 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 13(  4)]  CYP2D6*2D[ 13(  4)]  CYP2D6*1[ 13(  4)]  CYP2D6*3A[ 13(  4)]  CYP2D6*34[ 13(  4)]  
+# 1783:SNP*AA		15 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 15(  7)]  CYP2D6*2D[ 15(  7)]  CYP2D6*1[ 15(  7)]  CYP2D6*3A[ 15(  7)]  CYP2D6*34[ 15(  7)]  
+# 1758:SNP*GG		15 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 15(  8)]  CYP2D6*3A[ 15(  8)]  CYP2D6*1[ 15(  8)]  CYP2D6*2D[ 15(  8)]  [ 15(  8)]  
+# 1757:SNP*CC		15 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 15(  8)]  CYP2D6*3A[ 15(  8)]  CYP2D6*1[ 15(  8)]  CYP2D6*2D[ 15(  8)]  [ 15(  8)]  
+# 1724:SNP*CC		10 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 10(  5)]  CYP2D6*3A[ 10(  5)]  CYP2D6*1[ 10(  5)]  CYP2D6*2D[ 10(  5)]  [ 10(  5)]  
+# 1720:SNP*AA		9 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  9(  5)]  CYP2D6*3A[  9(  5)]  CYP2D6*1[  9(  5)]  CYP2D6*2D[  9(  5)]  [  9(  5)]  
+# 1716:SNP*GG		9 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  9(  5)]  CYP2D6*3A[  9(  5)]  CYP2D6*1[  9(  5)]  CYP2D6*2D[  9(  5)]  [  9(  5)]  
+# 1707:SNP*TT		6 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  6(  3)]  CYP2D6*3A[  6(  3)]  CYP2D6*1[  6(  3)]  CYP2D6*2D[  6(  3)]  [  6(  3)]  
+# 1704:SNP*CC		6 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  6(  3)]  CYP2D6*3A[  6(  3)]  CYP2D6*1[  6(  3)]  CYP2D6*2D[  6(  3)]  [  6(  3)]  
+# 1661:SNP*GG		8 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  8(  3)]  CYP2D6*3A[  8(  3)]  [  8(  3)]  CYP2D6*2D[  8(  3)]  CYP2D6*1[  8(  3)]  
+# 1659:SNP*GG		9 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  9(  4)]  CYP2D6*3A[  9(  4)]  CYP2D6*1[  9(  4)]  CYP2D6*2D[  9(  4)]  [  9(  4)]  
+# 1617:SNP*GG		9 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[  9(  4)]  CYP2D6*2D[  9(  4)]  CYP2D6*1[  9(  4)]  CYP2D6*3A[  9(  4)]  CYP2D6*34[  9(  4)]  
+# 1611:SNP*TT		9 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[  9(  4)]  CYP2D6*2D[  9(  4)]  CYP2D6*1[  9(  4)]  CYP2D6*3A[  9(  4)]  CYP2D6*34[  9(  4)]  
+# 1608:SNP*GG		7 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[  7(  3)]  CYP2D6*2D[  7(  3)]  CYP2D6*1[  7(  3)]  CYP2D6*3A[  7(  3)]  CYP2D6*34[  7(  3)]  
+# 1602:SNP*CC		7 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[  7(  3)]  CYP2D6*2D[  7(  3)]  CYP2D6*1[  7(  3)]  CYP2D6*3A[  7(  3)]  CYP2D6*34[  7(  3)]  
+# 1590:SNP*CC		6 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[  6(  2)]  CYP2D6*2D[  6(  2)]  CYP2D6*1[  6(  2)]  CYP2D6*3A[  6(  2)]  CYP2D6*34[  6(  2)]  
+# 1513:SNP*CC		9 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  9(  7)]  CYP2D6*3A[  9(  7)]  CYP2D6*1[  9(  7)]  CYP2D6*2D[  9(  7)]  [  9(  7)]  
+# 1494:SNP*TT		7 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  7(  5)]  CYP2D6*3A[  7(  5)]  CYP2D6*1[  7(  5)]  CYP2D6*2D[  7(  5)]  [  7(  5)]  
+#  972:SNP*CC		6 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[  6(  2)]  CYP2D6*2D[  6(  2)]  CYP2D6*1[  6(  2)]  CYP2D6*3A[  6(  2)]  CYP2D6*34[  6(  2)]  
+#  957:SNP*CC		6 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  6(  3)]  CYP2D6*3A[  6(  3)]  CYP2D6*1[  6(  3)]  CYP2D6*2D[  6(  3)]  [  6(  3)]  
+#  887:SNP*CC		12 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 12(  7)]  CYP2D6*2D[ 12(  7)]  CYP2D6*1[ 12(  7)]  CYP2D6*3A[ 12(  7)]  CYP2D6*34[ 12(  7)]  
+#  883:SNP*GG		14 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 14(  9)]  CYP2D6*3A[ 14(  9)]  CYP2D6*1[ 14(  9)]  CYP2D6*2D[ 14(  9)]  [ 14(  9)]  
+#  843:SNP*TT		10 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 10(  6)]  CYP2D6*3A[ 10(  6)]  CYP2D6*1[ 10(  6)]  CYP2D6*2D[ 10(  6)]  [ 10(  6)]  
+#  746:SNP*CC		7 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  7(  3)]  CYP2D6*3A[  7(  3)]  CYP2D6*1[  7(  3)]  CYP2D6*2D[  7(  3)]  [  7(  3)]  
+#  739:SNP*CC		10 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 10(  4)]  CYP2D6*3A[ 10(  4)]  CYP2D6*1[ 10(  4)]  CYP2D6*2D[ 10(  4)]  [ 10(  4)]  
+#  125:SNP*GG		7 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  7(  5)]  CYP2D6*3A[  7(  5)]  CYP2D6*1[  7(  5)]  CYP2D6*2D[  7(  5)]  [  7(  5)]  
+#  124:SNP*GG		7 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  7(  5)]  CYP2D6*3A[  7(  5)]  CYP2D6*1[  7(  5)]  CYP2D6*2D[  7(  5)]  [  7(  5)]  
+#   73:SNP*CC		5 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  5(  2)]  CYP2D6*3A[  5(  2)]  CYP2D6*1[  5(  2)]  CYP2D6*2D[  5(  2)]  [  5(  2)]  
+#   19:SNP*GG		9 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[  9(  7)]  CYP2D6*3A[  9(  7)]  CYP2D6*1[  9(  7)]  CYP2D6*2D[  9(  7)]  [  9(  7)]  
+#   18:SNP*GG		10 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+[ 10(  7)]  CYP2D6*2D[ 10(  7)]  CYP2D6*1[ 10(  7)]  CYP2D6*3A[ 10(  7)]  CYP2D6*34[ 10(  7)]  
+#  -86:SNP*TT		19 =>  CYP2D6*34 CYP2D6*1 CYP2D6*2D CYP2D6*3A )
+CYP2D6*34[ 19(  8)]  CYP2D6*3A[ 19(  8)]  CYP2D6*1[ 19(  8)]  CYP2D6*2D[ 19(  8)]  [ 19(  8)]  
+EXTRA 1 <= + CYP2D6*3A
+CPLEXer: status 1, optimum value 12.50, memory 1.3M, results:
+        *2D: value 1
+        *3A: value 1
+EXTRA 1 <= + CYP2D6*3A

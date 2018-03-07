@@ -1,0 +1,108 @@
+SAM file: bams/PGXT108.bam
+File bams/PGXT108.bam has index
+Coverage is 80.6709272847
+== Allele Filter ==
+ 6.12e  15989695: SNP.GC                   60 ( 30%) ~     9 ( 15)
+ 6.12e  15989729: SNP.TC                  103 ( 41%) ~    11 ( 11)
+ 6.11i  15989776: SNP.AC                   11 (  6%) ~     0 (  0)
+ 6.11i  15989810: SNP.TG                   20 ( 23%) ~     2 ( 10)
+ 6.11i  15989856: SNP.TC                    9 ( 30%) ~     4 ( 44)
+ 6.11i  15989890: SNP.CT                    4 ( 17%) ~     3 ( 75)
+ 6.11i  15989903: SNP.CA                    5 ( 18%) ~     3 ( 60)
+ 6.11i  15989908: SNP.AG                    4 ( 15%) ~     2 ( 50)
+ 6.11i  15989918: SNP.GC                    2 (  8%) ~     0 (  0)
+ 6.11i  15989921: SNP.CA                    2 (  7%) ~     0 (  0)
+ 6.11i  15989926: SNP.AG                    3 ( 10%) ~     0 (  0)
+ 6.11i  15989959: SNP.GA                    4 ( 11%) ~     0 (  0)
+ 6.8i   15996244: SNP.GA                    2 ( 40%) ~     0 (  0)
+ 6.8i   15996348: SNP.TA                    3 ( 60%) ~     0 (  0)
+ 6.8i   15996482: INS.g                    18 ( 55%) ~     0 (  0)
+ 6.8i   15996530: SNP.GT                    3 (  6%) ~     0 (  0)
+ 6.8e   15996819: SNP.GA                  550 ( 50%) ~     0 (  0)
+ 6.6i   15998197: SNP.AT                    2 (100%) ~     0 (  0)
+ 6.6i   16000165: SNP.TC                  134 ( 58%) ~     0 (  0)
+ 6.5i   16000608: SNP.TA                    9 ( 60%) ~     0 (  0)
+ 6.4i   16001739: SNP.AG                    7 (100%) ~     0 (  0)
+ 6.2i   16004274: SNP.TA                    2 ( 18%) ~     0 (  0)
+ 6.2i   16004368: SNP.AG                    2 (  6%) ~     0 (  0)
+ 6.2i   16004821: SNP.AC                   12 (  7%) ~     0 (  0)
+ 6.2i   16004934: SNP.AG                    2 (  7%) ~     0 (  0)
+ 6.2i   16006084: SNP.TG                    3 (  5%) ~     0 (  0)
+ 6.1i   16006661: SNP.TA                    2 ( 12%) ~     0 (  0)
+Removing 2     6.1e 16008387:SNP.AC
+Removing 3     6.10e 15990430:SNP.CT
+Removing 4     6.1e 16008387:SNP.AC,  6.10e 15990430:SNP.CT
+Initial status
+  CYP2D6.1
+== Copy Number Estimator ==
+CNV factor: 1.75941947893 (0.568369289971)
+Coverage per region
+  region:  2D6  2D7
+  0i   :  1.25
+  1e   :  1.94
+  1i   :  2.08
+  2e   :  2.04
+  2i   :  1.88
+  3e   :  1.96
+  3i   :  1.97
+  4e   :  2.07
+  4i   :  1.80
+  5e   :  1.83
+  5i   :  1.90
+  6e   :  1.99
+  6i   :  2.36
+  7e   :  1.95
+  7i   :  2.22
+  8e   :  2.08
+  8i   :  1.97
+  9e   :  2.01
+  9i   :  1.98
+  10e  :  1.85
+  10i  :  2.02
+  11e  :  2.07
+  11i  :  2.30
+  12e  :  1.10
+Max. CN = 2
+M  Sentinel contraint for 1: A_1^ <= A_1
+M  Contraint for 7e: 1.95151936081 == E_7e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 6e: 1.98885520008 == E_6e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 9e: 2.01003203443 == E_9e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 8e: 2.08421903044 == E_8e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 2e: 2.03908049433 == E_2e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 1e: 1.94456395876 == E_1e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 5e: 1.83128578463 == E_5e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 4e: 2.07053740174 == E_4e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 3e: 1.95704697203 == E_3e + <gurobi.LinExpr: A1 + A1^>
+M  Objective: <gurobi.LinExpr: C11 + C12 + C13 + C14 + C15 + C16 + C17 + C18 + C19 + 0.5 A1 + 0.5 A1^>
+CN Solver status: optimal, opt: 1.53059768463
+  Solutions:
+    ('1', '1^')
+== Initial Solver ==
+Solving Counter({'1': 2})
+Possible candidates:
+  CYP2D6.1
+M  Max. CN for 1 = 2
+M  CN contraint for 1: 2 == <gurobi.LinExpr: 1 + 1_2>
+M  Sentinel contraint for 1: A_1_2 <= A_1
+M  Objective: 0
+CN Solver status: optimal, opt: 0.0
+  solution:
+    ('1', '1')
+[32;01mCopy number best structures:[39;49;00m
+[32;01m  (1) 2x*1-like[39;49;00m
+== Refiner ==
+Refining ('1', '1')
+M  Sentinel constraint for 1: A_1_2 <= A_1
+M  CN constraint for 1: 2 == <gurobi.LinExpr: 1 + 1_2>
+M  Objective: <gurobi.LinExpr: W>
+CN Solver status: optimal, opt: 0.0
+  1: 1
+  1_2: 1
+Missing:
+  1: 1
+  1_2: 1
+Extra:
+  1: 1
+  1_2: 1
+Time needed: (19.1)
+Result is: [('1', '1')]

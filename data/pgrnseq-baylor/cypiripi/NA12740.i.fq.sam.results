@@ -1,0 +1,7 @@
+CPLEX = 001, OPT = 107640.0 [ *1 *2X 2×2D7 ] 
+Solutions:
+CPLEX = 001, OPT =    96.0 [ *1 *2X 2×2D7 ] 
+CPLEX = 001, OPT =    96.0 [ *34 *39 2×2D7 ] 
+WARNING: Multiple optimal arrangements found
+Done!
+

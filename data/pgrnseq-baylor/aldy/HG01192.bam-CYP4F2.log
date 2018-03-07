@@ -1,0 +1,100 @@
+SAM file: bams/HG01192.bam
+File bams/HG01192.bam has index
+Coverage is 106.694346515
+== Allele Filter ==
+ 6.0i   15989039: SNP.CG                  446 ( 57%) ~     0 (  0)
+ 6.0i   15989183: SNP.GA                  275 ( 45%) ~     4 (  1)
+ 6.0i   15989404: SNP.CT                  188 ( 41%) ~    75 ( 40)
+ 6.12e  15989695: SNP.GC                   12 (  6%) ~     2 ( 17)
+ 6.12e  15989729: SNP.TC                   18 ( 11%) ~     1 (  6)
+ 6.11i  15989776: SNP.AC                    8 (  5%) ~     0 (  0)
+ 6.11i  15989810: SNP.TG                   19 ( 17%) ~     2 ( 11)
+ 6.11i  15989856: SNP.TC                    4 (  5%) ~     2 ( 50)
+ 6.11i  15990047: SNP.GA                   60 ( 53%) ~     0 (  0)
+ 6.8i   15996482: INS.g                     9 ( 39%) ~     0 (  0)
+ 6.8e   15996819: SNP.GA                   98 ( 46%) ~     0 (  0)
+ 6.6i   15997136: INS.c                   311 ( 42%) ~     0 (  0)
+ 6.6i   15997563: SNP.GA                   11 ( 44%) ~     0 (  0)
+ 6.6i   16000165: SNP.TC                   49 ( 52%) ~     0 (  0)
+ 6.5i   16000608: SNP.TA                   37 ( 61%) ~     0 (  0)
+ 6.4i   16001739: SNP.AG                  465 ( 50%) ~     0 (  0)
+ 6.4i   16001851: SNP.TG                  441 ( 50%) ~     0 (  0)
+ 6.4i   16002274: DEL.A                    43 (  5%) ~     0 (  0)
+ 6.4i   16002302: SNP.AC                   96 ( 10%) ~     0 (  0)
+Removing 2     6.1e 16008387:SNP.AC
+Removing 3     6.10e 15990430:SNP.CT
+Removing 4     6.1e 16008387:SNP.AC,  6.10e 15990430:SNP.CT
+Initial status
+  CYP2D6.1
+== Copy Number Estimator ==
+CNV factor: 1.81662307284 (0.550471925052)
+Coverage per region
+  region:  2D6  2D7
+  0i   :  1.53
+  1e   :  2.18
+  1i   :  2.11
+  2e   :  1.98
+  2i   :  1.95
+  3e   :  2.01
+  3i   :  1.87
+  4e   :  2.03
+  4i   :  1.83
+  5e   :  1.89
+  5i   :  1.77
+  6e   :  1.86
+  6i   :  1.96
+  7e   :  1.74
+  7i   :  1.95
+  8e   :  1.91
+  8i   :  2.17
+  9e   :  1.93
+  9i   :  2.02
+  10e  :  2.08
+  10i  :  1.99
+  11e  :  1.72
+  11i  :  1.67
+  12e  :  1.77
+Max. CN = 2
+M  Sentinel contraint for 1: A_1^ <= A_1
+M  Contraint for 7e: 1.74046064755 == E_7e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 6e: 1.86080800593 == E_6e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 9e: 1.93044991188 == E_9e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 8e: 1.91113095393 == E_8e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 2e: 1.97533596151 == E_2e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 1e: 2.17906382739 == E_1e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 5e: 1.88608274487 == E_5e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 4e: 2.03243020761 == E_4e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 3e: 2.01019821581 == E_3e + <gurobi.LinExpr: A1 + A1^>
+M  Objective: <gurobi.LinExpr: C11 + C12 + C13 + C14 + C15 + C16 + C17 + C18 + C19 + 0.5 A1 + 0.5 A1^>
+CN Solver status: optimal, opt: 1.91742402514
+  Solutions:
+    ('1', '1^')
+== Initial Solver ==
+Solving Counter({'1': 2})
+Possible candidates:
+  CYP2D6.1
+M  Max. CN for 1 = 2
+M  CN contraint for 1: 2 == <gurobi.LinExpr: 1 + 1_2>
+M  Sentinel contraint for 1: A_1_2 <= A_1
+M  Objective: 0
+CN Solver status: optimal, opt: 0.0
+  solution:
+    ('1', '1')
+[32;01mCopy number best structures:[39;49;00m
+[32;01m  (1) 2x*1-like[39;49;00m
+== Refiner ==
+Refining ('1', '1')
+M  Sentinel constraint for 1: A_1_2 <= A_1
+M  CN constraint for 1: 2 == <gurobi.LinExpr: 1 + 1_2>
+M  Objective: <gurobi.LinExpr: W>
+CN Solver status: optimal, opt: 0.0
+  1: 1
+  1_2: 1
+Missing:
+  1: 1
+  1_2: 1
+Extra:
+  1: 1
+  1_2: 1
+Time needed: (15.2)
+Result is: [('1', '1')]

@@ -1,0 +1,107 @@
+SAM file: bams/NA19127.bam
+File bams/NA19127.bam has index
+Coverage is 120.385987387
+== Allele Filter ==
+ 6.0i   15989330: SNP.CT                   43 (  6%) ~    18 ( 42)
+ 6.0i   15989522: SNP.TC                   47 (  6%) ~    36 ( 77)
+ 6.12e  15989695: SNP.GC                   29 ( 11%) ~     4 ( 14)
+ 6.12e  15989729: SNP.TC                   62 ( 26%) ~     5 (  8)
+ 6.11i  15989810: SNP.TG                   39 ( 24%) ~     3 (  8)
+ 6.11i  15989856: SNP.TC                   12 ( 13%) ~     2 ( 17)
+ 6.11i  15989890: SNP.CT                    5 (  6%) ~     2 ( 40)
+ 6.11i  15989903: SNP.CA                    4 (  5%) ~     1 ( 25)
+ 6.11i  15990047: SNP.GA                  166 (100%) ~     0 (  0)
+ 6.8i   15996482: INS.g                    30 ( 97%) ~     0 (  0)
+ 6.6i   15999900: SNP.AG                   10 (100%) ~     0 (  0)
+ 6.4i   16001739: SNP.AG                 1091 (100%) ~     0 (  0)
+ 6.4i   16001851: SNP.TG                 1139 (100%) ~     0 (  0)
+ 6.4i   16002302: SNP.AC                   97 (  8%) ~     0 (  0)
+ 6.4i   16002520: SNP.GA                 1040 (100%) ~     0 (  0)
+ 6.2i   16003642: SNP.CT                  515 (100%) ~     0 (  0)
+ 6.2i   16003650: SNP.TC                  509 (100%) ~     0 (  0)
+ 6.2i   16003870: SNP.TC                  558 (100%) ~     0 (  0)
+ 6.2i   16003938: SNP.TC                  624 (100%) ~     0 (  0)
+ 6.2i   16004764: SNP.CG                  323 (100%) ~     0 (  0)
+ 6.2i   16005159: SNP.TC                    8 (100%) ~     0 (  0)
+ 6.2i   16006020: SNP.GC                   36 (100%) ~     0 (  0)
+ 6.2i   16006073: SNP.TA                   51 (100%) ~     0 (  0)
+ 6.1i   16006544: SNP.TC                  237 (100%) ~     0 (  0)
+ 6.1i   16007769: SNP.GA                    6 (100%) ~     0 (  0)
+ 6.1e   16008256: SNP.TC                  507 (100%) ~     0 (  0)
+Removing 2     6.1e 16008387:SNP.AC
+Removing 3     6.10e 15990430:SNP.CT
+Removing 4     6.1e 16008387:SNP.AC,  6.10e 15990430:SNP.CT
+Initial status
+  CYP2D6.1
+== Copy Number Estimator ==
+CNV factor: 1.64831187856 (0.60668130407)
+Coverage per region
+  region:  2D6  2D7
+  0i   :  2.13
+  1e   :  1.88
+  1i   :  2.29
+  2e   :  2.16
+  2i   :  2.01
+  3e   :  2.06
+  3i   :  1.96
+  4e   :  1.86
+  4i   :  1.97
+  5e   :  1.95
+  5i   :  1.90
+  6e   :  2.11
+  6i   :  1.98
+  7e   :  1.84
+  7i   :  1.82
+  8e   :  1.88
+  8i   :  2.44
+  9e   :  1.94
+  9i   :  1.91
+  10e  :  2.02
+  10i  :  1.96
+  11e  :  1.98
+  11i  :  2.02
+  12e  :  2.28
+Max. CN = 2
+M  Sentinel contraint for 1: A_1^ <= A_1
+M  Contraint for 7e: 1.84061827436 == E_7e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 6e: 2.10952976846 == E_6e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 9e: 1.94390320008 == E_9e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 8e: 1.88322968202 == E_8e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 2e: 2.15906569132 == E_2e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 1e: 1.87908925947 == E_1e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 5e: 1.94588050145 == E_5e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 4e: 1.86348004098 == E_4e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 3e: 2.05581205467 == E_3e + <gurobi.LinExpr: A1 + A1^>
+M  Objective: <gurobi.LinExpr: C11 + C12 + C13 + C14 + C15 + C16 + C17 + C18 + C19 + 0.5 A1 + 0.5 A1^>
+CN Solver status: optimal, opt: 1.9682065561
+  Solutions:
+    ('1', '1^')
+== Initial Solver ==
+Solving Counter({'1': 2})
+Possible candidates:
+  CYP2D6.1
+M  Max. CN for 1 = 2
+M  CN contraint for 1: 2 == <gurobi.LinExpr: 1 + 1_2>
+M  Sentinel contraint for 1: A_1_2 <= A_1
+M  Objective: 0
+CN Solver status: optimal, opt: 0.0
+  solution:
+    ('1', '1')
+[32;01mCopy number best structures:[39;49;00m
+[32;01m  (1) 2x*1-like[39;49;00m
+== Refiner ==
+Refining ('1', '1')
+M  Sentinel constraint for 1: A_1_2 <= A_1
+M  CN constraint for 1: 2 == <gurobi.LinExpr: 1 + 1_2>
+M  Objective: <gurobi.LinExpr: W>
+CN Solver status: optimal, opt: 0.0
+  1: 1
+  1_2: 1
+Missing:
+  1: 1
+  1_2: 1
+Extra:
+  1: 1
+  1_2: 1
+Time needed: (15.7)
+Result is: [('1', '1')]

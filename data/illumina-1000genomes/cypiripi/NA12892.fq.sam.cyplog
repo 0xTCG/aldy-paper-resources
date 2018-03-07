@@ -1,0 +1,6 @@
+The CYP2D Solver (alpha), powered by The Meho Engine v1.0
+Params: -T(normalization) 7, -C(coverage) 25, -E(error) 500
+SAM reader: total 464385 reads, 65650 excluded
+NA12892.fq.sam.paired loaded as PE file
+	Loaded 220152 pairs
+	Reading 68 seconds

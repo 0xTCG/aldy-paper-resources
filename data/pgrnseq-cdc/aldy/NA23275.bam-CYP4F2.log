@@ -1,0 +1,114 @@
+SAM file: bams/PGXT154.bam
+File bams/PGXT154.bam has index
+Coverage is 68.1646568419
+== Allele Filter ==
+ 6.0i   15989522: SNP.TC                    3 (  9%) ~     0 (  0)
+ 6.12e  15989588: SNP.GT                   29 ( 38%) ~     1 (  3)
+ 6.12e  15989695: SNP.GC                   20 ( 14%) ~     2 ( 10)
+ 6.12e  15989729: SNP.TC                   30 ( 22%) ~     4 ( 13)
+ 6.11i  15989765: SNP.AC                    6 (  6%) ~     0 (  0)
+ 6.11i  15989776: SNP.AC                   13 ( 14%) ~     0 (  0)
+ 6.11i  15989795: SNP.GC                    4 (  5%) ~     0 (  0)
+ 6.11i  15989856: SNP.TC                    5 ( 19%) ~     2 ( 40)
+ 6.11i  15989890: SNP.CT                    2 (  8%) ~     2 (100)
+ 6.11i  15989893: SNP.GT                    2 (  8%) ~     0 (  0)
+ 6.11i  15989903: SNP.CA                    2 (  8%) ~     2 (100)
+ 6.11i  15989908: SNP.AG                    2 (  8%) ~     2 (100)
+ 6.11i  15990047: SNP.GA                  157 (100%) ~     0 (  0)
+ 6.9i   15990509: SNP.GT                  290 ( 48%) ~     0 (  0)
+ 6.8i   15990788: SNP.CA                    2 (  5%) ~     0 (  0)
+ 6.8i   15990813: SNP.TA                    2 ( 11%) ~     0 (  0)
+ 6.8i   15996482: INS.g                    17 ( 55%) ~     0 (  0)
+ 6.6i   15997136: INS.c                     3 ( 25%) ~     0 (  0)
+ 6.6i   15998389: SNP.CA                    2 (100%) ~     0 (  0)
+ 6.6i   15998740: SNP.CT                    3 (100%) ~     0 (  0)
+ 6.6i   16000165: SNP.TC                  109 ( 48%) ~     0 (  0)
+ 6.5i   16000561: SNP.AC                    3 (  8%) ~     0 (  0)
+ 6.5i   16000561: SNP.AG                    2 (  5%) ~     0 (  0)
+ 6.5i   16000568: SNP.AC                    2 (  6%) ~     0 (  0)
+ 6.5i   16000585: SNP.AG                    2 (  6%) ~     0 (  0)
+ 6.5i   16000608: SNP.TA                    8 ( 42%) ~     0 (  0)
+ 6.5i   16000871: SNP.CT                    2 (  7%) ~     0 (  0)
+ 6.5i   16000874: SNP.CA                    2 (  7%) ~     0 (  0)
+ 6.2i   16003694: SNP.CT                   13 ( 35%) ~     0 (  0)
+ 6.2i   16004357: SNP.AN                    2 (  8%) ~     0 (  0)
+ 6.2i   16004537: SNP.AG                   84 ( 48%) ~     0 (  0)
+ 6.2i   16004917: SNP.TC                    2 (  7%) ~     0 (  0)
+ 6.1i   16006878: SNP.CT                    2 (100%) ~     0 (  0)
+Removing 2     6.1e 16008387:SNP.AC
+Removing 3     6.10e 15990430:SNP.CT
+Removing 4     6.1e 16008387:SNP.AC,  6.10e 15990430:SNP.CT
+Initial status
+  CYP2D6.1
+== Copy Number Estimator ==
+CNV factor: 2.16014323498 (0.462932264771)
+Coverage per region
+  region:  2D6  2D7
+  0i   :  1.92
+  1e   :  1.77
+  1i   :  2.18
+  2e   :  2.05
+  2i   :  1.93
+  3e   :  2.15
+  3i   :  2.09
+  4e   :  2.35
+  4i   :  2.06
+  5e   :  1.68
+  5i   :  2.15
+  6e   :  2.00
+  6i   :  2.50
+  7e   :  3.56
+  7i   :  2.23
+  8e   :  2.01
+  8i   :  2.07
+  9e   :  2.16
+  9i   :  1.70
+  10e  :  1.80
+  10i  :  2.14
+  11e  :  1.99
+  11i  :  2.19
+  12e  :  1.22
+Max. CN = 4
+M  Sentinel contraint for 1: A_1^ <= A_1
+M  Contraint for 7e: 3.55982788214 == E_7e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 6e: 1.99510677327 == E_6e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 9e: 2.15713957655 == E_9e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 8e: 2.01140941543 == E_8e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 2e: 2.05413455959 == E_2e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 1e: 1.77085617058 == E_1e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 5e: 1.68402989228 == E_5e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 4e: 2.34961144702 == E_4e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 3e: 2.14716172545 == E_3e + <gurobi.LinExpr: A1 + A1^>
+M  Objective: <gurobi.LinExpr: C11 + C12 + C13 + C14 + C15 + C16 + C17 + C18 + C19 + 0.5 A1 + 0.5 A1^>
+CN Solver status: optimal, opt: 3.82929177003
+  Solutions:
+    ('1', '1^')
+== Initial Solver ==
+Solving Counter({'1': 2})
+Possible candidates:
+  CYP2D6.1
+M  Max. CN for 1 = 2
+M  CN contraint for 1: 2 == <gurobi.LinExpr: 1 + 1_2>
+M  Sentinel contraint for 1: A_1_2 <= A_1
+M  Objective: 0
+CN Solver status: optimal, opt: 0.0
+  solution:
+    ('1', '1')
+[32;01mCopy number best structures:[39;49;00m
+[32;01m  (1) 2x*1-like[39;49;00m
+== Refiner ==
+Refining ('1', '1')
+M  Sentinel constraint for 1: A_1_2 <= A_1
+M  CN constraint for 1: 2 == <gurobi.LinExpr: 1 + 1_2>
+M  Objective: <gurobi.LinExpr: W>
+CN Solver status: optimal, opt: 0.0
+  1: 1
+  1_2: 1
+Missing:
+  1: 1
+  1_2: 1
+Extra:
+  1: 1
+  1_2: 1
+Time needed: (19.5)
+Result is: [('1', '1')]

@@ -1,0 +1,121 @@
+SAM file: bams/NA19835.bam
+File bams/NA19835.bam has index
+Coverage is 122.650406777
+== Allele Filter ==
+ 6.0i   15989183: SNP.GA                  405 ( 48%) ~     3 (  1)
+ 6.0i   15989404: SNP.CT                  212 ( 30%) ~    82 ( 39)
+ 6.0i   15989453: SNP.AG                  291 ( 36%) ~    66 ( 23)
+ 6.12e  15989695: SNP.GC                   27 ( 10%) ~     4 ( 15)
+ 6.12e  15989729: SNP.TC                   64 ( 24%) ~     5 (  8)
+ 6.11i  15989856: SNP.TC                   13 ( 13%) ~     5 ( 38)
+ 6.11i  15989890: SNP.CT                    8 ( 13%) ~     2 ( 25)
+ 6.11i  15989903: SNP.CA                    8 ( 12%) ~     2 ( 25)
+ 6.11i  15989908: SNP.AG                    8 ( 12%) ~     2 ( 25)
+ 6.11i  15989918: SNP.GC                    5 (  8%) ~     0 (  0)
+ 6.11i  15989921: SNP.CA                    4 (  6%) ~     0 (  0)
+ 6.11i  15989926: SNP.AG                    4 (  5%) ~     0 (  0)
+ 6.11i  15990047: SNP.GA                   80 ( 48%) ~     0 (  0)
+ 6.8i   15996482: INS.g                    20 (100%) ~     0 (  0)
+ 6.8e   15996819: SNP.GA                   91 ( 40%) ~     0 (  0)
+ 6.6i   15997136: INS.c                   367 ( 42%) ~     0 (  0)
+ 6.6i   15997563: SNP.GA                   30 ( 59%) ~     0 (  0)
+ 6.6i   15997625: DEL.TC                    2 (  7%) ~     0 (  0)
+ 6.6i   15998389: SNP.CA                    2 (100%) ~     0 (  0)
+ 6.6i   15998436: DEL.AA                    2 (100%) ~     0 (  0)
+ 6.6i   15999900: SNP.AG                    6 ( 55%) ~     0 (  0)
+ 6.5i   16000608: SNP.TA                   32 ( 57%) ~     0 (  0)
+ 6.4i   16001248: SNP.CT                  433 ( 50%) ~     0 (  0)
+ 6.4i   16001739: SNP.AG                  752 ( 54%) ~     0 (  0)
+ 6.4i   16001851: SNP.TG                  634 ( 53%) ~     0 (  0)
+ 6.4i   16002274: DEL.A                    81 (  6%) ~     0 (  0)
+ 6.4i   16002302: SNP.AC                  129 (  9%) ~     0 (  0)
+ 6.4i   16002319: SNP.TC                   75 (  5%) ~     0 (  0)
+ 6.4i   16002520: SNP.GA                  678 ( 52%) ~     0 (  0)
+ 6.2i   16003642: SNP.CT                  261 ( 50%) ~     0 (  0)
+ 6.2i   16003650: SNP.TC                  250 ( 47%) ~     0 (  0)
+ 6.2i   16003870: SNP.TC                  309 ( 44%) ~     0 (  0)
+ 6.2i   16003938: SNP.TC                  345 ( 46%) ~     0 (  0)
+ 6.2i   16004764: SNP.CG                  178 ( 53%) ~     0 (  0)
+ 6.2i   16006020: SNP.GC                   20 ( 48%) ~     0 (  0)
+ 6.2i   16006073: SNP.TA                   38 ( 55%) ~     0 (  0)
+ 6.1i   16006544: SNP.TC                  119 ( 47%) ~     0 (  0)
+ 6.1i   16007769: SNP.GA                    5 ( 71%) ~     0 (  0)
+ 6.1i   16007848: SNP.TA                    2 (  8%) ~     0 (  0)
+ 6.1e   16008256: SNP.TC                  314 ( 52%) ~     0 (  0)
+Removing 2     6.1e 16008387:SNP.AC
+Removing 3     6.10e 15990430:SNP.CT
+Removing 4     6.1e 16008387:SNP.AC,  6.10e 15990430:SNP.CT
+Initial status
+  CYP2D6.1
+== Copy Number Estimator ==
+CNV factor: 1.44529768437 (0.691898984421)
+Coverage per region
+  region:  2D6  2D7
+  0i   :  1.91
+  1e   :  2.12
+  1i   :  2.13
+  2e   :  2.15
+  2i   :  1.99
+  3e   :  1.97
+  3i   :  1.78
+  4e   :  1.99
+  4i   :  2.03
+  5e   :  2.00
+  5i   :  1.84
+  6e   :  1.97
+  6i   :  1.97
+  7e   :  1.56
+  7i   :  1.61
+  8e   :  1.64
+  8i   :  2.00
+  9e   :  1.93
+  9i   :  2.03
+  10e  :  2.03
+  10i  :  1.96
+  11e  :  1.85
+  11i  :  1.88
+  12e  :  1.96
+Max. CN = 2
+M  Sentinel contraint for 1: A_1^ <= A_1
+M  Contraint for 7e: 1.56352586093 == E_7e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 6e: 1.96687928335 == E_6e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 9e: 1.93015436943 == E_9e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 8e: 1.64171776037 == E_8e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 2e: 2.15019685101 == E_2e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 1e: 2.12124417988 == E_1e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 5e: 2.00271607514 == E_5e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 4e: 1.99218874912 == E_4e + <gurobi.LinExpr: A1 + A1^>
+M  Contraint for 3e: 1.96547597411 == E_3e + <gurobi.LinExpr: A1 + A1^>
+M  Objective: <gurobi.LinExpr: C11 + C12 + C13 + C14 + C15 + C16 + C17 + C18 + C19 + 0.5 A1 + 0.5 A1^>
+CN Solver status: optimal, opt: 2.21421510871
+  Solutions:
+    ('1', '1^')
+== Initial Solver ==
+Solving Counter({'1': 2})
+Possible candidates:
+  CYP2D6.1
+M  Max. CN for 1 = 2
+M  CN contraint for 1: 2 == <gurobi.LinExpr: 1 + 1_2>
+M  Sentinel contraint for 1: A_1_2 <= A_1
+M  Objective: 0
+CN Solver status: optimal, opt: 0.0
+  solution:
+    ('1', '1')
+[32;01mCopy number best structures:[39;49;00m
+[32;01m  (1) 2x*1-like[39;49;00m
+== Refiner ==
+Refining ('1', '1')
+M  Sentinel constraint for 1: A_1_2 <= A_1
+M  CN constraint for 1: 2 == <gurobi.LinExpr: 1 + 1_2>
+M  Objective: <gurobi.LinExpr: W>
+CN Solver status: optimal, opt: 0.0
+  1: 1
+  1_2: 1
+Missing:
+  1: 1
+  1_2: 1
+Extra:
+  1: 1
+  1_2: 1
+Time needed: (15.2)
+Result is: [('1', '1')]
